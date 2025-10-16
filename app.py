@@ -1,18 +1,16 @@
-# app.py (AI 애널리스트 기능이 추가된 최종 업그레이드 버전)
+# app.py (가벼워진 최종 버전)
 
 import os
 import sqlite3
-from datetime import date, timedelta
+from datetime import date
 import requests
 import joblib
 import pandas as pd
-import numpy as np
-import yfinance as yf
-from statsmodels.tsa.arima.model import ARIMA
+import json # JSON 파일을 읽기 위해 추가
 import google.generativeai as genai
 from flask import Flask, render_template
 from dotenv import load_dotenv
-from collections import Counter # 키워드 빈도수 계산을 위해 추가
+from collections import Counter
 
 # --- 초기 설정 ---
 load_dotenv()
@@ -33,6 +31,7 @@ try:
 except FileNotFoundError:
     market_model = None
     print("⚠️  저장된 AI 모델이 없습니다. 기본 규칙으로 예측합니다.")
+
 
 # --- 데이터 수집 및 개별 분석 함수들 ---
 
@@ -79,41 +78,6 @@ def save_prediction_to_db(sentiment_score, trend):
     finally:
         conn.close()
 
-def get_chart_data(ticker, days=90, forecast_days=7):
-    try:
-        today = date.today()
-        start_date = today - timedelta(days=days)
-        data = yf.download(ticker, start=start_date, end=today, progress=False, timeout=10)
-        if data.empty or len(data) < 20: return None
-        hist_data = data['Close']
-        model = ARIMA(hist_data, order=(5,1,0)).fit()
-        forecast = model.forecast(steps=forecast_days)
-        labels = [d.strftime('%m-%d') for d in hist_data.index] + [(today + timedelta(days=i)).strftime('%m-%d') for i in range(1, forecast_days + 1)]
-        return {"labels": labels, "historical": np.round(hist_data.values, 2).tolist(), "forecast": [None] * len(hist_data) + np.round(forecast.values, 2).tolist()}
-    except Exception as e:
-        print(f"❌ '{ticker}' 차트 데이터 생성 오류: {e}")
-        return None
-
-def get_fx_chart_data(api_key, days=90, forecast_days=7):
-    try:
-        latest_rate = 1422.0
-        if api_key:
-            url = f"https://v6.exchangerate-api.com/v6/{api_key}/latest/USD"
-            response = requests.get(url, timeout=5)
-            if response.status_code == 200:
-                latest_rate = response.json().get('conversion_rates', {}).get('KRW', latest_rate)
-        today = date.today()
-        start_date = today - timedelta(days=days)
-        simulated_past = latest_rate + np.random.randn(days).cumsum()[::-1]
-        hist_data = pd.Series(simulated_past, index=pd.to_datetime([start_date + timedelta(days=i) for i in range(days)]))
-        model = ARIMA(hist_data, order=(5,1,0)).fit()
-        forecast = model.forecast(steps=forecast_days)
-        labels = [d.strftime('%m-%d') for d in hist_data.index] + [(today + timedelta(days=i)).strftime('%m-%d') for i in range(1, forecast_days + 1)]
-        return {"labels": labels, "historical": np.round(hist_data.values, 2).tolist(), "forecast": [None] * len(hist_data) + np.round(forecast.values, 2).tolist()}
-    except Exception as e:
-        print(f"❌ 환율 차트 데이터 생성 오류: {e}")
-        return None
-
 # --- AI 애널리스트 리포트 생성 함수 ---
 def generate_trend_summary_with_ai(keywords, sentiment_score):
     if not ai_model or not keywords:
@@ -147,16 +111,28 @@ SUMMARY: [위 데이터를 종합하여, 전문가의 시각으로 시장 상황
         print(f"❌ AI 트렌드 요약 오류: {e}")
         return {"title": "AI 동향 분석 실패", "summary": "리포트 생성 중 오류가 발생했습니다.", "keywords": common_keywords}
 
-# --- 메인 대시보드 함수 ---
+# --- 데이터 읽기 함수 (새로 추가) ---
+def read_json_data(file_path):
+    """JSON 파일을 안전하게 읽어오는 함수"""
+    try:
+        # data 폴더의 상대 경로를 올바르게 설정
+        full_path = os.path.join(os.path.dirname(__file__), file_path)
+        with open(full_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        # 파일이 없거나 깨졌을 경우 None 반환
+        print(f"⚠️ {file_path} 파일을 찾을 수 없거나 손상되었습니다.")
+        return None
+
+# --- 메인 대시보드 함수 (최종 수정) ---
 @app.route('/')
 def dashboard():
-    # 그래프 데이터
-    nasdaq_data = get_chart_data('^IXIC')
-    kospi_data = get_chart_data('^KS11')
-    fx_api_key = os.getenv("EXCHANGERATE_API_KEY", "").strip('"').strip("'")
-    fx_data = get_fx_chart_data(fx_api_key)
+    # 1. GitHub Actions가 미리 만들어둔 예측 결과 파일 읽기
+    nasdaq_data = read_json_data('data/nasdaq_data.json')
+    kospi_data = read_json_data('data/kospi_data.json')
+    fx_data = read_json_data('data/fx_data.json')
     
-    # 뉴스 수집 및 개별 분석
+    # 2. 뉴스 수집 및 개별 분석
     marketaux_key = os.getenv("MARKETAUX_API_KEY", "").strip('"').strip("'")
     articles = get_marketaux_news(marketaux_key)
     
@@ -174,10 +150,10 @@ def dashboard():
 
     market_sentiment_score = total_sentiment / len(processed_articles) if processed_articles else 0.0
     
-    # AI 애널리스트의 종합 분석 리포트 생성
+    # 3. AI 애널리스트의 종합 분석 리포트 생성
     trend_summary = generate_trend_summary_with_ai(all_keywords, market_sentiment_score)
     
-    # 예측 및 DB 저장
+    # 4. 예측 및 DB 저장
     if market_model:
         trend_prediction = market_model.predict(pd.DataFrame({'market_sentiment_score': [market_sentiment_score]}))[0]
         market_status = f"{trend_prediction} 예측 (AI 모델)"
@@ -199,4 +175,5 @@ def dashboard():
 
 if __name__ == '__main__':
     # Render가 포트를 자동으로 할당할 수 있도록 host='0.0.0.0' 추가
-    app.run(host='0.0.0.0', debug=False)
+    # 로컬 테스트 시에는 debug=True, 배포 시에는 debug=False
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 8080)), debug=False)
