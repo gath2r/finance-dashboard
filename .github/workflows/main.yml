@@ -12,14 +12,17 @@ on:
 jobs:
   build-and-predict:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 저장소에 쓰기 권한 부여
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.11' # PC와 동일한 버전 사용
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
@@ -27,16 +30,16 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run prediction script
-        # GitHub Secrets에 저장된 API 키를 환경 변수로 사용
         env:
           EXCHANGERATE_API_KEY: ${{ secrets.EXCHANGERATE_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MARKETAUX_API_KEY: ${{ secrets.MARKETAUX_API_KEY }}
         run: python run_predictions.py
 
       - name: Commit and push if changed
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/  # data 폴더의 모든 변경사항 추가
-          # 변경사항이 있을 때만 커밋
-          git diff --staged --quiet || git commit -m "Update daily prediction data"
-          git push
+          git add data/
+          # 변경사항이 있을 때만 커밋하고 푸시
+          git diff --staged --quiet || (git commit -m "Update daily prediction data" && git push)
