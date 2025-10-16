@@ -1,0 +1,12 @@
+# .gitignore 파일 내용
+
+# 가상환경 폴더 무시
+venv/
+__pycache__/
+
+# API 키 파일 절대 업로드 금지!
+.env
+
+# 데이터베이스 파일 무시
+database.db
+*.pkl
