@@ -198,4 +198,5 @@ def dashboard():
     )
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Render가 포트를 자동으로 할당할 수 있도록 host='0.0.0.0' 추가
+    app.run(host='0.0.0.0', debug=False)
