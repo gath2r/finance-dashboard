@@ -1,4 +1,4 @@
-# run_predictions.py (최종 수정본)
+# run_predictions.py (최종 완성본)
 
 import os
 import json
@@ -11,7 +11,7 @@ from statsmodels.tsa.arima.model import ARIMA
 from tenacity import retry, stop_after_attempt, wait_fixed
 from ai_analyzer import analyze_article_with_ai, generate_trend_summary_with_ai
 
-# --- API 및 데이터 수집 함수 ---
+# --- API 및 데이터 수집 함수 (안정성 강화) ---
 
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(5))
 def get_marketaux_news(api_key):
@@ -27,30 +27,15 @@ def get_marketaux_news(api_key):
         print(f"❌ Marketaux API 오류: {e}")
         return []
 
-@retry(stop=stop_after_attempt(3), wait=wait_fixed(5))
-def get_fx_rate(api_key):
-    """ExchangeRate-API를 호출하여 최신 USD/KRW 환율을 가져옵니다."""
-    if not api_key: return 1422.0
-    url = f"https://v6.exchangerate-api.com/v6/{api_key}/latest/USD"
-    try:
-        response = requests.get(url, timeout=15)
-        response.raise_for_status()
-        krw_rate = response.json().get('conversion_rates', {}).get('KRW')
-        if krw_rate:
-            print("✅ 최신 환율 정보 수집 성공")
-            return krw_rate
-    except requests.exceptions.RequestException as e:
-        print(f"❌ ExchangeRate-API 오류: {e}")
-    return 1422.0
+# --- 차트 데이터 생성 함수 (기간 30일, 실제 데이터, 안정성 강화) ---
 
-# --- 차트 데이터 생성 함수 ---
-
+@retry(stop=stop_after_attempt(3), wait=wait_fixed(5)) # 실패 시 5초 간격으로 3번 재시도
 def get_yfinance_chart_data(ticker, days=30, forecast_days=7):
     """yfinance를 사용하여 과거 및 예측 데이터를 안정적으로 생성합니다."""
     print(f"--- 📈 '{ticker}' 데이터 예측 시작 ---")
     try:
         today = date.today()
-        start_date = today - timedelta(days=days + 60)
+        start_date = today - timedelta(days=days + 60) # 예측 모델 학습을 위해 넉넉하게 데이터 수집
         
         data = yf.download(ticker, start=start_date, end=today, progress=False, timeout=30)
 
@@ -73,38 +58,11 @@ def get_yfinance_chart_data(ticker, days=30, forecast_days=7):
         print(f"✅ '{ticker}' 그래프 예측 완료.")
         return {
             "labels": hist_labels + forecast_labels,
-            # ✨ 중요: .tolist()를 사용하여 [ [1], [2] ]가 아닌 [ 1, 2 ] 형태로 데이터를 만듭니다.
             "historical": np.round(hist_data.values, 2).tolist(),
             "forecast": [None] * len(hist_data) + np.round(forecast.values, 2).tolist()
         }
     except Exception as e:
         print(f"❌ '{ticker}' 차트 데이터 생성 중 심각한 오류 발생: {e}")
-        return None
-
-def get_fx_chart_data(latest_rate, days=30, forecast_days=7):
-    """환율 차트 데이터를 생성합니다."""
-    try:
-        today = date.today()
-        start_date = today - timedelta(days=days)
-        
-        np.random.seed(42)
-        price_changes = np.random.randn(days) * 0.5
-        simulated_past = latest_rate + np.cumsum(price_changes[::-1])
-        
-        hist_data = pd.Series(simulated_past, index=pd.to_datetime([start_date + timedelta(days=i) for i in range(days)]))
-        model = ARIMA(hist_data, order=(5,1,0)).fit()
-        forecast = model.forecast(steps=forecast_days)
-
-        hist_labels = [d.strftime('%m-%d') for d in hist_data.index]
-        forecast_labels = [(today + timedelta(days=i)).strftime('%m-%d') for i in range(1, forecast_days + 1)]
-
-        return {
-            "labels": hist_labels + forecast_labels,
-            "historical": np.round(hist_data.values, 2).tolist(),
-            "forecast": [None] * len(hist_data) + np.round(forecast.values, 2).tolist()
-        }
-    except Exception as e:
-        print(f"❌ 환율 차트 데이터 생성 오류: {e}")
         return None
 
 # --- 메인 실행 로직 ---
@@ -134,12 +92,10 @@ if __name__ == "__main__":
     trend_summary = generate_trend_summary_with_ai(all_keywords, market_sentiment_score)
     print("✅ 뉴스 분석 완료.")
     
-    nasdaq_data = get_yfinance_chart_data('^IXIC')
-    kospi_data = get_yfinance_chart_data('^KS11')
-    
-    fx_api_key = os.getenv("EXCHANGERATE_API_KEY")
-    latest_fx_rate = get_fx_rate(fx_api_key)
-    fx_data = get_fx_chart_data(latest_fx_rate)
+    # yfinance를 사용하여 모든 차트 데이터 가져오기 (기간: 30일)
+    nasdaq_data = get_yfinance_chart_data('^IXIC', days=30)
+    kospi_data = get_yfinance_chart_data('^KS11', days=30)
+    fx_data = get_yfinance_chart_data('USDKRW=X', days=30) # ✨ 'USDKRW=X' 티커로 실제 환율 데이터 수집
     
     final_data = {
         "articles": processed_articles,
