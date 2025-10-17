@@ -1,13 +1,118 @@
 {
     "articles": [
         {
+            "uuid": "8f1eb66a-5eff-474c-976c-af88e8d9d7b3",
+            "title": "Tesla’s European Regulator Says Door Safety a ‘Key Priority’",
+            "description": "Tesla Inc.'s safety regulators in Europe are joining an expanding global effort to more closely scrutinize the door handle design popularized by the",
+            "keywords": [
+                "Tesla",
+                "Safety Regulators",
+                "Door Handle"
+            ],
+            "snippet": "Tesla Inc.’s safety regulators in Europe are joining an expanding global effort to more closely scrutinize the door handle design popularized by the world’s...",
+            "url": "https://www.insurancejournal.com/news/international/2025/10/17/844113.htm",
+            "image_url": "https://www.insurancejournal.com/app/uploads/2025/10/door-release-on-tesla-cybertruck-in-berlin-bloomberg-scaled.jpg",
+            "language": "en",
+            "published_at": "2025-10-17T07:55:58.000000Z",
+            "source": "insurancejournal.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "TSLA",
+                    "name": "Tesla, Inc.",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Consumer Cyclical",
+                    "match_score": 21.826036,
+                    "sentiment_score": 0.202783,
+                    "highlights": [
+                        {
+                            "highlight": "<em>Tesla</em> <em>Inc</em>.’s safety [+177 characters]",
+                            "sentiment": 0.6908,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Read More: NHTSA Opens Probe Into 174,00[+322 characters]",
+                            "sentiment": -0.128,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>Tesla</em> representatives didn’t [+292 characters]",
+                            "sentiment": 0.3612,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "The rules aim to eliminate the flush ext[+313 characters]",
+                            "sentiment": 0.4215,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Last month, a man and two children burne[+198 characters]",
+                            "sentiment": -0.5106,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Photograph: A visitor interacts with the[+163 characters]",
+                            "sentiment": 0.3818,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                }
+            ],
+            "similar": [],
+            "summary": "유럽 안전 규제 기관들이 테슬라의 도어 핸들 디자인에 대한 글로벌 조사 노력에 동참하고 있습니다. 이는 테슬라가 대중화한 디자인을 더욱 면밀히 검토하려는 움직임이 확대되고 있음을 의미합니다. 이러한 정밀 조사는 도어 핸들 디자인과 관련된 잠재적인 안전 문제를 시사합니다.",
+            "sentiment": -0.7
+        },
+        {
+            "uuid": "011cf106-4147-4cc9-a56b-b7fc41617d76",
+            "title": "CME eyes new sports event contracts to rival Kalshi, Polymarket - report",
+            "description": "CME is reportedly planning to launch financial contracts tied to sports and economic events. Read more.",
+            "keywords": [
+                "CME",
+                "Financial contracts",
+                "Sports events"
+            ],
+            "snippet": "CME (NASDAQ:CME) is planning to launch financial contracts tied to sports games and economic indicators, rivaling popular prediction markets Kalshi and Polymark...",
+            "url": "https://seekingalpha.com/news/4505087-cme-plans-new-sports-event-contracts",
+            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1394096212/image_1394096212.jpg?io=getty-c-w750",
+            "language": "en",
+            "published_at": "2025-10-17T07:36:35.000000Z",
+            "source": "seekingalpha.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "CME",
+                    "name": "CME Group Inc.",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Financial Services",
+                    "match_score": 20.006954,
+                    "sentiment_score": 0.4404,
+                    "highlights": [
+                        {
+                            "highlight": "CME (<em>NASDAQ:CME</em>) is planning to[+273 characters]",
+                            "sentiment": 0.4404,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                }
+            ],
+            "similar": [],
+            "summary": "CME가 스포츠 및 경제 이벤트와 연계된 금융 계약 상품 출시를 계획 중이라는 소식입니다. 이는 새로운 시장 기회를 창출하고 투자자들에게 다양한 투자 옵션을 제공할 것으로 보입니다. 이러한 움직임은 CME의 상품 포트폴리오 확장을 의미하며 시장의 관심을 끌 것으로 예상됩니다.",
+            "sentiment": 0.5
+        },
+        {
             "uuid": "3ca29610-468d-4787-8283-c77de5f4980d",
             "title": "Fifth Third Bancorp Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - Fifth Third Bancorp (NASDAQ:FITB), Comerica (NYSE:CMA)",
             "description": "",
             "keywords": [
                 "Fifth Third Bancorp",
-                "Earnings",
-                "Third Quarter"
+                "실적 발표",
+                "3분기"
             ],
             "snippet": "Fifth Third Bancorp (NASDAQ:FITB) will release earnings results for the third quarter, before the opening bell on Friday, Oct. 17.\n\nAnalysts expect the Cincinna...",
             "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/25/10/48269053/fifth-third-bancorp-earnings-are-imminent-these-most-accurate-analysts-revise-",
@@ -44,90 +149,109 @@
                             "highlighted_in": "title"
                         }
                     ]
-                }
-            ],
-            "similar": [],
-            "summary": "Fifth Third Bancorp는 10월 17일 금요일 개장 전 3분기 실적을 발표할 예정입니다. 이 회사의 NASDAQ 티커는 FITB입니다. 애널리스트들은 해당 실적에 대한 기대를 가지고 있습니다.",
-            "sentiment": 0.0
-        },
-        {
-            "uuid": "45f6b313-d9a7-4be8-9936-a5c9f41874b7",
-            "title": "Giverny Capital Asset Management Q3 2025 Letter",
-            "description": "We generated good performance in the third quarter, as did the S&P 500 Index. We were ahead of the Index for most of the quarter.",
-            "keywords": [
-                "Third Quarter",
-                "S&P 500 Index",
-                "Good Performance"
-            ],
-            "snippet": "Pawel Kacperek/iStock via Getty Images\n\nTo our clients & friends:\n\nFor the third quarter of the year ended September 30, 2025, the Giverny Capital Asset Managem...",
-            "url": "https://seekingalpha.com/article/4830656-giverny-capital-asset-management-q3-2025-letter",
-            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2067714497/image_2067714497.jpg?io=getty-c-w1536",
-            "language": "en",
-            "published_at": "2025-10-17T06:55:00.000000Z",
-            "source": "seekingalpha.com",
-            "relevance_score": null,
-            "entities": [
+                },
                 {
-                    "symbol": "GOOGL",
-                    "name": "Alphabet Inc.",
+                    "symbol": "FITBI",
+                    "name": "Fifth Third Bancorp",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-                    "industry": "Communication Services",
-                    "match_score": 10.574701,
-                    "sentiment_score": 0.256567,
+                    "industry": "Financial Services",
+                    "match_score": 161.03903,
+                    "sentiment_score": 0.312467,
                     "highlights": [
                         {
-                            "highlight": "We own Arista (ANET), <em>Alphabet</em> [+188 characters]",
-                            "sentiment": 0,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "For the first nine months of the year, w[+265 characters]",
-                            "sentiment": 0.5106,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "For planning purposes, taxable accounts [+149 characters]",
-                            "sentiment": 0.6486,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "Other transactions included trims of <em[+203 characters]",
-                            "sentiment": 0,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "Our portfolio has a lot of exposure to A[+147 characters]",
-                            "sentiment": 0.1779,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "Top 10 Holdings* - September 30, 2025 Ar[+139 characters]",
+                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancor[+272 characters]",
                             "sentiment": 0.2023,
                             "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "On Oct. 6, <em>Fifth</em> <em>Third</em>[+303 characters]",
+                            "sentiment": 0.7351,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancorp</em> Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - <em>Fifth</em> <em>Third</em> <em>Bancorp</em> (NASDAQ:FITB), Comerica (NYSE:CMA)",
+                            "sentiment": 0,
+                            "highlighted_in": "title"
+                        }
+                    ]
+                },
+                {
+                    "symbol": "FITBO",
+                    "name": "Fifth Third Bancorp",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Financial Services",
+                    "match_score": 161.03903,
+                    "sentiment_score": 0.312467,
+                    "highlights": [
+                        {
+                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancor[+272 characters]",
+                            "sentiment": 0.2023,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "On Oct. 6, <em>Fifth</em> <em>Third</em>[+303 characters]",
+                            "sentiment": 0.7351,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancorp</em> Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - <em>Fifth</em> <em>Third</em> <em>Bancorp</em> (NASDAQ:FITB), Comerica (NYSE:CMA)",
+                            "sentiment": 0,
+                            "highlighted_in": "title"
+                        }
+                    ]
+                },
+                {
+                    "symbol": "FITBP",
+                    "name": "Fifth Third Bancorp",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Financial Services",
+                    "match_score": 161.03903,
+                    "sentiment_score": 0.312467,
+                    "highlights": [
+                        {
+                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancor[+272 characters]",
+                            "sentiment": 0.2023,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "On Oct. 6, <em>Fifth</em> <em>Third</em>[+303 characters]",
+                            "sentiment": 0.7351,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancorp</em> Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - <em>Fifth</em> <em>Third</em> <em>Bancorp</em> (NASDAQ:FITB), Comerica (NYSE:CMA)",
+                            "sentiment": 0,
+                            "highlighted_in": "title"
                         }
                     ]
                 }
             ],
             "similar": [],
-            "summary": "회사는 3분기에 S&P 500 지수와 마찬가지로 좋은 실적을 기록했습니다. 특히, 해당 분기 대부분 동안 지수보다 앞선 성과를 보였습니다. 이는 전반적으로 긍정적인 사업 운영을 나타냅니다.",
-            "sentiment": 0.9
+            "summary": "Fifth Third Bancorp (NASDAQ:FITB)는 10월 17일 금요일 개장 전에 3분기 실적을 발표할 예정입니다. 애널리스트들은 이 은행의 실적에 대한 기대를 가지고 있습니다. 이번 발표는 투자자들에게 회사의 최신 재무 성과를 제공할 것입니다.",
+            "sentiment": 0.0
         }
     ],
     "trend_summary": {
-        "title": "Fifth Third Bancorp, 견고한 3분기 실적으로 S&P 500 대비 선전, 시장에 긍정적 신호",
-        "summary": "최근 3분기 실적 발표에서 Fifth Third Bancorp는 S&P 500 지수 대비 견조한 성과를 기록하며 시장의 주목을 받았습니다. 이는 전반적인 시장 심리 점수 0.450이 시사하듯, 긍정적이지만 신중한 투자 환경 속에서 개별 기업의 실적 차별화가 중요함을 보여줍니다. 따라서 투자자들은 개별 기업의 펀더멘털을 면밀히 분석하며, 균형 잡힌 포트폴리오 전략을 유지하는 것이 현명할 것입니다.",
+        "title": "테슬라 안전성 이슈 부각 속, 시장은 미묘한 경계심 유지",
+        "summary": "최근 테슬라의 도어 핸들 관련 안전성 문제가 규제 당국의 주목을 받으며 시장에 특정 기업 리스크를 부각시켰습니다. 이는 전반적인 시장 심리 점수 -0.067에서 나타나듯, CME 등 주요 금융 시장 전반에 미묘한 경계심을 더하는 요인으로 작용하고 있습니다. 투자자들은 개별 기업의 규제 리스크와 더불어 광범위한 금융 계약 동향을 면밀히 주시하며 신중한 접근이 필요해 보입니다.",
         "keywords": [
-            "Third Quarter",
-            "Fifth Third Bancorp",
-            "Earnings",
-            "S&P 500 Index",
-            "Good Performance"
+            "Tesla",
+            "Safety Regulators",
+            "Door Handle",
+            "CME",
+            "Financial contracts"
         ]
     },
-    "market_sentiment_score": 0.45,
+    "market_sentiment_score": -0.067,
     "nasdaq_data": {
         "labels": [
             "09-05",
@@ -165,96 +289,36 @@
             "10-20"
         ],
         "historical": [
-            [
-                21700.39
-            ],
-            [
-                21798.7
-            ],
-            [
-                21879.49
-            ],
-            [
-                21886.06
-            ],
-            [
-                22043.07
-            ],
-            [
-                22141.1
-            ],
-            [
-                22348.75
-            ],
-            [
-                22333.96
-            ],
-            [
-                22261.33
-            ],
-            [
-                22470.72
-            ],
-            [
-                22631.48
-            ],
-            [
-                22788.98
-            ],
-            [
-                22573.47
-            ],
-            [
-                22497.86
-            ],
-            [
-                22384.7
-            ],
-            [
-                22484.07
-            ],
-            [
-                22591.15
-            ],
-            [
-                22660.01
-            ],
-            [
-                22755.16
-            ],
-            [
-                22844.05
-            ],
-            [
-                22780.51
-            ],
-            [
-                22941.67
-            ],
-            [
-                22788.36
-            ],
-            [
-                23043.38
-            ],
-            [
-                23024.63
-            ],
-            [
-                22204.43
-            ],
-            [
-                22694.61
-            ],
-            [
-                22521.7
-            ],
-            [
-                22670.08
-            ],
-            [
-                22562.54
-            ]
+            576.06,
+            578.87,
+            580.51,
+            580.7,
+            584.08,
+            586.66,
+            591.68,
+            591.18,
+            590.0,
+            595.32,
+            599.35,
+            602.2,
+            598.2,
+            596.1,
+            593.53,
+            595.97,
+            598.73,
+            600.37,
+            603.25,
+            605.73,
+            603.18,
+            607.71,
+            604.51,
+            611.44,
+            610.7,
+            589.5,
+            602.01,
+            598.0,
+            602.22,
+            599.99
         ],
         "forecast": [
             null,
@@ -287,9 +351,9 @@
             null,
             null,
             null,
-            22389.15,
-            22540.62,
-            22471.2
+            589.53,
+            598.75,
+            595.05
         ]
     },
     "kospi_data": {
@@ -493,96 +557,36 @@
             "10-20"
         ],
         "historical": [
-            [
-                1392.06
-            ],
-            [
-                1385.51
-            ],
-            [
-                1385.72
-            ],
-            [
-                1387.25
-            ],
-            [
-                1387.2
-            ],
-            [
-                1389.5
-            ],
-            [
-                1393.7
-            ],
-            [
-                1385.01
-            ],
-            [
-                1377.64
-            ],
-            [
-                1378.69
-            ],
-            [
-                1386.75
-            ],
-            [
-                1396.23
-            ],
-            [
-                1389.39
-            ],
-            [
-                1391.85
-            ],
-            [
-                1403.65
-            ],
-            [
-                1408.92
-            ],
-            [
-                1408.71
-            ],
-            [
-                1399.33
-            ],
-            [
-                1403.15
-            ],
-            [
-                1401.82
-            ],
-            [
-                1405.63
-            ],
-            [
-                1406.06
-            ],
-            [
-                1409.92
-            ],
-            [
-                1414.57
-            ],
-            [
-                1422.52
-            ],
-            [
-                1421.51
-            ],
-            [
-                1429.03
-            ],
-            [
-                1426.07
-            ],
-            [
-                1429.43
-            ],
-            [
-                1420.09
-            ]
+            1386.18,
+            1385.08,
+            1389.03,
+            1389.07,
+            1389.44,
+            1392.7,
+            1384.99,
+            1378.66,
+            1380.12,
+            1388.11,
+            1397.09,
+            1390.89,
+            1394.16,
+            1404.76,
+            1409.0,
+            1409.45,
+            1399.88,
+            1403.85,
+            1402.69,
+            1405.86,
+            1407.4,
+            1410.51,
+            1415.87,
+            1421.34,
+            1422.72,
+            1429.04,
+            1426.28,
+            1428.6,
+            1421.05,
+            1416.64
         ],
         "forecast": [
             null,
@@ -615,9 +619,9 @@
             null,
             null,
             null,
-            1422.18,
-            1420.6,
-            1424.19
+            1416.22,
+            1417.48,
+            1417.54
         ]
     },
     "last_updated": "2025-10-17 00:00:00"
