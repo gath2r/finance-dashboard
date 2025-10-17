@@ -1,160 +1,85 @@
 {
     "articles": [
         {
-<<<<<<< HEAD
-            "uuid": "ddc2e28b-5080-4f86-8743-50fd6b32e8dd",
-            "title": "Sify Infinit Spaces files Draft Red Herring Prospectus in India",
-            "description": "CHENNAI, India, Oct. 17, 2025 (GLOBE NEWSWIRE) -- Sify Infinit Spaces Limited ('SISL”), a wholly owned subsidiary of Sify Technologies Limited ('Sify”), publicly filed a draft red herring prospectus on October 17, 2025 with the Securities and Exchange Board of India, BSE Limited, and the National Stock Exchange of India Limited, in connection with its proposed Initial Public Offering (IPO) of equity shares of face value ₹10 each ('Equity Shares”).",
+            "uuid": "feabcd7d-206e-4d69-95fd-0f7b68564e66",
+            "title": "Lululemon Rockets On China Tailwinds, Risk-Reward Looks Juicy - Lululemon Athletica (NASDAQ:LULU)",
+            "description": "Lululemon leverages China growth, tariff mitigation, and global momentum, positioning for 2026 product reset with improving risk-reward and resilient margins.",
             "keywords": [
-                "Initial Public Offering (IPO)",
-                "Sify Infinit Spaces Limited",
-                "Draft Red Herring Prospectus"
+                "Lululemon",
+                "China growth",
+                "resilient margins"
             ],
-            "snippet": "CHENNAI, India, Oct. 17, 2025 (GLOBE NEWSWIRE) -- Sify Infinit Spaces Limited (\"SISL”), a wholly owned subsidiary of Sify Technologies Limited (\"Sify”), pub...",
-            "url": "https://www.manilatimes.net/2025/10/18/tmt-newswire/globenewswire/sify-infinit-spaces-files-draft-red-herring-prospectus-in-india/2203262",
-            "image_url": "https://www.manilatimes.net/manilatimes/uploads/images/2025/10/18/787973.jpg",
+            "snippet": "Lululemon Athletica Inc. (NASDAQ:LULU) is teeing up for a comeback, with product revamps on the horizon and global momentum intact. The company is tightening fo...",
+            "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/25/10/48281574/lululemon-rockets-on-china-tailwinds-risk-reward-looks-juicy",
+            "image_url": "https://cdn.benzinga.com/files/images/story/2025/10/17/Lululemon.jpeg?width=1200&height=800&fit=crop",
             "language": "en",
-            "published_at": "2025-10-17T16:36:38.000000Z",
-            "source": "manilatimes.net",
-            "relevance_score": null,
-            "entities": [
-                {
-                    "symbol": "SIFY",
-                    "name": "Sify Technologies Limited",
-=======
-            "uuid": "4d1151cd-f4b8-4fe5-b90d-04853fd61c22",
-            "title": "Bitfarms, Standard Lithium, Terawulf And Other Big Stocks Moving Lower In Friday's Pre-Market Session - Almonty Indus (NASDAQ:ALM), American Battery Tech (NASDAQ:ABAT)",
-            "description": "",
-            "keywords": [
-                "미국 주식 선물",
-                "다우 선물",
-                "비트팜스"
-            ],
-            "snippet": "U.S. stock futures were lower this morning, with the Dow futures falling more than 200 points on Friday.\n\nShares of Bitfarms Ltd (NASDAQ:BITF) fell sharply in p...",
-            "url": "https://www.benzinga.com/trading-ideas/movers/25/10/48273000/bitfarms-standard-lithium-terawulf-and-other-big-stocks-moving-lower-in-fridays-pre-market-s",
-            "image_url": "https://cdn.benzinga.com/files/images/story/2025/10/17/Section-Of-A-Financial-Newspaper-Titled-.jpeg?width=1200&height=800&fit=crop",
-            "language": "en",
-            "published_at": "2025-10-17T13:05:40.000000Z",
+            "published_at": "2025-10-17T17:07:42.000000Z",
             "source": "benzinga.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "CLSK",
-                    "name": "CleanSpark, Inc.",
+                    "symbol": "LULU",
+                    "name": "Lululemon Athletica Inc.",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-                    "industry": "Technology",
-                    "match_score": 39.187607,
-                    "sentiment_score": 0.5574,
-                    "highlights": [
-                        {
-                            "highlight": "<em>CleanSpark</em> <em>Inc</em> (<em>NA[+262 characters]",
-                            "sentiment": 0.5574,
-                            "highlighted_in": "main_text"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "FORD",
-                    "name": "Forward Industries, Inc.",
->>>>>>> ce205a5e0aff0f39d097d3633b3530f3c9f629f9
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-<<<<<<< HEAD
-                    "industry": "Communication Services",
-                    "match_score": 50.629524,
-                    "sentiment_score": 0.0114,
-                    "highlights": [
-                        {
-                            "highlight": "CHENNAI, India, Oct. 17, 2025 (GLOBE NEW[+344 characters]",
-                            "sentiment": -0.3612,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "About Sify Infinit Spaces Limited\n\nSify [+250 characters]",
-                            "sentiment": 0.0772,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "For further information, please contact:[+316 characters]",
-                            "sentiment": 0.3182,
-=======
                     "industry": "Consumer Cyclical",
-                    "match_score": 36.953033,
-                    "sentiment_score": 0,
+                    "match_score": 126.396835,
+                    "sentiment_score": 0.10115,
                     "highlights": [
                         {
-                            "highlight": "<em>Forward</em> <em>Industries</em> <em[+351 characters]",
-                            "sentiment": 0,
->>>>>>> ce205a5e0aff0f39d097d3633b3530f3c9f629f9
+                            "highlight": "<em>Lululemon</em> <em>Athletica</em> <e[+312 characters]",
+                            "sentiment": 0.2023,
                             "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Lululemon Rockets On China Tailwinds, Risk-Reward Looks Juicy - <em>Lululemon</em> <em>Athletica</em> (<em>NASDAQ:LULU</em>)",
+                            "sentiment": 0,
+                            "highlighted_in": "title"
                         }
                     ]
                 }
             ],
             "similar": [],
-<<<<<<< HEAD
-            "summary": "Sify Technologies의 전액 출자 자회사인 Sify Infinit Spaces Limited(SISL)가 2025년 10월 17일 기업공개(IPO)를 위한 예비 투자설명서를 공개적으로 제출했습니다. 이 서류는 인도 증권거래위원회, BSE Limited 및 인도국립증권거래소에 제출되었으며, 액면가 10루피의 보통주 발행을 포함합니다. 이번 IPO는 회사의 성장을 위한 자본 조달을 목표로 하는 중요한 단계입니다.",
-            "sentiment": 0.8
+            "summary": "룰루레몬은 중국 성장, 관세 완화 및 글로벌 모멘텀을 적극 활용하고 있습니다. 회사는 2026년 제품 리셋을 위해 포지셔닝하며 미래를 준비하고 있습니다. 이러한 전략은 위험-보상 개선과 탄력적인 마진으로 이어져 긍정적인 전망을 제시합니다.",
+            "sentiment": 0.9
         },
         {
-            "uuid": "818b6678-1d29-470c-aac7-84538168666f",
-            "title": "This Booz Allen Hamilton Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Friday - Booz Allen Hamilton (NYSE:BAH), AST SpaceMobile (NASDAQ:ASTS)",
-            "description": "",
+            "uuid": "46d721d1-b0ff-44ee-b004-324dc9d726d6",
+            "title": "Glacier Bancorp, Inc. (GBCI) Q3 2025 Earnings Call Transcript",
+            "description": "Glacier Bancorp, Inc. (NYSE:GBCI) Q3 2025 Earnings Call October 17, 2025 11:00 AM EDTCompany ParticipantsRandall Chesler - President, CEO &...",
             "keywords": [
-                "애널리스트",
-                "등급 변경",
-                "월스트리트"
-            ],
-            "snippet": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades, downgrades and initiat...",
-            "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/25/10/48280156/this-booz-allen-hamilton-analyst-is-no-longer-bullish-here-are-top-5-downgrades-",
-            "image_url": "https://cdn.benzinga.com/files/images/story/2025/10/17/Washington--Dc---April-21--2019-Booz-All.jpeg?width=1200&height=800&fit=crop",
-            "language": "en",
-            "published_at": "2025-10-17T16:23:02.000000Z",
-            "source": "benzinga.com",
-            "relevance_score": null,
-            "entities": [
-                {
-                    "symbol": "ASTS",
-                    "name": "AST SpaceMobile, Inc.",
-=======
-            "summary": "미국 주식 선물은 하락세를 보였으며, 다우 선물은 금요일에 200포인트 이상 떨어졌다. 비트팜스(Bitfarms Ltd) 주가 또한 급락하는 모습을 보였다. 전반적으로 시장에 부정적인 분위기가 감돌았다.",
-            "sentiment": -0.85
-        },
-        {
-            "uuid": "60fa57b3-9441-46bb-805d-a08547ade3c8",
-            "title": "Simmons First National Corporation 2025 Q3 - Results - Earnings Call Presentation (NASDAQ:SFNC) 2025-10-17",
-            "description": "2025-10-17. The following slide deck was published by Simmons First National Corporation in conjunction with their 2025 Q3 earnings call.",
-            "keywords": [
-                "Simmons First National Corporation",
+                "Glacier Bancorp",
                 "Earnings Call",
-                "Slide Deck"
+                "Q3 2025"
             ],
-            "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
-            "url": "https://seekingalpha.com/article/4830752-simmons-first-national-corporation-2025-q3-results-earnings-call-presentation",
+            "snippet": "Presentation\n\nNow it's my pleasure to turn the call over to Glacier Bancorp's President and CEO, Randy Chesler. Please go ahead.\n\nGood day, everyone, and welcom...",
+            "url": "https://seekingalpha.com/article/4830828-glacier-bancorp-inc-gbci-q3-2025-earnings-call-transcript",
             "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
             "language": "en",
-            "published_at": "2025-10-17T13:02:12.000000Z",
+            "published_at": "2025-10-17T17:06:38.000000Z",
             "source": "seekingalpha.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "FXNC",
-                    "name": "First National Corporation",
+                    "symbol": "GBCI",
+                    "name": "Glacier Bancorp, Inc.",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
                     "industry": "Financial Services",
-                    "match_score": 86.00153,
-                    "sentiment_score": 0,
+                    "match_score": 141.27428,
+                    "sentiment_score": 0.4559,
                     "highlights": [
                         {
-                            "highlight": "Simmons <em>First</em> <em>National</em> <em>Corporation</em> 2025 Q3 - Results - Earnings Call Presentation (NASDAQ:SFNC) 2025-10-17",
+                            "highlight": "Good day, everyone, and welcome to the <[+239 characters]",
+                            "sentiment": 0.9118,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>Glacier</em> <em>Bancorp</em>, <em>Inc</em>. (GBCI) Q3 2025 Earnings Call Transcript",
                             "sentiment": 0,
                             "highlighted_in": "title"
                         }
@@ -162,111 +87,67 @@
                 }
             ],
             "similar": [],
-            "summary": "Simmons First National Corporation은 2025년 3분기 실적 발표와 관련하여 슬라이드 자료를 공개했습니다. 해당 자료는 2025년 10월 17일에 발행되었습니다. 본 기사 내용은 자료 공개 사실만을 전달하며, 구체적인 실적 정보는 포함되어 있지 않습니다.",
+            "summary": "Glacier Bancorp, Inc.는 2025년 10월 17일 2025년 3분기 실적 발표 컨퍼런스 콜을 개최했습니다. 이 컨퍼런스 콜은 오전 11시(EDT)에 시작되었습니다. Randall Chesler 사장 겸 CEO가 회사 대표로 참석했습니다.",
             "sentiment": 0.0
         },
         {
-            "uuid": "259d761a-8963-4d9f-9895-96e534fba621",
-            "title": "Charles Schwab Stock: Strong Results, Nice Growth (NYSE:SCHW)",
-            "description": "Charles Schwab posts strong Q3 with record client assets, rising EPS, and robust growth, backed by buybacks and margin gains. Read why SCHW stock is a buy.",
+            "uuid": "9bcb9b7a-3fd7-4f71-88bc-6ad96260450f",
+            "title": "ClearBridge Select Strategy Q3 2025 Commentary",
+            "description": "We initiated eight new positions in the quarter, highlighted by the addition of two leading biotechnology companies and participation in several successful IPOs.",
             "keywords": [
-                "Charles Schwab",
-                "Q3",
-                "Growth"
+                "New positions",
+                "Biotechnology",
+                "IPOs"
             ],
-            "snippet": "At Cash Flow Club , we focus on businesses with strong cash generation, ideally with a wide moat and significant durability. When these companies are bought at ...",
-            "url": "https://seekingalpha.com/article/4830725-charles-schwab-strong-results-nice-growth",
-            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2159094949/image_2159094949.jpg?io=getty-c-w1536",
+            "snippet": "Pawel Kacperek/iStock via Getty Images\n\nBalance Continues to Deliver Results\n\nMarket Overview\n\nU.S. equities continued their upward momentum in the third quarte...",
+            "url": "https://seekingalpha.com/article/4830822-clearbridge-select-strategy-q3-2025-commentary",
+            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2067714497/image_2067714497.jpg?io=getty-c-w1536",
             "language": "en",
-            "published_at": "2025-10-17T12:48:01.000000Z",
+            "published_at": "2025-10-17T16:54:00.000000Z",
             "source": "seekingalpha.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "SCHW-PJ",
-                    "name": "The Charles Schwab Corporation ",
->>>>>>> ce205a5e0aff0f39d097d3633b3530f3c9f629f9
+                    "symbol": "GOOGL",
+                    "name": "Alphabet Inc.",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-<<<<<<< HEAD
-                    "industry": "N/A",
-                    "match_score": 77.29,
-                    "sentiment_score": -0.1027,
+                    "industry": "Communication Services",
+                    "match_score": 8.857868,
+                    "sentiment_score": 0.5606,
                     "highlights": [
                         {
-                            "highlight": "This Booz Allen Hamilton Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Friday - Booz Allen Hamilton (NYSE:BAH), <em>AST</em> <em>SpaceMobile</em> (<em>NASDAQ:ASTS</em>)",
-                            "sentiment": -0.1027,
-                            "highlighted_in": "title"
-=======
-                    "industry": "Financial Services",
-                    "match_score": 47.238495,
-                    "sentiment_score": 0.128,
-                    "highlights": [
-                        {
-                            "highlight": "<em>The</em> <em>Charles</em> <em>Schwab[+155 characters]",
-                            "sentiment": 0.128,
+                            "highlight": "Magnificent 7 data refers to the followi[+210 characters]",
+                            "sentiment": 0.6808,
                             "highlighted_in": "main_text"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "WEBR",
-                    "name": "Weber Inc.",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Consumer Cyclical",
-                    "match_score": 14.284452,
-                    "sentiment_score": 0.8151,
-                    "highlights": [
+                        },
                         {
-                            "highlight": "Jonathan <em>Weber</em> holds an enginee[+248 characters]",
-                            "sentiment": 0.8151,
+                            "highlight": "The leading detractors were positions in[+298 characters]",
+                            "sentiment": 0.4404,
                             "highlighted_in": "main_text"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "SCHWL",
-                    "name": "The Charles Schwab Corporation",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 37.112656,
-                    "sentiment_score": 0.128,
-                    "highlights": [
-                        {
-                            "highlight": "<em>The</em> <em>Charles</em> <em>Schwab[+155 characters]",
-                            "sentiment": 0.128,
-                            "highlighted_in": "main_text"
->>>>>>> ce205a5e0aff0f39d097d3633b3530f3c9f629f9
                         }
                     ]
                 }
             ],
             "similar": [],
-<<<<<<< HEAD
-            "summary": "월스트리트 애널리스트들이 주요 기업들의 전망을 변경했습니다. 이는 등급 상향, 하향 및 신규 평가를 포함한 다양한 등급 변경을 의미합니다. 전체 애널리스트 등급 변경에 대한 자세한 내용은 기사에서 확인할 수 있습니다.",
-            "sentiment": 0.0
+            "summary": "회사는 해당 분기에 8개의 새로운 투자 포지션을 시작했습니다. 특히 두 개의 선도적인 생명공학 기업을 포트폴리오에 추가하며 주목받았습니다. 또한, 여러 성공적인 기업공개(IPO)에 참여하여 긍정적인 투자 활동을 보였습니다.",
+            "sentiment": 0.9
         }
     ],
     "trend_summary": {
-        "title": "Sify Infinit Spaces IPO, 0.400 시장 심리 속 애널리스트 평가 주목",
-        "summary": "Sify Infinit Spaces Limited의 IPO 추진 및 Draft Red Herring Prospectus(DRHP) 제출은 0.400의 시장 심리 점수와 함께 조심스러운 낙관론을 형성하고 있습니다. 애널리스트들은 해당 기업의 가치 평가와 시장 반응을 면밀히 분석하여 향후 등급 변경 가능성을 주시할 것으로 보입니다. 투자자 여러분께서는 관련 정보를 심층적으로 검토하고 전문가 의견을 참고하여 신중한 투자 결정을 내리시길 권고합니다.",
+        "title": "Lululemon의 중국 성장 및 견고한 마진, 시장의 낙관적 분위기 주도",
+        "summary": "Lululemon은 중국 시장에서의 견조한 성장과 견고한 마진을 통해 긍정적인 시장 기대를 충족시키고 있습니다. 최근 Glacier Bancorp의 실적 발표와 함께 전반적인 시장 심리 점수 0.600은 기업들의 회복력과 성장 잠재력에 대한 낙관적인 시각을 반영합니다. 투자자들은 이러한 핵심 기업들의 실적 동향을 면밀히 주시하며 잠재적 기회를 모색하는 것이 현명합니다.",
         "keywords": [
-            "Initial Public Offering (IPO)",
-            "Sify Infinit Spaces Limited",
-            "Draft Red Herring Prospectus",
-            "애널리스트",
-            "등급 변경"
+            "Lululemon",
+            "China growth",
+            "resilient margins",
+            "Glacier Bancorp",
+            "Earnings Call"
         ]
     },
-    "market_sentiment_score": 0.4,
+    "market_sentiment_score": 0.6,
     "nasdaq_data": {
         "labels": [
             "09-08",
@@ -333,7 +214,7 @@
             22521.7,
             22670.08,
             22562.54,
-            22560.13
+            22567.29
         ],
         "forecast": [
             null,
@@ -366,9 +247,9 @@
             null,
             null,
             null,
-            22674.07,
-            22614.41,
-            22651.72
+            22678.35,
+            22619.79,
+            22657.13
         ]
     },
     "kospi_data": {
@@ -579,27 +460,5 @@
             1417.54
         ]
     },
-    "last_updated": "2025-10-18 02:21:39"
-=======
-            "summary": "찰스 슈왑은 기록적인 고객 자산, 증가하는 EPS, 견고한 성장을 바탕으로 강력한 3분기 실적을 발표했습니다. 이러한 성과는 자사주 매입과 마진 개선에 의해 더욱 강화되었습니다. 따라서 기사는 SCHW 주식의 매수를 권장하고 있습니다.",
-            "sentiment": 0.9
-        }
-    ],
-    "trend_summary": {
-        "title": "미국 증시 선물, 미미한 상승세 속 기업 실적 발표에 시선 집중",
-        "summary": "현재 미국 주식 선물 시장은 0.017의 미미한 긍정적 심리를 반영하며 조심스러운 상승세를 보이고 있습니다. 비트팜스(Bitfarms)와 시몬스 퍼스트 내셔널 코퍼레이션(Simmons First National Corporation) 등 개별 기업의 실적 발표와 어닝스 콜이 시장의 주요 관심사로 부상하고 있으며, 이에 따른 변동성 확대 가능성에 대비하여 신중한 투자 접근이 요구됩니다.",
-        "keywords": [
-            "미국 주식 선물",
-            "다우 선물",
-            "비트팜스",
-            "Simmons First National Corporation",
-            "Earnings Call"
-        ]
-    },
-    "market_sentiment_score": 0.017,
-    "nasdaq_data": null,
-    "kospi_data": null,
-    "fx_data": null,
-    "last_updated": "2025-10-17 13:45:52"
->>>>>>> ce205a5e0aff0f39d097d3633b3530f3c9f629f9
+    "last_updated": "2025-10-18 02:28:13"
 }
