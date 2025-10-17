@@ -1,4 +1,4 @@
-# run_predictions.py (3일 예측 기능 추가 최종본)
+# run_predictions.py (데이터 형식 수정 및 3일 예측 기능 추가 최종본)
 
 import os
 import json
@@ -33,7 +33,6 @@ def get_yfinance_chart_data(ticker, days=30, forecast_days=3):
     print(f"--- 📈 '{ticker}' 데이터 예측 시작 ---")
     try:
         today = date.today()
-        # ARIMA 모델 학습을 위해 데이터를 조금 더 넉넉하게 가져옴
         start_date = today - timedelta(days=days + 60)
         
         data = yf.download(ticker, start=start_date, end=today, progress=False, timeout=30)
@@ -41,26 +40,25 @@ def get_yfinance_chart_data(ticker, days=30, forecast_days=3):
             print(f"❌ '{ticker}' 데이터 수집 실패.")
             return None
         
-        # 최근 30일 데이터만 선택
-        hist_data = data['Close'].dropna().astype(float).sort_index().tail(days)
+        # Series 형태로 데이터를 유지하여 .values가 1D array를 반환하도록 함
+        full_hist_data = data['Close'].dropna().astype(float)
+        hist_data_for_chart = full_hist_data.tail(days)
 
-        if len(hist_data) < 20:
+        if len(hist_data_for_chart) < 20:
             print(f"⚠️ '{ticker}' 데이터가 부족하여 예측을 건너뜁니다.")
             return None
             
-        # ARIMA 모델 학습 및 예측
-        model = ARIMA(hist_data, order=(5,1,0)).fit()
+        model = ARIMA(hist_data_for_chart, order=(5,1,0)).fit()
         forecast = model.forecast(steps=forecast_days)
         
-        # 차트 라벨 생성
-        hist_labels = [d.strftime('%m-%d') for d in hist_data.index]
+        hist_labels = [d.strftime('%m-%d') for d in hist_data_for_chart.index]
         forecast_labels = [(today + timedelta(days=i)).strftime('%m-%d') for i in range(1, forecast_days + 1)]
         
         print(f"✅ '{ticker}' 그래프 예측 완료.")
         return {
             "labels": hist_labels + forecast_labels,
-            "historical": np.round(hist_data.values, 2).tolist(),
-            "forecast": [None] * len(hist_data) + np.round(forecast.values, 2).tolist()
+            "historical": np.round(hist_data_for_chart.values, 2).tolist(), # 올바른 1차원 배열
+            "forecast": [None] * len(hist_data_for_chart) + np.round(forecast.values, 2).tolist()
         }
     except Exception as e:
         print(f"❌ '{ticker}' 차트 데이터 생성 중 오류 발생: {e}")
