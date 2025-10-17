@@ -1,16 +1,26 @@
-# ai_analyzer.py
+# ai_analyzer.py (타임아웃 기능 추가 최종 완성본)
 import os
+from dotenv import load_dotenv
 import google.generativeai as genai
 from collections import Counter
 
-# --- AI 설정 ---
+load_dotenv()
+
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
-    ai_model = genai.GenerativeModel('gemini-1.5-flash')
+    ai_model = genai.GenerativeModel('models/gemini-2.5-flash')
+    print("✅ Gemini API 키가 성공적으로 로드되었습니다.")
 else:
     ai_model = None
-    print("⚠️ Gemini API 키가 없어 AI 분석 기능이 비활성화됩니다.")
+    print("❌ Gemini API 키를 찾을 수 없습니다! .env 파일을 확인해주세요.")
+
+SAFETY_SETTINGS = [
+    {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
+    {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
+    {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
+    {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
+]
 
 def analyze_article_with_ai(content):
     """Gemini AI를 사용하여 뉴스 기사를 분석합니다."""
@@ -26,27 +36,24 @@ def analyze_article_with_ai(content):
     News Content:\n{content[:1500]}
     """
     try:
-        safety_settings = [
-            {"category": c, "threshold": "BLOCK_NONE"} for c in 
-            ["HARM_CATEGORY_HARASSMENT", "HARM_CATEGORY_HATE_SPEECH", "HARM_CATEGORY_SEXUALLY_EXPLICIT", "HARM_CATEGORY_DANGEROUS_CONTENT"]
-        ]
-        response = ai_model.generate_content(prompt, safety_settings=safety_settings, generation_config={"temperature": 0.3})
+        # ✨ 중요: 60초 타임아웃 설정 추가
+        response = ai_model.generate_content(
+            prompt,
+            safety_settings=SAFETY_SETTINGS,
+            generation_config={"temperature": 0.3},
+            request_options={"timeout": 60}
+        )
         
         text = response.text.strip()
         sentiment, summary, keywords = 0.0, "분석 실패", []
-        
         for line in text.split('\n'):
-            if line.startswith('SENTIMENT:'):
-                sentiment = float(line.split(':', 1)[1].strip())
-            elif line.startswith('SUMMARY:'):
-                summary = line.split(':', 1)[1].strip()
-            elif line.startswith('KEYWORDS:'):
-                keywords = [k.strip() for k in line.split(':', 1)[1].split(',')]
-                
+            if 'SENTIMENT:' in line: sentiment = float(line.split(':', 1)[1].strip())
+            elif 'SUMMARY:' in line: summary = line.split(':', 1)[1].strip()
+            elif 'KEYWORDS:' in line: keywords = [k.strip() for k in line.split(':', 1)[1].split(',')]
         return {"summary": summary, "sentiment": max(-1.0, min(1.0, sentiment)), "keywords": keywords[:3]}
     except Exception as e:
-        print(f"❌ AI 기사 분석 오류: {e}")
-        return {"summary": "기사 분석 중 오류 발생", "sentiment": 0.0, "keywords": ["오류"]}
+        print(f"❌ AI 기사 분석 중 타임아웃 또는 오류 발생: {e}")
+        return {"summary": "AI 응답 지연", "sentiment": 0.0, "keywords": ["오류"]}
 
 def generate_trend_summary_with_ai(keywords, sentiment_score):
     """AI를 사용하여 시장 트렌드 요약을 생성합니다."""
@@ -55,26 +62,28 @@ def generate_trend_summary_with_ai(keywords, sentiment_score):
     
     common_keywords = [item[0] for item in Counter(keywords).most_common(5)]
     prompt = f"""
-    As a professional financial analyst, analyze the following data and write a concise market trend report for investors.
+    As a professional financial analyst, write a concise market trend report in Korean based on the following data.
     - Key Keywords: {', '.join(common_keywords)}
     - Overall Market Sentiment Score: {sentiment_score:.3f}
 
-    Please strictly adhere to the following format in Korean:
-    TITLE: [An engaging one-sentence title summarizing today's market trend]
-    SUMMARY: [Analyze the market situation in 2-3 sentences from an expert's perspective, combining the data above. Use a gentle, advisory tone.]
+    Strictly adhere to this format:
+    TITLE: [Engaging one-sentence title]
+    SUMMARY: [Expert analysis in 2-3 sentences with a gentle, advisory tone.]
     """
     try:
-        response = ai_model.generate_content(prompt, generation_config={"temperature": 0.5})
+        # ✨ 중요: 여기에도 60초 타임아웃 설정 추가
+        response = ai_model.generate_content(
+            prompt,
+            safety_settings=SAFETY_SETTINGS,
+            generation_config={"temperature": 0.5},
+            request_options={"timeout": 60}
+        )
         text = response.text.strip()
         title, summary = "AI 동향 분석", "리포트 생성 실패"
-        
         for line in text.split('\n'):
-            if line.startswith('TITLE:'):
-                title = line.split(':', 1)[1].strip()
-            elif line.startswith('SUMMARY:'):
-                summary = line.split(':', 1)[1].strip()
-                
+            if 'TITLE:' in line: title = line.split(':', 1)[1].strip()
+            elif 'SUMMARY:' in line: summary = line.split(':', 1)[1].strip()
         return {"title": title, "summary": summary, "keywords": common_keywords}
     except Exception as e:
-        print(f"❌ AI 트렌드 요약 오류: {e}")
-        return {"title": "AI 동향 분석 실패", "summary": "리포트 생성 중 오류가 발생했습니다.", "keywords": common_keywords}
+        print(f"❌ AI 트렌드 요약 중 타임아웃 또는 오류 발생: {e}")
+        return {"title": "AI 응답 지연", "summary": "트렌드 요약 생성에 실패했습니다.", "keywords": common_keywords}
