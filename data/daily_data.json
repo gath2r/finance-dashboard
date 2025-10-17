@@ -1,282 +1,316 @@
 {
     "articles": [
         {
-            "uuid": "8f1eb66a-5eff-474c-976c-af88e8d9d7b3",
-            "title": "Tesla’s European Regulator Says Door Safety a ‘Key Priority’",
-            "description": "Tesla Inc.'s safety regulators in Europe are joining an expanding global effort to more closely scrutinize the door handle design popularized by the",
+            "uuid": "ddc2e28b-5080-4f86-8743-50fd6b32e8dd",
+            "title": "Sify Infinit Spaces files Draft Red Herring Prospectus in India",
+            "description": "CHENNAI, India, Oct. 17, 2025 (GLOBE NEWSWIRE) -- Sify Infinit Spaces Limited ('SISL”), a wholly owned subsidiary of Sify Technologies Limited ('Sify”), publicly filed a draft red herring prospectus on October 17, 2025 with the Securities and Exchange Board of India, BSE Limited, and the National Stock Exchange of India Limited, in connection with its proposed Initial Public Offering (IPO) of equity shares of face value ₹10 each ('Equity Shares”).",
             "keywords": [
-                "테슬라",
-                "도어 핸들",
-                "안전 규제"
+                "Initial Public Offering (IPO)",
+                "Sify Infinit Spaces Limited",
+                "Draft Red Herring Prospectus"
             ],
-            "snippet": "Tesla Inc.’s safety regulators in Europe are joining an expanding global effort to more closely scrutinize the door handle design popularized by the world’s...",
-            "url": "https://www.insurancejournal.com/news/international/2025/10/17/844113.htm",
-            "image_url": "https://www.insurancejournal.com/app/uploads/2025/10/door-release-on-tesla-cybertruck-in-berlin-bloomberg-scaled.jpg",
+            "snippet": "CHENNAI, India, Oct. 17, 2025 (GLOBE NEWSWIRE) -- Sify Infinit Spaces Limited (\"SISL”), a wholly owned subsidiary of Sify Technologies Limited (\"Sify”), pub...",
+            "url": "https://www.manilatimes.net/2025/10/18/tmt-newswire/globenewswire/sify-infinit-spaces-files-draft-red-herring-prospectus-in-india/2203262",
+            "image_url": "https://www.manilatimes.net/manilatimes/uploads/images/2025/10/18/787973.jpg",
             "language": "en",
-            "published_at": "2025-10-17T07:55:58.000000Z",
-            "source": "insurancejournal.com",
+            "published_at": "2025-10-17T16:36:38.000000Z",
+            "source": "manilatimes.net",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "TSLA",
-                    "name": "Tesla, Inc.",
+                    "symbol": "SIFY",
+                    "name": "Sify Technologies Limited",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-                    "industry": "Consumer Cyclical",
-                    "match_score": 21.826036,
-                    "sentiment_score": 0.202783,
+                    "industry": "Communication Services",
+                    "match_score": 50.629524,
+                    "sentiment_score": 0.0114,
                     "highlights": [
                         {
-                            "highlight": "<em>Tesla</em> <em>Inc</em>.’s safety [+177 characters]",
-                            "sentiment": 0.6908,
+                            "highlight": "CHENNAI, India, Oct. 17, 2025 (GLOBE NEW[+344 characters]",
+                            "sentiment": -0.3612,
                             "highlighted_in": "main_text"
                         },
                         {
-                            "highlight": "Read More: NHTSA Opens Probe Into 174,00[+322 characters]",
-                            "sentiment": -0.128,
+                            "highlight": "About Sify Infinit Spaces Limited\n\nSify [+250 characters]",
+                            "sentiment": 0.0772,
                             "highlighted_in": "main_text"
                         },
                         {
-                            "highlight": "<em>Tesla</em> representatives didn’t [+292 characters]",
-                            "sentiment": 0.3612,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "The rules aim to eliminate the flush ext[+313 characters]",
-                            "sentiment": 0.4215,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "Last month, a man and two children burne[+198 characters]",
-                            "sentiment": -0.5106,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "Photograph: A visitor interacts with the[+163 characters]",
-                            "sentiment": 0.3818,
+                            "highlight": "For further information, please contact:[+316 characters]",
+                            "sentiment": 0.3182,
                             "highlighted_in": "main_text"
                         }
                     ]
                 }
             ],
             "similar": [],
-            "summary": "유럽 안전 규제 기관들이 테슬라의 도어 핸들 디자인에 대한 조사를 강화하고 있습니다. 이는 테슬라가 대중화한 해당 디자인에 대한 전 세계적인 감시 노력에 동참하는 것입니다. 규제 당국의 면밀한 조사가 확대되면서 테슬라에 대한 잠재적 영향이 주목됩니다.",
-            "sentiment": -0.7
+            "summary": "Sify Technologies의 전액 출자 자회사인 Sify Infinit Spaces Limited(SISL)가 2025년 10월 17일 기업공개(IPO)를 위한 예비 투자설명서를 공개적으로 제출했습니다. 이 서류는 인도 증권거래위원회, BSE Limited 및 인도국립증권거래소에 제출되었으며, 액면가 10루피의 보통주 발행을 포함합니다. 이번 IPO는 회사의 성장을 위한 자본 조달을 목표로 하는 중요한 단계입니다.",
+            "sentiment": 0.8
         },
         {
-            "uuid": "011cf106-4147-4cc9-a56b-b7fc41617d76",
-            "title": "CME eyes new sports event contracts to rival Kalshi, Polymarket - report",
-            "description": "CME is reportedly planning to launch financial contracts tied to sports and economic events. Read more.",
-            "keywords": [
-                "CME",
-                "Financial contracts",
-                "Sports events"
-            ],
-            "snippet": "CME (NASDAQ:CME) is planning to launch financial contracts tied to sports games and economic indicators, rivaling popular prediction markets Kalshi and Polymark...",
-            "url": "https://seekingalpha.com/news/4505087-cme-plans-new-sports-event-contracts",
-            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1394096212/image_1394096212.jpg?io=getty-c-w750",
-            "language": "en",
-            "published_at": "2025-10-17T07:36:35.000000Z",
-            "source": "seekingalpha.com",
-            "relevance_score": null,
-            "entities": [
-                {
-                    "symbol": "CME",
-                    "name": "CME Group Inc.",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 20.006954,
-                    "sentiment_score": 0.4404,
-                    "highlights": [
-                        {
-                            "highlight": "CME (<em>NASDAQ:CME</em>) is planning to[+273 characters]",
-                            "sentiment": 0.4404,
-                            "highlighted_in": "main_text"
-                        }
-                    ]
-                }
-            ],
-            "similar": [],
-            "summary": "CME가 스포츠 및 경제 이벤트와 연계된 금융 계약 출시를 계획 중인 것으로 알려졌습니다. 이는 새로운 시장 기회를 모색하고 상품 포트폴리오를 확장하려는 움직임으로 해석됩니다. 관련 업계는 CME의 이러한 시도에 주목하고 있습니다.",
-            "sentiment": 0.5
-        },
-        {
-            "uuid": "3ca29610-468d-4787-8283-c77de5f4980d",
-            "title": "Fifth Third Bancorp Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - Fifth Third Bancorp (NASDAQ:FITB), Comerica (NYSE:CMA)",
+            "uuid": "818b6678-1d29-470c-aac7-84538168666f",
+            "title": "This Booz Allen Hamilton Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Friday - Booz Allen Hamilton (NYSE:BAH), AST SpaceMobile (NASDAQ:ASTS)",
             "description": "",
             "keywords": [
-                "Fifth Third Bancorp",
-                "earnings",
-                "Q3"
+                "애널리스트",
+                "등급 변경",
+                "월스트리트"
             ],
-            "snippet": "Fifth Third Bancorp (NASDAQ:FITB) will release earnings results for the third quarter, before the opening bell on Friday, Oct. 17.\n\nAnalysts expect the Cincinna...",
-            "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/25/10/48269053/fifth-third-bancorp-earnings-are-imminent-these-most-accurate-analysts-revise-",
-            "image_url": "https://cdn.benzinga.com/files/images/story/2025/10/17/Fifth-Third-Bancorp.jpeg?width=1200&height=800&fit=crop",
+            "snippet": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades, downgrades and initiat...",
+            "url": "https://www.benzinga.com/analyst-stock-ratings/downgrades/25/10/48280156/this-booz-allen-hamilton-analyst-is-no-longer-bullish-here-are-top-5-downgrades-",
+            "image_url": "https://cdn.benzinga.com/files/images/story/2025/10/17/Washington--Dc---April-21--2019-Booz-All.jpeg?width=1200&height=800&fit=crop",
             "language": "en",
-            "published_at": "2025-10-17T07:34:08.000000Z",
+            "published_at": "2025-10-17T16:23:02.000000Z",
             "source": "benzinga.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "FITB",
-                    "name": "Fifth Third Bancorp",
+                    "symbol": "ASTS",
+                    "name": "AST SpaceMobile, Inc.",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 189.63457,
-                    "sentiment_score": 0.312467,
+                    "industry": "N/A",
+                    "match_score": 77.29,
+                    "sentiment_score": -0.1027,
                     "highlights": [
                         {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancor[+281 characters]",
-                            "sentiment": 0.2023,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "On Oct. 6, <em>Fifth</em> <em>Third</em>[+303 characters]",
-                            "sentiment": 0.7351,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancorp</em> Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - <em>Fifth</em> <em>Third</em> <em>Bancorp</em> (<em>NASDAQ:FITB</em>), Comerica (NYSE:CMA)",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "FITBI",
-                    "name": "Fifth Third Bancorp",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 161.03903,
-                    "sentiment_score": 0.312467,
-                    "highlights": [
-                        {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancor[+272 characters]",
-                            "sentiment": 0.2023,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "On Oct. 6, <em>Fifth</em> <em>Third</em>[+303 characters]",
-                            "sentiment": 0.7351,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancorp</em> Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - <em>Fifth</em> <em>Third</em> <em>Bancorp</em> (NASDAQ:FITB), Comerica (NYSE:CMA)",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "FITBO",
-                    "name": "Fifth Third Bancorp",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 161.03903,
-                    "sentiment_score": 0.312467,
-                    "highlights": [
-                        {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancor[+272 characters]",
-                            "sentiment": 0.2023,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "On Oct. 6, <em>Fifth</em> <em>Third</em>[+303 characters]",
-                            "sentiment": 0.7351,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancorp</em> Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - <em>Fifth</em> <em>Third</em> <em>Bancorp</em> (NASDAQ:FITB), Comerica (NYSE:CMA)",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "FITBP",
-                    "name": "Fifth Third Bancorp",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 161.03903,
-                    "sentiment_score": 0.312467,
-                    "highlights": [
-                        {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancor[+272 characters]",
-                            "sentiment": 0.2023,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "On Oct. 6, <em>Fifth</em> <em>Third</em>[+303 characters]",
-                            "sentiment": 0.7351,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancorp</em> Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - <em>Fifth</em> <em>Third</em> <em>Bancorp</em> (NASDAQ:FITB), Comerica (NYSE:CMA)",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "CMA",
-                    "name": "Comerica Incorporated",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 63.73526,
-                    "sentiment_score": 0.36755,
-                    "highlights": [
-                        {
-                            "highlight": "On Oct. 6, Fifth Third Bancorp agreed to[+276 characters]",
-                            "sentiment": 0.7351,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "Fifth Third Bancorp Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - Fifth Third Bancorp (NASDAQ:FITB), Comerica (<em>NYSE:CMA</em>)",
-                            "sentiment": 0,
+                            "highlight": "This Booz Allen Hamilton Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Friday - Booz Allen Hamilton (NYSE:BAH), <em>AST</em> <em>SpaceMobile</em> (<em>NASDAQ:ASTS</em>)",
+                            "sentiment": -0.1027,
                             "highlighted_in": "title"
                         }
                     ]
                 }
             ],
             "similar": [],
-            "summary": "Fifth Third Bancorp는 10월 17일 금요일 개장 전에 3분기 실적을 발표할 예정입니다. 애널리스트들은 이 발표에 대한 기대를 가지고 있습니다. 투자자들은 이 중요한 재무 결과에 주목할 것입니다.",
+            "summary": "월스트리트 애널리스트들이 주요 기업들의 전망을 변경했습니다. 이는 등급 상향, 하향 및 신규 평가를 포함한 다양한 등급 변경을 의미합니다. 전체 애널리스트 등급 변경에 대한 자세한 내용은 기사에서 확인할 수 있습니다.",
             "sentiment": 0.0
         }
     ],
     "trend_summary": {
-        "title": "테슬라 안전 규제 우려, 금융 시장에 미묘한 하방 압력 가중",
-        "summary": "최근 테슬라의 도어 핸들 관련 안전 규제 이슈가 시장의 주목을 받고 있습니다. 이는 CME 등 금융 계약 시장 전반에 걸쳐 미묘한 하방 압력으로 작용하며 투자자들의 신중한 접근을 요구합니다. 따라서 관련 규제 동향을 면밀히 주시하며 포트폴리오의 위험 관리에 유의하시길 권고합니다.",
+        "title": "Sify Infinit Spaces IPO, 0.400 시장 심리 속 애널리스트 평가 주목",
+        "summary": "Sify Infinit Spaces Limited의 IPO 추진 및 Draft Red Herring Prospectus(DRHP) 제출은 0.400의 시장 심리 점수와 함께 조심스러운 낙관론을 형성하고 있습니다. 애널리스트들은 해당 기업의 가치 평가와 시장 반응을 면밀히 분석하여 향후 등급 변경 가능성을 주시할 것으로 보입니다. 투자자 여러분께서는 관련 정보를 심층적으로 검토하고 전문가 의견을 참고하여 신중한 투자 결정을 내리시길 권고합니다.",
         "keywords": [
-            "테슬라",
-            "도어 핸들",
-            "안전 규제",
-            "CME",
-            "Financial contracts"
+            "Initial Public Offering (IPO)",
+            "Sify Infinit Spaces Limited",
+            "Draft Red Herring Prospectus",
+            "애널리스트",
+            "등급 변경"
         ]
     },
-    "market_sentiment_score": -0.067,
-    "nasdaq_data": null,
-    "kospi_data": null,
+    "market_sentiment_score": 0.4,
+    "nasdaq_data": {
+        "labels": [
+            "09-08",
+            "09-09",
+            "09-10",
+            "09-11",
+            "09-12",
+            "09-15",
+            "09-16",
+            "09-17",
+            "09-18",
+            "09-19",
+            "09-22",
+            "09-23",
+            "09-24",
+            "09-25",
+            "09-26",
+            "09-29",
+            "09-30",
+            "10-01",
+            "10-02",
+            "10-03",
+            "10-06",
+            "10-07",
+            "10-08",
+            "10-09",
+            "10-10",
+            "10-13",
+            "10-14",
+            "10-15",
+            "10-16",
+            "10-17",
+            "10-19",
+            "10-20",
+            "10-21"
+        ],
+        "historical": [
+            21798.7,
+            21879.49,
+            21886.06,
+            22043.07,
+            22141.1,
+            22348.75,
+            22333.96,
+            22261.33,
+            22470.72,
+            22631.48,
+            22788.98,
+            22573.47,
+            22497.86,
+            22384.7,
+            22484.07,
+            22591.15,
+            22660.01,
+            22755.16,
+            22844.05,
+            22780.51,
+            22941.67,
+            22788.36,
+            23043.38,
+            23024.63,
+            22204.43,
+            22694.61,
+            22521.7,
+            22670.08,
+            22562.54,
+            22560.13
+        ],
+        "forecast": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            22674.07,
+            22614.41,
+            22651.72
+        ]
+    },
+    "kospi_data": {
+        "labels": [
+            "09-01",
+            "09-02",
+            "09-03",
+            "09-04",
+            "09-05",
+            "09-08",
+            "09-09",
+            "09-10",
+            "09-11",
+            "09-12",
+            "09-15",
+            "09-16",
+            "09-17",
+            "09-18",
+            "09-19",
+            "09-22",
+            "09-23",
+            "09-24",
+            "09-25",
+            "09-26",
+            "09-29",
+            "09-30",
+            "10-01",
+            "10-02",
+            "10-10",
+            "10-13",
+            "10-14",
+            "10-15",
+            "10-16",
+            "10-17",
+            "10-19",
+            "10-20",
+            "10-21"
+        ],
+        "historical": [
+            3142.93,
+            3172.35,
+            3184.42,
+            3200.83,
+            3205.12,
+            3219.59,
+            3260.05,
+            3314.53,
+            3344.2,
+            3395.54,
+            3407.31,
+            3449.62,
+            3413.4,
+            3461.3,
+            3445.24,
+            3468.65,
+            3486.19,
+            3472.14,
+            3471.11,
+            3386.05,
+            3431.21,
+            3424.6,
+            3455.83,
+            3549.21,
+            3610.6,
+            3584.55,
+            3561.81,
+            3657.28,
+            3748.37,
+            3748.89
+        ],
+        "forecast": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            3738.01,
+            3753.98,
+            3795.26
+        ]
+    },
     "fx_data": {
         "labels": [
             "09-05",
@@ -309,9 +343,9 @@
             "10-14",
             "10-15",
             "10-16",
-            "10-18",
             "10-19",
-            "10-20"
+            "10-20",
+            "10-21"
         ],
         "historical": [
             1386.18,
@@ -381,5 +415,5 @@
             1417.54
         ]
     },
-    "last_updated": "2025-10-17 17:30:50"
+    "last_updated": "2025-10-18 02:21:39"
 }
