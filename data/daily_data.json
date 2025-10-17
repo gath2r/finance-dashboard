@@ -1,13 +1,103 @@
 {
     "articles": [
         {
+            "uuid": "4f4d90f6-37bd-4523-a3c9-03e6402492c2",
+            "title": "Truist Financial Corporation (TFC) Q3 2025 Earnings Call Transcript",
+            "description": "Truist Financial Corporation (NYSE:TFC) Q3 2025 Earnings Call October 17, 2025 8:00 AM EDTCompany ParticipantsBradley Milsaps - Head of Investor...",
+            "keywords": [
+                "Truist Financial",
+                "Earnings Call",
+                "Q3 2025"
+            ],
+            "snippet": "Presentation\n\nGreetings, ladies and gentlemen, and welcome to the Truist Financial Corporation Third Quarter 2025 Earnings Conference Call. [Operator Instructio...",
+            "url": "https://seekingalpha.com/article/4830816-truist-financial-corporation-tfc-q3-2025-earnings-call-transcript",
+            "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+            "language": "en",
+            "published_at": "2025-10-17T17:16:36.000000Z",
+            "source": "seekingalpha.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "TFC",
+                    "name": "Truist Financial Corporation",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Financial Services",
+                    "match_score": 126.908134,
+                    "sentiment_score": 0.42955,
+                    "highlights": [
+                        {
+                            "highlight": "Presentation\n\nGreetings, ladies and gent[+259 characters]",
+                            "sentiment": 0.8591,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>Truist</em> <em>Financial</em> <em>Corporation</em> (TFC) Q3 2025 Earnings Call Transcript",
+                            "sentiment": 0,
+                            "highlighted_in": "title"
+                        }
+                    ]
+                }
+            ],
+            "similar": [],
+            "summary": "Truist Financial Corporation은 2025년 3분기 실적 발표를 개최할 예정입니다. 이 행사는 2025년 10월 17일 오전 8시(동부 표준시)에 진행됩니다. 투자자 관계 책임자가 참여할 것으로 보입니다.",
+            "sentiment": 0.0
+        },
+        {
+            "uuid": "8f3f5ac5-8586-4524-bc93-b834c0729ad0",
+            "title": "These Analysts Boost Their Forecasts On Bank of New York Mellon Following Strong Q3 Earnings - Bank of New York Mellon (NYSE:BK)",
+            "description": "",
+            "keywords": [
+                "BNY Mellon",
+                "실적",
+                "EPS"
+            ],
+            "snippet": "The Bank of New York Mellon Corporation (NYSE:BK) reported better-than-expected third-quarter earnings on Thursday.\n\nThe company posted 2025 diluted EPS of $1.8...",
+            "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/25/10/48281693/these-analysts-boost-their-forecasts-on-bank-of-new-york-mellon-following-stro",
+            "image_url": "https://cdn.benzinga.com/files/images/story/2025/10/17/Side-View-Of-Concentrated-Crypto-Trader-.jpeg?width=1200&height=800&fit=crop",
+            "language": "en",
+            "published_at": "2025-10-17T17:12:56.000000Z",
+            "source": "benzinga.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "BK",
+                    "name": "The Bank of New York Mellon Corporation",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Financial Services",
+                    "match_score": 82.08188,
+                    "sentiment_score": 0.1298,
+                    "highlights": [
+                        {
+                            "highlight": "<em>The</em> <em>Bank</em> <em>of</em> <[+256 characters]",
+                            "sentiment": -0.4588,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "These Analysts Boost Their Forecasts On Bank of New York Mellon Following Strong Q3 Earnings - Bank of New York Mellon (<em>NYSE:BK</em>)",
+                            "sentiment": 0.7184,
+                            "highlighted_in": "title"
+                        }
+                    ]
+                }
+            ],
+            "similar": [],
+            "summary": "뱅크 오브 뉴욕 멜론(BNY Mellon)이 예상치를 뛰어넘는 3분기 실적을 발표했다. 이 회사는 주당순이익(EPS) 1.8달러를 기록했다. 이는 시장의 기대를 상회하는 긍정적인 결과로 평가된다.",
+            "sentiment": 0.9
+        },
+        {
             "uuid": "feabcd7d-206e-4d69-95fd-0f7b68564e66",
             "title": "Lululemon Rockets On China Tailwinds, Risk-Reward Looks Juicy - Lululemon Athletica (NASDAQ:LULU)",
             "description": "Lululemon leverages China growth, tariff mitigation, and global momentum, positioning for 2026 product reset with improving risk-reward and resilient margins.",
             "keywords": [
                 "Lululemon",
                 "China growth",
-                "resilient margins"
+                "Tariff mitigation"
             ],
             "snippet": "Lululemon Athletica Inc. (NASDAQ:LULU) is teeing up for a comeback, with product revamps on the horizon and global momentum intact. The company is tightening fo...",
             "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/25/10/48281574/lululemon-rockets-on-china-tailwinds-risk-reward-looks-juicy",
@@ -42,109 +132,19 @@
                 }
             ],
             "similar": [],
-            "summary": "룰루레몬은 중국 성장, 관세 완화 및 글로벌 모멘텀을 적극 활용하고 있습니다. 회사는 2026년 제품 리셋을 위해 포지셔닝하며 미래를 준비하고 있습니다. 이러한 전략은 위험-보상 개선과 탄력적인 마진으로 이어져 긍정적인 전망을 제시합니다.",
-            "sentiment": 0.9
-        },
-        {
-            "uuid": "46d721d1-b0ff-44ee-b004-324dc9d726d6",
-            "title": "Glacier Bancorp, Inc. (GBCI) Q3 2025 Earnings Call Transcript",
-            "description": "Glacier Bancorp, Inc. (NYSE:GBCI) Q3 2025 Earnings Call October 17, 2025 11:00 AM EDTCompany ParticipantsRandall Chesler - President, CEO &...",
-            "keywords": [
-                "Glacier Bancorp",
-                "Earnings Call",
-                "Q3 2025"
-            ],
-            "snippet": "Presentation\n\nNow it's my pleasure to turn the call over to Glacier Bancorp's President and CEO, Randy Chesler. Please go ahead.\n\nGood day, everyone, and welcom...",
-            "url": "https://seekingalpha.com/article/4830828-glacier-bancorp-inc-gbci-q3-2025-earnings-call-transcript",
-            "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
-            "language": "en",
-            "published_at": "2025-10-17T17:06:38.000000Z",
-            "source": "seekingalpha.com",
-            "relevance_score": null,
-            "entities": [
-                {
-                    "symbol": "GBCI",
-                    "name": "Glacier Bancorp, Inc.",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 141.27428,
-                    "sentiment_score": 0.4559,
-                    "highlights": [
-                        {
-                            "highlight": "Good day, everyone, and welcome to the <[+239 characters]",
-                            "sentiment": 0.9118,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "<em>Glacier</em> <em>Bancorp</em>, <em>Inc</em>. (GBCI) Q3 2025 Earnings Call Transcript",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
-                        }
-                    ]
-                }
-            ],
-            "similar": [],
-            "summary": "Glacier Bancorp, Inc.는 2025년 10월 17일 2025년 3분기 실적 발표 컨퍼런스 콜을 개최했습니다. 이 컨퍼런스 콜은 오전 11시(EDT)에 시작되었습니다. Randall Chesler 사장 겸 CEO가 회사 대표로 참석했습니다.",
-            "sentiment": 0.0
-        },
-        {
-            "uuid": "9bcb9b7a-3fd7-4f71-88bc-6ad96260450f",
-            "title": "ClearBridge Select Strategy Q3 2025 Commentary",
-            "description": "We initiated eight new positions in the quarter, highlighted by the addition of two leading biotechnology companies and participation in several successful IPOs.",
-            "keywords": [
-                "New positions",
-                "Biotechnology",
-                "IPOs"
-            ],
-            "snippet": "Pawel Kacperek/iStock via Getty Images\n\nBalance Continues to Deliver Results\n\nMarket Overview\n\nU.S. equities continued their upward momentum in the third quarte...",
-            "url": "https://seekingalpha.com/article/4830822-clearbridge-select-strategy-q3-2025-commentary",
-            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2067714497/image_2067714497.jpg?io=getty-c-w1536",
-            "language": "en",
-            "published_at": "2025-10-17T16:54:00.000000Z",
-            "source": "seekingalpha.com",
-            "relevance_score": null,
-            "entities": [
-                {
-                    "symbol": "GOOGL",
-                    "name": "Alphabet Inc.",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Communication Services",
-                    "match_score": 8.857868,
-                    "sentiment_score": 0.5606,
-                    "highlights": [
-                        {
-                            "highlight": "Magnificent 7 data refers to the followi[+210 characters]",
-                            "sentiment": 0.6808,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "The leading detractors were positions in[+298 characters]",
-                            "sentiment": 0.4404,
-                            "highlighted_in": "main_text"
-                        }
-                    ]
-                }
-            ],
-            "similar": [],
-            "summary": "회사는 해당 분기에 8개의 새로운 투자 포지션을 시작했습니다. 특히 두 개의 선도적인 생명공학 기업을 포트폴리오에 추가하며 주목받았습니다. 또한, 여러 성공적인 기업공개(IPO)에 참여하여 긍정적인 투자 활동을 보였습니다.",
+            "summary": "룰루레몬은 중국 성장과 글로벌 모멘텀을 활용하며 긍정적인 사업 환경을 조성하고 있습니다. 관세 완화 노력과 함께 개선된 위험-보상 비율을 보이고 있습니다. 회사는 탄력적인 마진을 바탕으로 2026년 제품 재편을 준비하며 미래 성장을 위한 입지를 다지고 있습니다.",
             "sentiment": 0.9
         }
     ],
     "trend_summary": {
-        "title": "Lululemon의 중국 성장 및 견고한 마진, 시장의 낙관적 분위기 주도",
-        "summary": "Lululemon은 중국 시장에서의 견조한 성장과 견고한 마진을 통해 긍정적인 시장 기대를 충족시키고 있습니다. 최근 Glacier Bancorp의 실적 발표와 함께 전반적인 시장 심리 점수 0.600은 기업들의 회복력과 성장 잠재력에 대한 낙관적인 시각을 반영합니다. 투자자들은 이러한 핵심 기업들의 실적 동향을 면밀히 주시하며 잠재적 기회를 모색하는 것이 현명합니다.",
+        "title": "Truist Financial 및 BNY Mellon의 Q3 2025 실적 발표, 시장에 긍정적 기류 형성",
+        "summary": "Truist Financial과 BNY Mellon의 2025년 3분기 실적 발표는 시장에 긍정적인 기류를 형성하고 있으며, 전반적인 시장 심리 지수는 0.600으로 나타나 투자자들의 기대감이 반영되고 있습니다. 이에 따라 금융 섹터에 대한 관심이 증대될 것으로 예상되나, 개별 기업의 실적 세부 내용과 향후 전망을 면밀히 검토하는 신중한 투자 전략이 필요합니다.",
         "keywords": [
-            "Lululemon",
-            "China growth",
-            "resilient margins",
-            "Glacier Bancorp",
-            "Earnings Call"
+            "Truist Financial",
+            "Earnings Call",
+            "Q3 2025",
+            "BNY Mellon",
+            "실적"
         ]
     },
     "market_sentiment_score": 0.6,
@@ -214,7 +214,7 @@
             22521.7,
             22670.08,
             22562.54,
-            22567.29
+            22600.93
         ],
         "forecast": [
             null,
@@ -247,9 +247,9 @@
             null,
             null,
             null,
-            22678.35,
-            22619.79,
-            22657.13
+            22698.36,
+            22645.16,
+            22682.47
         ]
     },
     "kospi_data": {
@@ -460,5 +460,5 @@
             1417.54
         ]
     },
-    "last_updated": "2025-10-18 02:28:13"
+    "last_updated": "2025-10-18 02:37:07"
 }
