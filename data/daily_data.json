@@ -1,385 +1,194 @@
 {
     "articles": [
         {
-            "uuid": "8f1eb66a-5eff-474c-976c-af88e8d9d7b3",
-            "title": "Tesla’s European Regulator Says Door Safety a ‘Key Priority’",
-            "description": "Tesla Inc.'s safety regulators in Europe are joining an expanding global effort to more closely scrutinize the door handle design popularized by the",
+            "uuid": "4d1151cd-f4b8-4fe5-b90d-04853fd61c22",
+            "title": "Bitfarms, Standard Lithium, Terawulf And Other Big Stocks Moving Lower In Friday's Pre-Market Session - Almonty Indus (NASDAQ:ALM), American Battery Tech (NASDAQ:ABAT)",
+            "description": "",
             "keywords": [
-                "테슬라",
-                "도어 핸들",
-                "안전 규제"
+                "미국 주식 선물",
+                "다우 선물",
+                "비트팜스"
             ],
-            "snippet": "Tesla Inc.’s safety regulators in Europe are joining an expanding global effort to more closely scrutinize the door handle design popularized by the world’s...",
-            "url": "https://www.insurancejournal.com/news/international/2025/10/17/844113.htm",
-            "image_url": "https://www.insurancejournal.com/app/uploads/2025/10/door-release-on-tesla-cybertruck-in-berlin-bloomberg-scaled.jpg",
+            "snippet": "U.S. stock futures were lower this morning, with the Dow futures falling more than 200 points on Friday.\n\nShares of Bitfarms Ltd (NASDAQ:BITF) fell sharply in p...",
+            "url": "https://www.benzinga.com/trading-ideas/movers/25/10/48273000/bitfarms-standard-lithium-terawulf-and-other-big-stocks-moving-lower-in-fridays-pre-market-s",
+            "image_url": "https://cdn.benzinga.com/files/images/story/2025/10/17/Section-Of-A-Financial-Newspaper-Titled-.jpeg?width=1200&height=800&fit=crop",
             "language": "en",
-            "published_at": "2025-10-17T07:55:58.000000Z",
-            "source": "insurancejournal.com",
+            "published_at": "2025-10-17T13:05:40.000000Z",
+            "source": "benzinga.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "TSLA",
-                    "name": "Tesla, Inc.",
+                    "symbol": "CLSK",
+                    "name": "CleanSpark, Inc.",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Technology",
+                    "match_score": 39.187607,
+                    "sentiment_score": 0.5574,
+                    "highlights": [
+                        {
+                            "highlight": "<em>CleanSpark</em> <em>Inc</em> (<em>NA[+262 characters]",
+                            "sentiment": 0.5574,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                },
+                {
+                    "symbol": "FORD",
+                    "name": "Forward Industries, Inc.",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
                     "industry": "Consumer Cyclical",
-                    "match_score": 21.826036,
-                    "sentiment_score": 0.202783,
+                    "match_score": 36.953033,
+                    "sentiment_score": 0,
                     "highlights": [
                         {
-                            "highlight": "<em>Tesla</em> <em>Inc</em>.’s safety [+177 characters]",
-                            "sentiment": 0.6908,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "Read More: NHTSA Opens Probe Into 174,00[+322 characters]",
-                            "sentiment": -0.128,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "<em>Tesla</em> representatives didn’t [+292 characters]",
-                            "sentiment": 0.3612,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "The rules aim to eliminate the flush ext[+313 characters]",
-                            "sentiment": 0.4215,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "Last month, a man and two children burne[+198 characters]",
-                            "sentiment": -0.5106,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "Photograph: A visitor interacts with the[+163 characters]",
-                            "sentiment": 0.3818,
+                            "highlight": "<em>Forward</em> <em>Industries</em> <em[+351 characters]",
+                            "sentiment": 0,
                             "highlighted_in": "main_text"
                         }
                     ]
                 }
             ],
             "similar": [],
-            "summary": "유럽 안전 규제 기관들이 테슬라의 도어 핸들 디자인에 대한 조사를 강화하고 있습니다. 이는 테슬라가 대중화한 해당 디자인에 대한 전 세계적인 감시 노력에 동참하는 것입니다. 규제 당국의 면밀한 조사가 확대되면서 테슬라에 대한 잠재적 영향이 주목됩니다.",
-            "sentiment": -0.7
+            "summary": "미국 주식 선물은 하락세를 보였으며, 다우 선물은 금요일에 200포인트 이상 떨어졌다. 비트팜스(Bitfarms Ltd) 주가 또한 급락하는 모습을 보였다. 전반적으로 시장에 부정적인 분위기가 감돌았다.",
+            "sentiment": -0.85
         },
         {
-            "uuid": "011cf106-4147-4cc9-a56b-b7fc41617d76",
-            "title": "CME eyes new sports event contracts to rival Kalshi, Polymarket - report",
-            "description": "CME is reportedly planning to launch financial contracts tied to sports and economic events. Read more.",
+            "uuid": "60fa57b3-9441-46bb-805d-a08547ade3c8",
+            "title": "Simmons First National Corporation 2025 Q3 - Results - Earnings Call Presentation (NASDAQ:SFNC) 2025-10-17",
+            "description": "2025-10-17. The following slide deck was published by Simmons First National Corporation in conjunction with their 2025 Q3 earnings call.",
             "keywords": [
-                "CME",
-                "Financial contracts",
-                "Sports events"
+                "Simmons First National Corporation",
+                "Earnings Call",
+                "Slide Deck"
             ],
-            "snippet": "CME (NASDAQ:CME) is planning to launch financial contracts tied to sports games and economic indicators, rivaling popular prediction markets Kalshi and Polymark...",
-            "url": "https://seekingalpha.com/news/4505087-cme-plans-new-sports-event-contracts",
-            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1394096212/image_1394096212.jpg?io=getty-c-w750",
+            "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
+            "url": "https://seekingalpha.com/article/4830752-simmons-first-national-corporation-2025-q3-results-earnings-call-presentation",
+            "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
             "language": "en",
-            "published_at": "2025-10-17T07:36:35.000000Z",
+            "published_at": "2025-10-17T13:02:12.000000Z",
             "source": "seekingalpha.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "CME",
-                    "name": "CME Group Inc.",
+                    "symbol": "FXNC",
+                    "name": "First National Corporation",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
                     "industry": "Financial Services",
-                    "match_score": 20.006954,
-                    "sentiment_score": 0.4404,
+                    "match_score": 86.00153,
+                    "sentiment_score": 0,
                     "highlights": [
                         {
-                            "highlight": "CME (<em>NASDAQ:CME</em>) is planning to[+273 characters]",
-                            "sentiment": 0.4404,
-                            "highlighted_in": "main_text"
+                            "highlight": "Simmons <em>First</em> <em>National</em> <em>Corporation</em> 2025 Q3 - Results - Earnings Call Presentation (NASDAQ:SFNC) 2025-10-17",
+                            "sentiment": 0,
+                            "highlighted_in": "title"
                         }
                     ]
                 }
             ],
             "similar": [],
-            "summary": "CME가 스포츠 및 경제 이벤트와 연계된 금융 계약 출시를 계획 중인 것으로 알려졌습니다. 이는 새로운 시장 기회를 모색하고 상품 포트폴리오를 확장하려는 움직임으로 해석됩니다. 관련 업계는 CME의 이러한 시도에 주목하고 있습니다.",
-            "sentiment": 0.5
+            "summary": "Simmons First National Corporation은 2025년 3분기 실적 발표와 관련하여 슬라이드 자료를 공개했습니다. 해당 자료는 2025년 10월 17일에 발행되었습니다. 본 기사 내용은 자료 공개 사실만을 전달하며, 구체적인 실적 정보는 포함되어 있지 않습니다.",
+            "sentiment": 0.0
         },
         {
-            "uuid": "3ca29610-468d-4787-8283-c77de5f4980d",
-            "title": "Fifth Third Bancorp Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - Fifth Third Bancorp (NASDAQ:FITB), Comerica (NYSE:CMA)",
-            "description": "",
+            "uuid": "259d761a-8963-4d9f-9895-96e534fba621",
+            "title": "Charles Schwab Stock: Strong Results, Nice Growth (NYSE:SCHW)",
+            "description": "Charles Schwab posts strong Q3 with record client assets, rising EPS, and robust growth, backed by buybacks and margin gains. Read why SCHW stock is a buy.",
             "keywords": [
-                "Fifth Third Bancorp",
-                "earnings",
-                "Q3"
+                "Charles Schwab",
+                "Q3",
+                "Growth"
             ],
-            "snippet": "Fifth Third Bancorp (NASDAQ:FITB) will release earnings results for the third quarter, before the opening bell on Friday, Oct. 17.\n\nAnalysts expect the Cincinna...",
-            "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/25/10/48269053/fifth-third-bancorp-earnings-are-imminent-these-most-accurate-analysts-revise-",
-            "image_url": "https://cdn.benzinga.com/files/images/story/2025/10/17/Fifth-Third-Bancorp.jpeg?width=1200&height=800&fit=crop",
+            "snippet": "At Cash Flow Club , we focus on businesses with strong cash generation, ideally with a wide moat and significant durability. When these companies are bought at ...",
+            "url": "https://seekingalpha.com/article/4830725-charles-schwab-strong-results-nice-growth",
+            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2159094949/image_2159094949.jpg?io=getty-c-w1536",
             "language": "en",
-            "published_at": "2025-10-17T07:34:08.000000Z",
-            "source": "benzinga.com",
+            "published_at": "2025-10-17T12:48:01.000000Z",
+            "source": "seekingalpha.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "FITB",
-                    "name": "Fifth Third Bancorp",
+                    "symbol": "SCHW-PJ",
+                    "name": "The Charles Schwab Corporation ",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
                     "industry": "Financial Services",
-                    "match_score": 189.63457,
-                    "sentiment_score": 0.312467,
+                    "match_score": 47.238495,
+                    "sentiment_score": 0.128,
                     "highlights": [
                         {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancor[+281 characters]",
-                            "sentiment": 0.2023,
+                            "highlight": "<em>The</em> <em>Charles</em> <em>Schwab[+155 characters]",
+                            "sentiment": 0.128,
                             "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "On Oct. 6, <em>Fifth</em> <em>Third</em>[+303 characters]",
-                            "sentiment": 0.7351,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancorp</em> Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - <em>Fifth</em> <em>Third</em> <em>Bancorp</em> (<em>NASDAQ:FITB</em>), Comerica (NYSE:CMA)",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
                         }
                     ]
                 },
                 {
-                    "symbol": "FITBI",
-                    "name": "Fifth Third Bancorp",
+                    "symbol": "WEBR",
+                    "name": "Weber Inc.",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 161.03903,
-                    "sentiment_score": 0.312467,
+                    "industry": "Consumer Cyclical",
+                    "match_score": 14.284452,
+                    "sentiment_score": 0.8151,
                     "highlights": [
                         {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancor[+272 characters]",
-                            "sentiment": 0.2023,
+                            "highlight": "Jonathan <em>Weber</em> holds an enginee[+248 characters]",
+                            "sentiment": 0.8151,
                             "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "On Oct. 6, <em>Fifth</em> <em>Third</em>[+303 characters]",
-                            "sentiment": 0.7351,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancorp</em> Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - <em>Fifth</em> <em>Third</em> <em>Bancorp</em> (NASDAQ:FITB), Comerica (NYSE:CMA)",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
                         }
                     ]
                 },
                 {
-                    "symbol": "FITBO",
-                    "name": "Fifth Third Bancorp",
+                    "symbol": "SCHWL",
+                    "name": "The Charles Schwab Corporation",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
                     "industry": "Financial Services",
-                    "match_score": 161.03903,
-                    "sentiment_score": 0.312467,
+                    "match_score": 37.112656,
+                    "sentiment_score": 0.128,
                     "highlights": [
                         {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancor[+272 characters]",
-                            "sentiment": 0.2023,
+                            "highlight": "<em>The</em> <em>Charles</em> <em>Schwab[+155 characters]",
+                            "sentiment": 0.128,
                             "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "On Oct. 6, <em>Fifth</em> <em>Third</em>[+303 characters]",
-                            "sentiment": 0.7351,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancorp</em> Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - <em>Fifth</em> <em>Third</em> <em>Bancorp</em> (NASDAQ:FITB), Comerica (NYSE:CMA)",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "FITBP",
-                    "name": "Fifth Third Bancorp",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 161.03903,
-                    "sentiment_score": 0.312467,
-                    "highlights": [
-                        {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancor[+272 characters]",
-                            "sentiment": 0.2023,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "On Oct. 6, <em>Fifth</em> <em>Third</em>[+303 characters]",
-                            "sentiment": 0.7351,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancorp</em> Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - <em>Fifth</em> <em>Third</em> <em>Bancorp</em> (NASDAQ:FITB), Comerica (NYSE:CMA)",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "CMA",
-                    "name": "Comerica Incorporated",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 63.73526,
-                    "sentiment_score": 0.36755,
-                    "highlights": [
-                        {
-                            "highlight": "On Oct. 6, Fifth Third Bancorp agreed to[+276 characters]",
-                            "sentiment": 0.7351,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "Fifth Third Bancorp Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - Fifth Third Bancorp (NASDAQ:FITB), Comerica (<em>NYSE:CMA</em>)",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
                         }
                     ]
                 }
             ],
             "similar": [],
-            "summary": "Fifth Third Bancorp는 10월 17일 금요일 개장 전에 3분기 실적을 발표할 예정입니다. 애널리스트들은 이 발표에 대한 기대를 가지고 있습니다. 투자자들은 이 중요한 재무 결과에 주목할 것입니다.",
-            "sentiment": 0.0
+            "summary": "찰스 슈왑은 기록적인 고객 자산, 증가하는 EPS, 견고한 성장을 바탕으로 강력한 3분기 실적을 발표했습니다. 이러한 성과는 자사주 매입과 마진 개선에 의해 더욱 강화되었습니다. 따라서 기사는 SCHW 주식의 매수를 권장하고 있습니다.",
+            "sentiment": 0.9
         }
     ],
     "trend_summary": {
-        "title": "테슬라 안전 규제 우려, 금융 시장에 미묘한 하방 압력 가중",
-        "summary": "최근 테슬라의 도어 핸들 관련 안전 규제 이슈가 시장의 주목을 받고 있습니다. 이는 CME 등 금융 계약 시장 전반에 걸쳐 미묘한 하방 압력으로 작용하며 투자자들의 신중한 접근을 요구합니다. 따라서 관련 규제 동향을 면밀히 주시하며 포트폴리오의 위험 관리에 유의하시길 권고합니다.",
+        "title": "미국 증시 선물, 미미한 상승세 속 기업 실적 발표에 시선 집중",
+        "summary": "현재 미국 주식 선물 시장은 0.017의 미미한 긍정적 심리를 반영하며 조심스러운 상승세를 보이고 있습니다. 비트팜스(Bitfarms)와 시몬스 퍼스트 내셔널 코퍼레이션(Simmons First National Corporation) 등 개별 기업의 실적 발표와 어닝스 콜이 시장의 주요 관심사로 부상하고 있으며, 이에 따른 변동성 확대 가능성에 대비하여 신중한 투자 접근이 요구됩니다.",
         "keywords": [
-            "테슬라",
-            "도어 핸들",
-            "안전 규제",
-            "CME",
-            "Financial contracts"
+            "미국 주식 선물",
+            "다우 선물",
+            "비트팜스",
+            "Simmons First National Corporation",
+            "Earnings Call"
         ]
     },
-    "market_sentiment_score": -0.067,
+    "market_sentiment_score": 0.017,
     "nasdaq_data": null,
     "kospi_data": null,
-    "fx_data": {
-        "labels": [
-            "09-05",
-            "09-08",
-            "09-09",
-            "09-10",
-            "09-11",
-            "09-12",
-            "09-15",
-            "09-16",
-            "09-17",
-            "09-18",
-            "09-19",
-            "09-22",
-            "09-23",
-            "09-24",
-            "09-25",
-            "09-26",
-            "09-29",
-            "09-30",
-            "10-01",
-            "10-02",
-            "10-03",
-            "10-06",
-            "10-07",
-            "10-08",
-            "10-09",
-            "10-10",
-            "10-13",
-            "10-14",
-            "10-15",
-            "10-16",
-            "10-18",
-            "10-19",
-            "10-20"
-        ],
-        "historical": [
-            1386.18,
-            1385.08,
-            1389.03,
-            1389.07,
-            1389.44,
-            1392.7,
-            1384.99,
-            1378.66,
-            1380.12,
-            1388.11,
-            1397.09,
-            1390.89,
-            1394.16,
-            1404.76,
-            1409.0,
-            1409.45,
-            1399.88,
-            1403.85,
-            1402.69,
-            1405.86,
-            1407.4,
-            1410.51,
-            1415.87,
-            1421.34,
-            1422.72,
-            1429.04,
-            1426.28,
-            1428.6,
-            1421.05,
-            1416.64
-        ],
-        "forecast": [
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            1416.22,
-            1417.48,
-            1417.54
-        ]
-    },
-    "last_updated": "2025-10-17 17:30:50"
+    "fx_data": null,
+    "last_updated": "2025-10-17 13:45:52"
 }
