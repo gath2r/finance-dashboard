@@ -6,8 +6,8 @@
             "description": "Meta Platforms Inc. secures $30 billion financing for Louisiana data center, setting record for private capital deal.",
             "keywords": [
                 "Meta Platforms",
-                "Data Center",
-                "Private Capital Deal"
+                "데이터 센터",
+                "자금 조달"
             ],
             "snippet": "Mark Zuckerberg’s Meta Platforms Inc. is set to seal an almost $30 billion financing package for its data center site in rural Louisiana, marking the final st...",
             "url": "https://www.thehindubusinessline.com/info-tech/meta-blue-owl-seal-30-billion-private-capital-deal-for-ai/article70174139.ece",
@@ -65,7 +65,7 @@
                 }
             ],
             "similar": [],
-            "summary": "메타 플랫폼스(Meta Platforms Inc.)가 루이지애나 데이터 센터 건설을 위해 300억 달러의 자금을 확보했습니다. 이 자금 조달은 민간 자본 거래 중 역대 최고 기록을 세웠습니다. 이번 자금은 메타의 대규모 인프라 프로젝트를 지원할 예정입니다.",
+            "summary": "메타 플랫폼스가 루이지애나 데이터 센터 건설을 위해 300억 달러 규모의 자금 조달에 성공했습니다. 이는 사모 자본 거래 중 역대 최고 기록을 세운 것입니다. 이번 자금 확보는 메타의 데이터 센터 확장 계획에 중요한 진전입니다.",
             "sentiment": 0.9
         },
         {
@@ -73,9 +73,9 @@
             "title": "Global Markets Jitter as European Futures Slide, Treasury Yields Hit One-Year Low",
             "description": "Global financial markets are showing signs of stress as European equity futures registered significant declines in early trading. The EuroStoxx 50 slid 0.9%,",
             "keywords": [
-                "유럽 증시",
-                "금융 시장",
-                "하락"
+                "Global financial markets",
+                "European equity futures",
+                "EuroStoxx 50"
             ],
             "snippet": "Key Takeaways\n\nEuropean futures opened lower, with the EuroStoxx 50 down 0.9% , the DAX falling 1.2% , and the FTSE declining 1.0% , reflecting a broad cautious...",
             "url": "https://stockmarketwatch.com/stock-market-news/global-markets-jitter-as-european-futures-slide-treasury-yields-hit-one-year-low/54667/",
@@ -128,22 +128,22 @@
                 }
             ],
             "similar": [],
-            "summary": "글로벌 금융 시장은 스트레스 징후를 보이며 불안정한 모습을 나타내고 있습니다. 특히 유럽 주식 선물은 초기 거래에서 상당한 하락세를 기록했습니다. 이에 따라 유로스톡스 50 지수는 0.9% 하락했습니다.",
-            "sentiment": -0.9
+            "summary": "글로벌 금융 시장이 스트레스 징후를 보이고 있습니다. 유럽 주식 선물은 초기 거래에서 상당한 하락세를 기록했습니다. 유로스톡스 50 지수는 0.9% 하락했습니다.",
+            "sentiment": -0.8
         }
     ],
     "trend_summary": {
-        "title": "메타 데이터 센터 사모 투자, 유럽 금융 시장에 중립적 영향 예상",
-        "summary": "최근 메타 플랫폼스의 데이터 센터 투자가 사모 자본 유입과 함께 활발히 진행되고 있습니다. 이는 유럽 증시를 포함한 전반적인 금융 시장에 영향을 미치고 있으나, 현재 시장의 전반적인 심리는 중립적인 수준을 유지하고 있습니다. 따라서 투자자들은 관련 동향을 면밀히 주시하되, 과도한 낙관론이나 비관론보다는 신중한 접근이 필요할 것으로 보입니다.",
+        "title": "메타 데이터 센터 투자 속 글로벌 금융 시장, 미약한 긍정적 흐름 유지",
+        "summary": "메타 플랫폼스의 데이터 센터 투자 및 관련 자금 조달 움직임이 글로벌 금융 시장에 미묘한 영향을 미치고 있습니다. 유럽 주식 선물 시장이 제한적인 상승세를 보이는 가운데, 전반적인 시장 심리는 0.050으로 미약한 긍정적 흐름을 유지하고 있습니다. 투자자 여러분께서는 이러한 미미한 긍정적 신호 속에서도 잠재적 변동성에 대비하여 신중한 접근을 지속하시기를 권고합니다.",
         "keywords": [
             "Meta Platforms",
-            "Data Center",
-            "Private Capital Deal",
-            "유럽 증시",
-            "금융 시장"
+            "데이터 센터",
+            "자금 조달",
+            "Global financial markets",
+            "European equity futures"
         ]
     },
-    "market_sentiment_score": 0.0,
+    "market_sentiment_score": 0.05,
     "nasdaq_data": {
         "labels": [
             "09-17",
