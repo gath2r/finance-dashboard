@@ -6,7 +6,7 @@
             "description": "Meta Platforms Inc. secures $30 billion financing for Louisiana data center, setting record for private capital deal.",
             "keywords": [
                 "Meta Platforms",
-                "데이터 센터",
+                "데이터센터",
                 "자금 조달"
             ],
             "snippet": "Mark Zuckerberg’s Meta Platforms Inc. is set to seal an almost $30 billion financing package for its data center site in rural Louisiana, marking the final st...",
@@ -65,8 +65,8 @@
                 }
             ],
             "similar": [],
-            "summary": "메타 플랫폼스가 루이지애나 데이터 센터 건설을 위해 300억 달러 규모의 자금 조달에 성공했습니다. 이는 사모 자본 거래 중 역대 최고 기록을 세운 것입니다. 이번 자금 확보는 메타의 데이터 센터 확장 계획에 중요한 진전입니다.",
-            "sentiment": 0.9
+            "summary": "메타 플랫폼스(Meta Platforms Inc.)가 루이지애나 데이터센터 건설을 위해 300억 달러의 자금을 확보했습니다. 확보된 자금의 규모는 300억 달러에 달합니다. 이는 사모 자본 거래에서 역대 최고 기록을 세운 것입니다.",
+            "sentiment": 0.95
         },
         {
             "uuid": "9714b23b-5f05-4ae7-aa5d-3cebc62c1ff4",
@@ -128,22 +128,22 @@
                 }
             ],
             "similar": [],
-            "summary": "글로벌 금융 시장이 스트레스 징후를 보이고 있습니다. 유럽 주식 선물은 초기 거래에서 상당한 하락세를 기록했습니다. 유로스톡스 50 지수는 0.9% 하락했습니다.",
+            "summary": "글로벌 금융 시장이 스트레스 징후를 보이며 불안정한 모습을 나타내고 있습니다. 유럽 주식 선물은 초기 거래에서 상당한 하락세를 기록했습니다. 특히 유로스톡스 50 지수는 0.9% 하락했습니다.",
             "sentiment": -0.8
         }
     ],
     "trend_summary": {
-        "title": "메타 데이터 센터 투자 속 글로벌 금융 시장, 미약한 긍정적 흐름 유지",
-        "summary": "메타 플랫폼스의 데이터 센터 투자 및 관련 자금 조달 움직임이 글로벌 금융 시장에 미묘한 영향을 미치고 있습니다. 유럽 주식 선물 시장이 제한적인 상승세를 보이는 가운데, 전반적인 시장 심리는 0.050으로 미약한 긍정적 흐름을 유지하고 있습니다. 투자자 여러분께서는 이러한 미미한 긍정적 신호 속에서도 잠재적 변동성에 대비하여 신중한 접근을 지속하시기를 권고합니다.",
+        "title": "메타의 데이터센터 투자 및 자금 조달 속, 글로벌 시장은 미미한 긍정적 기류 형성",
+        "summary": "Meta Platforms의 데이터센터 투자 확대 및 관련 자금 조달 움직임이 글로벌 금융 시장에 미치는 영향에 대한 관심이 증대되고 있습니다. 현재 시장은 European equity futures의 소폭 상승과 함께 전반적으로 0.075의 미미한 긍정적 심리 점수를 보이며, 이는 특정 기업의 성장 동력에 대한 기대감이 조심스럽게 반영된 결과로 해석됩니다. 투자자들은 이러한 개별 기업의 동향이 전체 시장에 미치는 파급 효과를 주시하며, 여전히 신중한 접근을 유지하는 것이 바람직합니다.",
         "keywords": [
             "Meta Platforms",
-            "데이터 센터",
+            "데이터센터",
             "자금 조달",
             "Global financial markets",
             "European equity futures"
         ]
     },
-    "market_sentiment_score": 0.05,
+    "market_sentiment_score": 0.075,
     "nasdaq_data": {
         "labels": [
             "09-17",
