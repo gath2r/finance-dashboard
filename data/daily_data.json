@@ -1,98 +1,121 @@
 {
     "articles": [
         {
-            "uuid": "b407e7e2-e7c3-4942-9672-9c3a916da9a8",
-            "title": "Airbnb Stock: Q3 2025 Performance May Disappoint As Growth Normalizes (NASDAQ:ABNB)",
-            "description": "Get insights on Airbnb's (ABNB) upcoming Q3'25 earnings, mixed travel demand, and investment outlook. Learn what to watch before the November 6 call.",
+            "uuid": "b1acfd16-effb-4325-86f0-a84aba45de85",
+            "title": "Meta, Blue Owl seal $30 billion private capital deal for AI",
+            "description": "Meta Platforms Inc. secures $30 billion financing for Louisiana data center, setting record for private capital deal.",
             "keywords": [
-                "Airbnb",
-                "Earnings",
-                "Travel Demand"
+                "Meta Platforms",
+                "Financing",
+                "Data Center"
             ],
-            "snippet": "I am a full-time analyst interested in a wide range of stocks. With my unique insights and knowledge, I hope to provide other investors with a contrasting view ...",
-            "url": "https://seekingalpha.com/article/4830641-airbnb-fq325-performance-may-disappoint-as-growth-normalizes",
-            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2191725662/image_2191725662.jpg?io=getty-c-w1536",
+            "snippet": "Mark Zuckerberg’s Meta Platforms Inc. is set to seal an almost $30 billion financing package for its data center site in rural Louisiana, marking the final st...",
+            "url": "https://www.thehindubusinessline.com/info-tech/meta-blue-owl-seal-30-billion-private-capital-deal-for-ai/article70174139.ece",
+            "image_url": "https://bl-i.thgim.com/public/incoming/24sbfj/article70174303.ece/alternates/LANDSCAPE_1200/2025-10-15T155829Z_638921830_RC2RB7A0SBJA_RTRMADP_3_META-AI-DATACENTER.JPG",
             "language": "en",
-            "published_at": "2025-10-17T04:20:00.000000Z",
-            "source": "seekingalpha.com",
+            "published_at": "2025-10-17T05:16:05.000000Z",
+            "source": "thehindubusinessline.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "ABNB",
-                    "name": "Airbnb, Inc.",
+                    "symbol": "META",
+                    "name": "Meta Platforms Inc",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
                     "industry": "Communication Services",
-                    "match_score": 65.16946,
-                    "sentiment_score": -0.0258,
+                    "match_score": 12.501138,
+                    "sentiment_score": 0,
                     "highlights": [
                         {
-                            "highlight": "<em>Airbnb</em> Stock: Q3 2025 Performance May Disappoint As Growth Normalizes (<em>NASDAQ:ABNB</em>)",
-                            "sentiment": -0.0258,
-                            "highlighted_in": "title"
+                            "highlight": "Mark Zuckerberg’s <em>Meta</em> <em>Pl[+197 characters]",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
                         }
                     ]
                 }
             ],
             "similar": [],
-            "summary": "에어비앤비(ABNB)의 다가오는 3분기 실적 발표에 대한 통찰을 제공합니다. 혼재된 여행 수요와 투자 전망에 대한 분석을 포함하며, 11월 6일 컨퍼런스 콜 전에 주목해야 할 사항들을 다룹니다. 이 기사는 투자자들이 실적 발표를 앞두고 무엇을 준비해야 할지 알려줍니다.",
-            "sentiment": 0.0
+            "summary": "메타 플랫폼스는 루이지애나 데이터 센터 건설을 위해 300억 달러의 자금을 확보했습니다. 이는 사모 자본 거래 중 역대 최고 기록을 세운 것입니다. 이번 대규모 자금 조달은 메타의 인프라 확장에 중요한 발판이 될 것입니다.",
+            "sentiment": 0.9
         },
         {
-            "uuid": "c8ae0352-bffd-4911-972e-3ad9fa2651dd",
-            "title": "[2310.09903] Integrating feature selection and regression methods with technical indicators for predicting Apple Inc. stock prices",
-            "description": "Abstract page for arXiv paper 2310.09903: Integrating feature selection and regression methods with technical indicators for predicting Apple Inc. stock prices",
+            "uuid": "9714b23b-5f05-4ae7-aa5d-3cebc62c1ff4",
+            "title": "Global Markets Jitter as European Futures Slide, Treasury Yields Hit One-Year Low",
+            "description": "Global financial markets are showing signs of stress as European equity futures registered significant declines in early trading. The EuroStoxx 50 slid 0.9%,",
             "keywords": [
-                "Apple Inc.",
-                "주가 예측",
-                "기술적 지표"
+                "Global financial markets",
+                "European equity futures",
+                "EuroStoxx 50"
             ],
-            "snippet": "",
-            "url": "https://arxiv.org/abs/2310.09903",
-            "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+            "snippet": "Key Takeaways\n\nEuropean futures opened lower, with the EuroStoxx 50 down 0.9% , the DAX falling 1.2% , and the FTSE declining 1.0% , reflecting a broad cautious...",
+            "url": "https://stockmarketwatch.com/stock-market-news/global-markets-jitter-as-european-futures-slide-treasury-yields-hit-one-year-low/54667/",
+            "image_url": "https://stockmarketwatch.com/stock-market-news/wp-content/uploads/2025/07/breaking-news.webp",
             "language": "en",
-            "published_at": "2025-10-17T04:00:00.000000Z",
-            "source": "arxiv.org",
+            "published_at": "2025-10-17T05:08:23.000000Z",
+            "source": "thestockmarketwatch.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "AAPL",
-                    "name": "Apple Inc.",
+                    "symbol": "GOOG",
+                    "name": "Alphabet Inc.",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-                    "industry": "Technology",
-                    "match_score": 44.409164,
-                    "sentiment_score": 0,
+                    "industry": "Communication Services",
+                    "match_score": 10.058343,
+                    "sentiment_score": 0.2732,
                     "highlights": [
                         {
-                            "highlight": "[2310.09903] Integrating feature selection and regression methods with technical indicators for predicting <em>Apple</em> <em>Inc</em>. stock prices",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
+                            "highlight": "Meanwhile, tech giant Google (parent com[+270 characters]",
+                            "sentiment": 0.2732,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                },
+                {
+                    "symbol": "GOOGL",
+                    "name": "Alphabet Inc.",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Communication Services",
+                    "match_score": 27.133244,
+                    "sentiment_score": 0.5741,
+                    "highlights": [
+                        {
+                            "highlight": "Google's (<em>GOOGL</em>) push to expand[+255 characters]",
+                            "sentiment": 0.875,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Meanwhile, tech giant Google (parent com[+279 characters]",
+                            "sentiment": 0.2732,
+                            "highlighted_in": "main_text"
                         }
                     ]
                 }
             ],
             "similar": [],
-            "summary": "이 논문은 Apple Inc. 주가 예측을 위한 연구를 다룹니다. 특징 선택 및 회귀 분석 방법을 기술적 지표와 통합하여 활용합니다. 궁극적으로 주가 예측 모델의 성능 향상을 목표로 합니다.",
-            "sentiment": 0.0
+            "summary": "글로벌 금융 시장은 스트레스 징후를 보이며 불안정한 모습을 나타내고 있습니다. 유럽 주식 선물은 초기 거래에서 상당한 하락세를 기록했습니다. 특히 유로스톡스 50 지수는 0.9% 하락했습니다.",
+            "sentiment": -0.8
         }
     ],
     "trend_summary": {
-        "title": "에어비앤비 실적과 애플 주가 전망, 시장의 복합적 신호",
-        "summary": "에어비앤비의 견조한 실적은 여행 수요의 지속적인 강세를 시사하며, 이는 관련 섹터에 긍정적인 영향을 미칠 수 있습니다. 그러나 애플 Inc.의 향후 실적 및 주가 예측은 기술 섹터 전반의 투자 심리에 중요한 변수로 작용할 것입니다. 현재 시장 심리가 중립적인 만큼, 투자자께서는 개별 기업의 펀더멘털과 거시 경제 지표를 종합적으로 고려하여 신중한 접근을 권해드립니다.",
+        "title": "메타 플랫폼의 데이터 센터 투자 확대, 글로벌 금융 시장의 미묘한 낙관론을 견인하나?",
+        "summary": "메타 플랫폼의 데이터 센터 확장을 위한 최근 자금 조달 노력은 특히 AI 인프라 분야에서 미래 성장에 대한 강한 의지를 보여줍니다. 이러한 전략적 움직임은 0.050의 미미하게 긍정적인 전반적인 시장 심리와 맞물려 유럽 주식 선물 시장을 포함한 글로벌 금융 시장 전반에 걸쳐 신중한 상승세를 견인하는 것으로 보입니다. 투자자들은 이러한 인프라 투자를 핵심 동인으로 면밀히 주시하되, 광범위한 시장 역학에 대한 균형 잡힌 시각을 유지하는 것이 중요합니다.",
         "keywords": [
-            "Airbnb",
-            "Earnings",
-            "Travel Demand",
-            "Apple Inc.",
-            "주가 예측"
+            "Meta Platforms",
+            "Financing",
+            "Data Center",
+            "Global financial markets",
+            "European equity futures"
         ]
     },
-    "market_sentiment_score": 0.0,
+    "market_sentiment_score": 0.05,
     "nasdaq_data": {
         "labels": [
             "09-05",
@@ -263,6 +286,38 @@
             22471.34,
             22438.93,
             22480.94
+        ],
+        "moving_average": [
+            20828.96,
+            20865.34,
+            20902.29,
+            20943.61,
+            20982.65,
+            21026.31,
+            21073.02,
+            21121.13,
+            21164.97,
+            21207.61,
+            21251.9,
+            21295.59,
+            21333.92,
+            21369.39,
+            21405.75,
+            21440.6,
+            21473.77,
+            21511.23,
+            21550.17,
+            21587.39,
+            21623.22,
+            21662.49,
+            21698.29,
+            21737.71,
+            21775.95,
+            21797.93,
+            21827.91,
+            21853.7,
+            21883.33,
+            21909.03
         ]
     },
     "kospi_data": {
@@ -435,6 +490,38 @@
             3854.78,
             3866.63,
             3869.64
+        ],
+        "moving_average": [
+            3118.62,
+            3124.13,
+            3129.41,
+            3134.62,
+            3139.51,
+            3144.26,
+            3149.68,
+            3154.9,
+            3160.97,
+            3167.17,
+            3174.14,
+            3180.56,
+            3187.81,
+            3192.98,
+            3198.86,
+            3204.96,
+            3211.83,
+            3218.74,
+            3225.12,
+            3231.72,
+            3236.21,
+            3242.5,
+            3248.58,
+            3254.26,
+            3261.19,
+            3268.31,
+            3275.12,
+            3281.12,
+            3288.49,
+            3297.85
         ]
     },
     "fx_data": {
@@ -607,6 +694,38 @@
             1421.87,
             1420.48,
             1422.41
+        ],
+        "moving_average": [
+            1379.37,
+            1379.71,
+            1380.18,
+            1380.29,
+            1380.56,
+            1380.81,
+            1381.21,
+            1381.59,
+            1381.99,
+            1382.35,
+            1382.92,
+            1383.46,
+            1384.14,
+            1384.75,
+            1385.56,
+            1386.43,
+            1387.2,
+            1387.61,
+            1388.16,
+            1388.64,
+            1389.19,
+            1389.66,
+            1390.12,
+            1390.59,
+            1391.22,
+            1391.72,
+            1392.36,
+            1393.09,
+            1393.92,
+            1394.69
         ]
     },
     "last_updated": "2025-10-17 00:00:00"

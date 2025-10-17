@@ -1,4 +1,4 @@
-# run_predictions.py (최종 완성본)
+# run_predictions.py (이동평균선 기능 추가)
 
 import os
 import json
@@ -16,9 +16,7 @@ load_dotenv()
 
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(5))
 def get_marketaux_news(api_key):
-    if not api_key:
-        print("❌ Marketaux API 키를 찾을 수 없습니다! .env 파일을 확인하세요.")
-        return []
+    if not api_key: return []
     url = f"https://api.marketaux.com/v1/news/all?countries=us&filter_entities=true&language=en&limit=10&api_token={api_key}"
     try:
         response = requests.get(url, timeout=20)
@@ -34,21 +32,40 @@ def get_yfinance_chart_data(ticker, days=30, forecast_days=7):
     print(f"--- 📈 '{ticker}' 데이터 예측 시작 ---")
     try:
         today = date.today()
-        start_date = today - timedelta(days=days + 60)
+        # ✨ 이동평균선 계산을 위해 1년치 데이터를 넉넉하게 가져옴
+        start_date = today - timedelta(days=365)
+        
         data = yf.download(ticker, start=start_date, end=today, progress=False, timeout=30)
         if data is None or data.empty:
             print(f"❌ '{ticker}' 데이터 수집 실패.")
             return None
-        hist_data = data['Close'].dropna().astype(float).sort_index().tail(days)
+
+        # ✨ 60일 이동평균선 계산
+        data['MA60'] = data['Close'].rolling(window=60).mean()
+        
+        # 최근 30일 데이터만 선택하여 차트에 표시
+        recent_data = data.tail(days)
+        hist_data = recent_data['Close'].dropna()
+        ma_data = recent_data['MA60'].dropna()
+
         if len(hist_data) < 20:
             print(f"⚠️ '{ticker}' 데이터가 부족하여 예측을 건너뜁니다.")
             return None
+            
         model = ARIMA(hist_data, order=(5,1,0)).fit()
         forecast = model.forecast(steps=forecast_days)
+        
         hist_labels = [d.strftime('%m-%d') for d in hist_data.index]
         forecast_labels = [(today + timedelta(days=i)).strftime('%m-%d') for i in range(1, forecast_days + 1)]
+        
         print(f"✅ '{ticker}' 그래프 예측 완료.")
-        return {"labels": hist_labels + forecast_labels, "historical": np.round(hist_data.values, 2).tolist(), "forecast": [None] * len(hist_data) + np.round(forecast.values, 2).tolist()}
+        return {
+            "labels": hist_labels + forecast_labels,
+            "historical": np.round(hist_data.values, 2).tolist(),
+            "forecast": [None] * len(hist_data) + np.round(forecast.values, 2).tolist(),
+            # ✨ 이동평균선 데이터를 추가
+            "moving_average": np.round(ma_data.values, 2).tolist()
+        }
     except Exception as e:
         print(f"❌ '{ticker}' 차트 데이터 생성 중 오류 발생: {e}")
         return None
@@ -58,7 +75,6 @@ if __name__ == "__main__":
 
     print("--- 📰 뉴스 수집 및 AI 분석 시작 ---")
     marketaux_key = os.getenv("MARKETAUX_API_KEY")
-    
     articles = []
     try:
         articles = get_marketaux_news(marketaux_key)
@@ -66,6 +82,8 @@ if __name__ == "__main__":
         print("최종적으로 Marketaux 뉴스 수집에 실패했습니다.")
 
     print(f"➡️ 총 {len(articles)}개의 최신 뉴스를 수집했습니다.")
+    if not articles:
+        print("⚠️  수집된 뉴스가 없어 AI 분석을 건너뜁니다.")
     
     processed_articles, all_keywords, total_sentiment = [], [], 0.0
     if articles:
@@ -78,16 +96,14 @@ if __name__ == "__main__":
                 processed_articles.append(article)
                 total_sentiment += ai_result.get('sentiment', 0.0)
                 if ai_result.get('keywords'): all_keywords.extend(ai_result['keywords'])
-    else:
-        print("⚠️  수집된 뉴스가 없어 AI 분석을 건너뜁니다.")
     
     market_sentiment_score = total_sentiment / len(processed_articles) if processed_articles else 0.0
     trend_summary = generate_trend_summary_with_ai(all_keywords, market_sentiment_score)
     print("✅ 뉴스 분석 완료.")
     
-    nasdaq_data = get_yfinance_chart_data('^IXIC', days=30)
-    kospi_data = get_yfinance_chart_data('^KS11', days=30)
-    fx_data = get_yfinance_chart_data('USDKRW=X', days=30)
+    nasdaq_data = get_yfinance_chart_data('^IXIC')
+    kospi_data = get_yfinance_chart_data('^KS11')
+    fx_data = get_yfinance_chart_data('USDKRW=X')
     
     final_data = {"articles": processed_articles, "trend_summary": trend_summary, "market_sentiment_score": round(market_sentiment_score, 3), "nasdaq_data": nasdaq_data, "kospi_data": kospi_data, "fx_data": fx_data, "last_updated": date.today().strftime("%Y-%m-%d %H:%M:%S")}
 
