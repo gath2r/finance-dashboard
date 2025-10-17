@@ -1,63 +1,85 @@
 {
     "articles": [
         {
-            "uuid": "b1acfd16-effb-4325-86f0-a84aba45de85",
-            "title": "Meta, Blue Owl seal $30 billion private capital deal for AI",
-            "description": "Meta Platforms Inc. secures $30 billion financing for Louisiana data center, setting record for private capital deal.",
+            "uuid": "801ee0f3-de63-4712-b2a5-c957987c6fe8",
+            "title": "B&Q terminates 30 year logistics tie-up with PJH Group",
+            "description": "B&Q has appointed GXO Logistics to handle its newly acquired distribution hub, ending a 30-year logistics tie-up with PJH Group.",
             "keywords": [
-                "Meta Platforms",
-                "데이터센터",
-                "자금 조달"
+                "B&Q",
+                "GXO Logistics",
+                "Logistics"
             ],
-            "snippet": "Mark Zuckerberg’s Meta Platforms Inc. is set to seal an almost $30 billion financing package for its data center site in rural Louisiana, marking the final st...",
-            "url": "https://www.thehindubusinessline.com/info-tech/meta-blue-owl-seal-30-billion-private-capital-deal-for-ai/article70174139.ece",
-            "image_url": "https://bl-i.thgim.com/public/incoming/24sbfj/article70174303.ece/alternates/LANDSCAPE_1200/2025-10-15T155829Z_638921830_RC2RB7A0SBJA_RTRMADP_3_META-AI-DATACENTER.JPG",
+            "snippet": "B&Q has appointed GXO Logistics to handle its newly acquired distribution hub, ending a 30-year logistics tie-up with PJH Group.\n\nThe DIY chain unveiled the acq...",
+            "url": "https://www.retailgazette.co.uk/blog/2025/10/bq-gxo-distribution-hub/",
+            "image_url": "https://www.retailgazette.co.uk/wp-content/uploads/2025/04/BQ-1.jpg",
             "language": "en",
-            "published_at": "2025-10-17T05:16:05.000000Z",
-            "source": "thehindubusinessline.com",
+            "published_at": "2025-10-17T06:48:11.000000Z",
+            "source": "retailgazette.co.uk",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "META",
-                    "name": "Meta Platforms Inc",
+                    "symbol": "GXO",
+                    "name": "GXO Logistics, Inc.",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-                    "industry": "Communication Services",
-                    "match_score": 12.501138,
-                    "sentiment_score": 0,
+                    "industry": "N/A",
+                    "match_score": 42.837814,
+                    "sentiment_score": 0.4209,
                     "highlights": [
                         {
-                            "highlight": "Mark Zuckerberg’s <em>Meta</em> <em>Pl[+197 characters]",
+                            "highlight": "B&Q has appointed <em>GXO</em> <em>Logis[+106 characters]",
                             "sentiment": 0,
-                            "highlighted_in": "main_text"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "OWL",
-                    "name": "Blue Owl Capital Inc.",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 66.02476,
-                    "sentiment_score": 0.199233,
-                    "highlights": [
-                        {
-                            "highlight": "<em>Blue</em> <em>Owl</em> <em>Capital</[+215 characters]",
-                            "sentiment": 0.0258,
                             "highlighted_in": "main_text"
                         },
                         {
-                            "highlight": "Pacific Investment Management Co. and Bl[+144 characters]",
+                            "highlight": "<em>GXO</em> won the contract to run the[+265 characters]",
                             "sentiment": 0.5719,
                             "highlighted_in": "main_text"
                         },
                         {
-                            "highlight": "Meta, Blue <em>Owl</em> seal $30 billion private capital deal for AI",
+                            "highlight": "“Our new distribution site is well loc[+213 characters]",
+                            "sentiment": 0.6908,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                }
+            ],
+            "similar": [],
+            "summary": "B&Q는 새로 인수한 유통 허브의 물류 관리를 위해 GXO 로지스틱스를 선정했습니다. 이번 결정은 B&Q의 물류 운영에 있어 중요한 변화를 가져옵니다. 이로써 B&Q와 PJH 그룹 간의 30년간 이어져 온 물류 제휴는 막을 내리게 됩니다.",
+            "sentiment": 0.3
+        },
+        {
+            "uuid": "79eb398d-e9b7-4319-8482-da70931e60d0",
+            "title": "Veeva Systems Inc. (VEEV) Analyst/Investor Day Transcript",
+            "description": "Veeva Systems Inc. (NYSE:VEEV) Analyst/Investor Day October 16, 2025 4:30 PM EDTCompany ParticipantsGunnar Hansen - Director of Investor RelationsPeter...",
+            "keywords": [
+                "Veeva Systems",
+                "Analyst/Investor Day",
+                "VEEV"
+            ],
+            "snippet": "Presentation\n\nGunnar Hansen\n\nDirector of Investor Relations\n\nThank you for joining us on the webcast today for our 2025 Investor Day. I'm Gunnar Hansen, Head of...",
+            "url": "https://seekingalpha.com/article/4830609-veeva-systems-inc-veev-analyst-investor-day-transcript",
+            "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+            "language": "en",
+            "published_at": "2025-10-17T06:46:37.000000Z",
+            "source": "seekingalpha.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "VEEV",
+                    "name": "Veeva Systems Inc.",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Healthcare",
+                    "match_score": 145.9845,
+                    "sentiment_score": 0,
+                    "highlights": [
+                        {
+                            "highlight": "<em>Veeva</em> <em>Systems</em> <em>Inc</em>. (VEEV) Analyst/Investor Day Transcript",
                             "sentiment": 0,
                             "highlighted_in": "title"
                         }
@@ -65,85 +87,22 @@
                 }
             ],
             "similar": [],
-            "summary": "메타 플랫폼스(Meta Platforms Inc.)가 루이지애나 데이터센터 건설을 위해 300억 달러의 자금을 확보했습니다. 확보된 자금의 규모는 300억 달러에 달합니다. 이는 사모 자본 거래에서 역대 최고 기록을 세운 것입니다.",
-            "sentiment": 0.95
-        },
-        {
-            "uuid": "9714b23b-5f05-4ae7-aa5d-3cebc62c1ff4",
-            "title": "Global Markets Jitter as European Futures Slide, Treasury Yields Hit One-Year Low",
-            "description": "Global financial markets are showing signs of stress as European equity futures registered significant declines in early trading. The EuroStoxx 50 slid 0.9%,",
-            "keywords": [
-                "Global financial markets",
-                "European equity futures",
-                "EuroStoxx 50"
-            ],
-            "snippet": "Key Takeaways\n\nEuropean futures opened lower, with the EuroStoxx 50 down 0.9% , the DAX falling 1.2% , and the FTSE declining 1.0% , reflecting a broad cautious...",
-            "url": "https://stockmarketwatch.com/stock-market-news/global-markets-jitter-as-european-futures-slide-treasury-yields-hit-one-year-low/54667/",
-            "image_url": "https://stockmarketwatch.com/stock-market-news/wp-content/uploads/2025/07/breaking-news.webp",
-            "language": "en",
-            "published_at": "2025-10-17T05:08:23.000000Z",
-            "source": "thestockmarketwatch.com",
-            "relevance_score": null,
-            "entities": [
-                {
-                    "symbol": "GOOG",
-                    "name": "Alphabet Inc.",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Communication Services",
-                    "match_score": 10.058343,
-                    "sentiment_score": 0.2732,
-                    "highlights": [
-                        {
-                            "highlight": "Meanwhile, tech giant Google (parent com[+270 characters]",
-                            "sentiment": 0.2732,
-                            "highlighted_in": "main_text"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "GOOGL",
-                    "name": "Alphabet Inc.",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Communication Services",
-                    "match_score": 27.133244,
-                    "sentiment_score": 0.5741,
-                    "highlights": [
-                        {
-                            "highlight": "Google's (<em>GOOGL</em>) push to expand[+255 characters]",
-                            "sentiment": 0.875,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "Meanwhile, tech giant Google (parent com[+279 characters]",
-                            "sentiment": 0.2732,
-                            "highlighted_in": "main_text"
-                        }
-                    ]
-                }
-            ],
-            "similar": [],
-            "summary": "글로벌 금융 시장이 스트레스 징후를 보이며 불안정한 모습을 나타내고 있습니다. 유럽 주식 선물은 초기 거래에서 상당한 하락세를 기록했습니다. 특히 유로스톡스 50 지수는 0.9% 하락했습니다.",
-            "sentiment": -0.8
+            "summary": "Veeva Systems는 2025년 10월 16일 애널리스트/투자자의 날을 개최할 예정입니다. 이 행사는 동부 표준시 오후 4시 30분에 시작되며, 투자자 관계 담당 이사인 Gunnar Hansen 등이 참여합니다. 현재 기사에는 행사 일정과 주요 참여자 정보만 제공되어 있습니다.",
+            "sentiment": 0.0
         }
     ],
     "trend_summary": {
-        "title": "메타의 데이터센터 투자 및 자금 조달 속, 글로벌 시장은 미미한 긍정적 기류 형성",
-        "summary": "Meta Platforms의 데이터센터 투자 확대 및 관련 자금 조달 움직임이 글로벌 금융 시장에 미치는 영향에 대한 관심이 증대되고 있습니다. 현재 시장은 European equity futures의 소폭 상승과 함께 전반적으로 0.075의 미미한 긍정적 심리 점수를 보이며, 이는 특정 기업의 성장 동력에 대한 기대감이 조심스럽게 반영된 결과로 해석됩니다. 투자자들은 이러한 개별 기업의 동향이 전체 시장에 미치는 파급 효과를 주시하며, 여전히 신중한 접근을 유지하는 것이 바람직합니다.",
+        "title": "물류 산업 동향과 주요 기업 이벤트, 시장의 조심스러운 기대감 유발",
+        "summary": "GXO Logistics와 B&Q 사례로 대표되는 물류 산업은 효율성 증대 및 전략적 조정에 대한 지속적인 노력을 보여주고 있습니다. 한편, Veeva Systems 등 주요 기업들의 애널리스트/투자자의 날 행사는 향후 성장 전략과 비전을 제시하며 투자자들의 관심을 모으고 있습니다. 전반적인 시장 심리는 0.150으로 측정되어 긍정적인 신호가 감지되나, 이는 여전히 신중한 접근과 면밀한 기업별 성과 분석이 필요함을 시사합니다.",
         "keywords": [
-            "Meta Platforms",
-            "데이터센터",
-            "자금 조달",
-            "Global financial markets",
-            "European equity futures"
+            "B&Q",
+            "GXO Logistics",
+            "Logistics",
+            "Veeva Systems",
+            "Analyst/Investor Day"
         ]
     },
-    "market_sentiment_score": 0.075,
+    "market_sentiment_score": 0.15,
     "nasdaq_data": {
         "labels": [
             "09-17",
