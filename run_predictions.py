@@ -1,4 +1,4 @@
-# run_predictions.py (데이터 형식 수정 및 3일 예측 기능 추가 최종본)
+# run_predictions.py (Alpha Vantage + 3일 예측 최종 완성본)
 
 import os
 import json
@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 from statsmodels.tsa.arima.model import ARIMA
+from alpha_vantage.timeseries import TimeSeries
 from tenacity import retry, stop_after_attempt, wait_fixed
 from dotenv import load_dotenv
 from ai_analyzer import analyze_article_with_ai, generate_trend_summary_with_ai
@@ -27,38 +28,43 @@ def get_marketaux_news(api_key):
         print(f"❌ Marketaux API 호출 중 오류 발생: {e}")
         raise e
 
-@retry(stop=stop_after_attempt(3), wait=wait_fixed(5))
-def get_yfinance_chart_data(ticker, days=30, forecast_days=3):
-    """지난 30일 데이터와 3일 예측 데이터를 생성합니다."""
-    print(f"--- 📈 '{ticker}' 데이터 예측 시작 ---")
+def get_chart_data(api_key, ticker, source='alpha_vantage', days=30, forecast_days=3):
+    """금융 데이터를 가져와 분석 및 예측합니다."""
+    print(f"--- 📈 '{ticker}' 데이터 예측 시작 (Source: {source}) ---")
     try:
         today = date.today()
-        start_date = today - timedelta(days=days + 60)
-        
-        data = yf.download(ticker, start=start_date, end=today, progress=False, timeout=30)
-        if data is None or data.empty:
-            print(f"❌ '{ticker}' 데이터 수집 실패.")
-            return None
-        
-        # Series 형태로 데이터를 유지하여 .values가 1D array를 반환하도록 함
-        full_hist_data = data['Close'].dropna().astype(float)
-        hist_data_for_chart = full_hist_data.tail(days)
+        hist_data = None
 
-        if len(hist_data_for_chart) < 20:
+        if source == 'alpha_vantage':
+            ts = TimeSeries(key=api_key, output_format='pandas')
+            data, _ = ts.get_daily(symbol=ticker, outputsize='compact')
+            if data is None or data.empty:
+                print(f"❌ Alpha Vantage에서 '{ticker}' 데이터 수집 실패.")
+                return None
+            hist_data = data['4. close'].dropna().astype(float).sort_index().tail(days)
+        else: # yfinance
+            start_date = today - timedelta(days=days + 60)
+            data = yf.download(ticker, start=start_date, end=today, progress=False, timeout=30)
+            if data is None or data.empty:
+                print(f"❌ yfinance에서 '{ticker}' 데이터 수집 실패.")
+                return None
+            hist_data = data['Close'].dropna().astype(float).sort_index().tail(days)
+
+        if len(hist_data) < 20:
             print(f"⚠️ '{ticker}' 데이터가 부족하여 예측을 건너뜁니다.")
             return None
             
-        model = ARIMA(hist_data_for_chart, order=(5,1,0)).fit()
+        model = ARIMA(hist_data, order=(5,1,0)).fit()
         forecast = model.forecast(steps=forecast_days)
         
-        hist_labels = [d.strftime('%m-%d') for d in hist_data_for_chart.index]
+        hist_labels = [d.strftime('%m-%d') for d in hist_data.index]
         forecast_labels = [(today + timedelta(days=i)).strftime('%m-%d') for i in range(1, forecast_days + 1)]
         
         print(f"✅ '{ticker}' 그래프 예측 완료.")
         return {
             "labels": hist_labels + forecast_labels,
-            "historical": np.round(hist_data_for_chart.values, 2).tolist(), # 올바른 1차원 배열
-            "forecast": [None] * len(hist_data_for_chart) + np.round(forecast.values, 2).tolist()
+            "historical": np.round(hist_data.values, 2).tolist(),
+            "forecast": [None] * len(hist_data) + np.round(forecast.values, 2).tolist()
         }
     except Exception as e:
         print(f"❌ '{ticker}' 차트 데이터 생성 중 오류 발생: {e}")
@@ -70,10 +76,8 @@ if __name__ == "__main__":
     print("--- 📰 뉴스 수집 및 AI 분석 시작 ---")
     marketaux_key = os.getenv("MARKETAUX_API_KEY")
     articles = []
-    try:
-        articles = get_marketaux_news(marketaux_key)
-    except Exception:
-        print("최종적으로 Marketaux 뉴스 수집에 실패했습니다.")
+    try: articles = get_marketaux_news(marketaux_key)
+    except Exception: print("최종적으로 Marketaux 뉴스 수집에 실패했습니다.")
 
     print(f"➡️ 총 {len(articles)}개의 최신 뉴스를 수집했습니다.")
     if not articles: print("⚠️  수집된 뉴스가 없어 AI 분석을 건너뜁니다.")
@@ -94,9 +98,10 @@ if __name__ == "__main__":
     trend_summary = generate_trend_summary_with_ai(all_keywords, market_sentiment_score)
     print("✅ 뉴스 분석 완료.")
     
-    nasdaq_data = get_yfinance_chart_data('^IXIC')
-    kospi_data = get_yfinance_chart_data('^KS11')
-    fx_data = get_yfinance_chart_data('USDKRW=X')
+    av_key = os.getenv("ALPHA_VANTAGE_API_KEY")
+    nasdaq_data = get_chart_data(av_key, ticker='QQQ', source='alpha_vantage')
+    kospi_data = get_chart_data(av_key, ticker='^KS11', source='yfinance') # 코스피는 yfinance 사용
+    fx_data = get_chart_data(av_key, ticker='USDKRW', source='alpha_vantage')
     
     final_data = {"articles": processed_articles, "trend_summary": trend_summary, "market_sentiment_score": round(market_sentiment_score, 3), "nasdaq_data": nasdaq_data, "kospi_data": kospi_data, "fx_data": fx_data, "last_updated": date.today().strftime("%Y-%m-%d %H:%M:%S")}
 
