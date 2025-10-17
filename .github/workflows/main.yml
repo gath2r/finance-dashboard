@@ -1,11 +1,14 @@
-# .github/workflows/main.yml (최종 수정본)
+# .github/workflows/main.yml (하루 2회 업데이트 최종본)
 
 name: Daily Data Prediction
 
 on:
-  # 매일 한국 시간 오전 8시 30분 (UTC 23:30)에 자동으로 실행
+  # 매일 두 번, 지정된 시간에 자동으로 실행
   schedule:
+    # 1. 한국 시간 오전 8시 30분 (UTC 23:30)
     - cron: '30 23 * * *'
+    # 2. 한국 시간 밤 10시 30분 (UTC 13:30)
+    - cron: '30 13 * * *'
   # GitHub에서 수동으로 실행할 수도 있도록 workflow_dispatch 추가
   workflow_dispatch:
 
