@@ -1,303 +1,98 @@
 {
     "articles": [
         {
-            "uuid": "7f62e3d8-fabe-4844-a083-15ac7b3269fd",
-            "title": "DPG CEF: Solid Infrastructure Fund But Underperforms Peers (NYSE:DPG)",
-            "description": "Duff & Phelps Utility & Infrastructure Fund underperforms peers like UTF and DNP. Compare its yield, risk, and alternatives and see if DPG CEF is right for you.",
+            "uuid": "b407e7e2-e7c3-4942-9672-9c3a916da9a8",
+            "title": "Airbnb Stock: Q3 2025 Performance May Disappoint As Growth Normalizes (NASDAQ:ABNB)",
+            "description": "Get insights on Airbnb's (ABNB) upcoming Q3'25 earnings, mixed travel demand, and investment outlook. Learn what to watch before the November 6 call.",
             "keywords": [
-                "DPG CEF",
-                "Underperformance",
-                "Fund Analysis"
+                "Airbnb",
+                "Earnings",
+                "Travel Demand"
             ],
-            "snippet": "Duff & Phelps Utility and Infrastructure Fund (NYSE: DPG ) is structured as a closed end fund that aims to provide exposure to the essential services throughout...",
-            "url": "https://seekingalpha.com/article/4830634-dpg-solid-infrastructure-fund-but-underperforms-peers",
-            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2206745145/image_2206745145.jpg?io=getty-c-w1536",
+            "snippet": "I am a full-time analyst interested in a wide range of stocks. With my unique insights and knowledge, I hope to provide other investors with a contrasting view ...",
+            "url": "https://seekingalpha.com/article/4830641-airbnb-fq325-performance-may-disappoint-as-growth-normalizes",
+            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2191725662/image_2191725662.jpg?io=getty-c-w1536",
             "language": "en",
-            "published_at": "2025-10-17T03:11:00.000000Z",
+            "published_at": "2025-10-17T04:20:00.000000Z",
             "source": "seekingalpha.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "DPG",
-                    "name": "Duff & Phelps Utility and Infrastructure Fund Inc.",
+                    "symbol": "ABNB",
+                    "name": "Airbnb, Inc.",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 111.1054,
-                    "sentiment_score": 0.07655,
+                    "industry": "Communication Services",
+                    "match_score": 65.16946,
+                    "sentiment_score": -0.0258,
                     "highlights": [
                         {
-                            "highlight": "<em>Duff</em> & <em>Phelps</em> <em>Util[+241 characters]",
-                            "sentiment": 0,
-                            "highlighted_in": "main_text"
-                        },
-                        {
-                            "highlight": "DPG CEF: Solid Infrastructure Fund But Underperforms Peers (<em>NYSE:DPG</em>)",
-                            "sentiment": 0.1531,
+                            "highlight": "<em>Airbnb</em> Stock: Q3 2025 Performance May Disappoint As Growth Normalizes (<em>NASDAQ:ABNB</em>)",
+                            "sentiment": -0.0258,
                             "highlighted_in": "title"
                         }
                     ]
                 }
             ],
             "similar": [],
-            "summary": "Duff & Phelps Utility & Infrastructure Fund(DPG CEF)는 UTF, DNP 등 동종 펀드 대비 저조한 성과를 보이고 있습니다. 이 기사는 DPG CEF의 수익률, 위험성 및 대안을 비교하여 투자 적합성을 판단할 것을 제안합니다. 투자자들은 DPG CEF가 자신에게 적합한지 신중하게 고려해야 합니다.",
-            "sentiment": -0.7
+            "summary": "에어비앤비(ABNB)의 다가오는 3분기 실적 발표에 대한 통찰을 제공합니다. 혼재된 여행 수요와 투자 전망에 대한 분석을 포함하며, 11월 6일 컨퍼런스 콜 전에 주목해야 할 사항들을 다룹니다. 이 기사는 투자자들이 실적 발표를 앞두고 무엇을 준비해야 할지 알려줍니다.",
+            "sentiment": 0.0
         },
         {
-            "uuid": "a307edf5-9898-4399-bb5d-6a48749aa090",
-            "title": "Asian Markets Track Wall Street Lower",
-            "description": "Asian stock markets are mostly lower on Friday, following the broadly negative cues from Wall Street overnight, amid the escalating trade tensions between the U.",
+            "uuid": "c8ae0352-bffd-4911-972e-3ad9fa2651dd",
+            "title": "[2310.09903] Integrating feature selection and regression methods with technical indicators for predicting Apple Inc. stock prices",
+            "description": "Abstract page for arXiv paper 2310.09903: Integrating feature selection and regression methods with technical indicators for predicting Apple Inc. stock prices",
             "keywords": [
-                "Asian stock markets",
-                "Trade tensions",
-                "Wall Street"
+                "Apple Inc.",
+                "주가 예측",
+                "기술적 지표"
             ],
-            "snippet": "Asian stock are trading mostly lower on Friday, following the broadly negative cues from Wall Street overnight, amid the escalating trade tensions between the U...",
-            "url": "https://www.rttnews.com/3583014/asian-markets-track-wall-street-lower.aspx?type=ts",
-            "image_url": "https://cdn.rttnews.com/articleimages/ustopstories/2025/october/asianupv2-16102025-lt.jpg",
+            "snippet": "",
+            "url": "https://arxiv.org/abs/2310.09903",
+            "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
             "language": "en",
-            "published_at": "2025-10-17T03:01:48.000000Z",
-            "source": "rttnews.com",
+            "published_at": "2025-10-17T04:00:00.000000Z",
+            "source": "arxiv.org",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "BHP",
-                    "name": "BHP Group",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Basic Materials",
-                    "match_score": 14.169622,
-                    "sentiment_score": -0.4939,
-                    "highlights": [
-                        {
-                            "highlight": "Among major miners, Mineral Resources is[+309 characters]",
-                            "sentiment": -0.4939,
-                            "highlighted_in": "main_text"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "BBL",
-                    "name": "BHP Group",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Basic Materials",
-                    "match_score": 14.169622,
-                    "sentiment_score": -0.4939,
-                    "highlights": [
-                        {
-                            "highlight": "Among major miners, Mineral Resources is[+309 characters]",
-                            "sentiment": -0.4939,
-                            "highlighted_in": "main_text"
-                        }
-                    ]
-                },
-                {
-                    "symbol": "SONY",
-                    "name": "Sony Group Corporation",
+                    "symbol": "AAPL",
+                    "name": "Apple Inc.",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
                     "industry": "Technology",
-                    "match_score": 8.711906,
-                    "sentiment_score": -0.7184,
+                    "match_score": 44.409164,
+                    "sentiment_score": 0,
                     "highlights": [
                         {
-                            "highlight": "Among the major exporters, <em>Sony</em>[+188 characters]",
-                            "sentiment": -0.7184,
-                            "highlighted_in": "main_text"
-                        }
-                    ]
-                }
-            ],
-            "similar": [
-                {
-                    "uuid": "afeb33d4-04ee-4304-9ff5-995ce241f4ac",
-                    "title": "Bank stocks see 'bloodbath' amid fraud-linked credit fears",
-                    "description": "Zions Bancorp. is among the latest banks to report material losses due to alleged borrower fraud. Stocks of regional lenders plunged on Thursday.",
-                    "keywords": "Bank stocks, Fraud, Credit quality",
-                    "snippet": "Key insight: Regional bank stocks were punished in the markets on Thursday as investors got skittish over credit quality.\n\nRegional bank stocks were punished in...",
-                    "url": "https://www.americanbanker.com/news/bank-stocks-see-bloodbath-amid-fraud-linked-credit-fears",
-                    "image_url": "https://arizent.brightspotcdn.com/dims4/default/0d58580/2147483647/strip/true/crop/4000x2100+0+260/resize/1200x630!/quality/90/?url=https%3A%2F%2Fsource-media-brightspot.s3.us-east-1.amazonaws.com%2F9a%2F74%2F302225df43a3a5360f2d409db51c%2Fp1-wall.jpg",
-                    "language": "en",
-                    "published_at": "2025-10-16T20:44:48.000000Z",
-                    "source": "americanbanker.com",
-                    "relevance_score": null,
-                    "entities": [
-                        {
-                            "symbol": "FITB",
-                            "name": "Fifth Third Bancorp",
-                            "exchange": null,
-                            "exchange_long": null,
-                            "country": "us",
-                            "type": "equity",
-                            "industry": "Financial Services",
-                            "match_score": 36.550297,
-                            "sentiment_score": 0.1779,
-                            "highlights": [
-                                {
-                                    "highlight": "JPMorganChase, <em>Fifth</em> <em>Third<[+285 characters]",
-                                    "sentiment": 0.1779,
-                                    "highlighted_in": "main_text"
-                                }
-                            ]
-                        },
-                        {
-                            "symbol": "OBNK",
-                            "name": "Origin Bancorp, Inc.",
-                            "exchange": null,
-                            "exchange_long": null,
-                            "country": "us",
-                            "type": "equity",
-                            "industry": "Financial Services",
-                            "match_score": 19.518766,
-                            "sentiment_score": 0.1779,
-                            "highlights": [
-                                {
-                                    "highlight": "JPMorganChase, Fifth Third Bancorp and e[+276 characters]",
-                                    "sentiment": 0.1779,
-                                    "highlighted_in": "main_text"
-                                }
-                            ]
-                        },
-                        {
-                            "symbol": "FITBI",
-                            "name": "Fifth Third Bancorp",
-                            "exchange": null,
-                            "exchange_long": null,
-                            "country": "us",
-                            "type": "equity",
-                            "industry": "Financial Services",
-                            "match_score": 36.550297,
-                            "sentiment_score": 0.1779,
-                            "highlights": [
-                                {
-                                    "highlight": "JPMorganChase, <em>Fifth</em> <em>Third<[+285 characters]",
-                                    "sentiment": 0.1779,
-                                    "highlighted_in": "main_text"
-                                }
-                            ]
-                        },
-                        {
-                            "symbol": "FITBO",
-                            "name": "Fifth Third Bancorp",
-                            "exchange": null,
-                            "exchange_long": null,
-                            "country": "us",
-                            "type": "equity",
-                            "industry": "Financial Services",
-                            "match_score": 36.550297,
-                            "sentiment_score": 0.1779,
-                            "highlights": [
-                                {
-                                    "highlight": "JPMorganChase, <em>Fifth</em> <em>Third<[+285 characters]",
-                                    "sentiment": 0.1779,
-                                    "highlighted_in": "main_text"
-                                }
-                            ]
-                        },
-                        {
-                            "symbol": "FITBP",
-                            "name": "Fifth Third Bancorp",
-                            "exchange": null,
-                            "exchange_long": null,
-                            "country": "us",
-                            "type": "equity",
-                            "industry": "Financial Services",
-                            "match_score": 36.550297,
-                            "sentiment_score": 0.1779,
-                            "highlights": [
-                                {
-                                    "highlight": "JPMorganChase, <em>Fifth</em> <em>Third<[+285 characters]",
-                                    "sentiment": 0.1779,
-                                    "highlighted_in": "main_text"
-                                }
-                            ]
-                        },
-                        {
-                            "symbol": "0IM1.L",
-                            "name": "Fifth Third Bancorp",
-                            "exchange": null,
-                            "exchange_long": null,
-                            "country": "gb",
-                            "type": "equity",
-                            "industry": "N/A",
-                            "match_score": 30.286388,
-                            "sentiment_score": 0.1779,
-                            "highlights": [
-                                {
-                                    "highlight": "JPMorganChase, <em>Fifth</em> <em>Third<[+285 characters]",
-                                    "sentiment": 0.1779,
-                                    "highlighted_in": "main_text"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "summary": "아시아 증시는 금요일에 대부분 하락세를 보였습니다. 이는 전날 밤 월스트리트의 전반적인 부정적 신호에 영향을 받은 것입니다. 미국 간의 무역 긴장 고조 또한 이러한 하락세의 주요 원인으로 작용했습니다.",
-            "sentiment": -0.8
-        },
-        {
-            "uuid": "a22e4622-2174-4edb-a99b-5e25de1be871",
-            "title": "Bunge Global SA (BG) Discusses New Segmentation Structure and Integration Progress Following Viterra Combination - Slideshow (NYSE:BG) 2025-10-16",
-            "description": "2025-10-16. The following slide deck was published by Bunge Global SA in conjunction with this event.",
-            "keywords": [
-                "Bunge Global SA",
-                "Slide deck",
-                "Event"
-            ],
-            "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
-            "url": "https://seekingalpha.com/article/4830640-bunge-global-sa-bg-discusses-new-segmentation-structure-and-integration-progress-following",
-            "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
-            "language": "en",
-            "published_at": "2025-10-17T02:56:50.000000Z",
-            "source": "seekingalpha.com",
-            "relevance_score": null,
-            "entities": [
-                {
-                    "symbol": "BG",
-                    "name": "Bunge Limited",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Consumer Defensive",
-                    "match_score": 60.085293,
-                    "sentiment_score": 0.4215,
-                    "highlights": [
-                        {
-                            "highlight": "<em>Bunge</em> Global SA (BG) Discusses New Segmentation Structure and Integration Progress Following Viterra Combination - Slideshow (<em>NYSE:BG</em>) 2025-10-16",
-                            "sentiment": 0.4215,
+                            "highlight": "[2310.09903] Integrating feature selection and regression methods with technical indicators for predicting <em>Apple</em> <em>Inc</em>. stock prices",
+                            "sentiment": 0,
                             "highlighted_in": "title"
                         }
                     ]
                 }
             ],
             "similar": [],
-            "summary": "2025년 10월 16일, Bunge Global SA가 발표 자료를 공개했습니다. 이 슬라이드 덱은 특정 행사와 관련하여 발행되었습니다. 해당 뉴스는 Bunge Global SA의 자료 공개 사실을 전달합니다.",
+            "summary": "이 논문은 Apple Inc. 주가 예측을 위한 연구를 다룹니다. 특징 선택 및 회귀 분석 방법을 기술적 지표와 통합하여 활용합니다. 궁극적으로 주가 예측 모델의 성능 향상을 목표로 합니다.",
             "sentiment": 0.0
         }
     ],
     "trend_summary": {
-        "title": "무역 긴장 고조 속 아시아 증시, DPG CEF 성과 부진에 대한 신중한 접근 필요",
-        "summary": "현재 -0.500의 시장 심리 점수가 반영하듯, 고조되는 무역 긴장 속 아시아 증시는 전반적으로 압박을 받고 있으며, 특히 DPG CEF는 기대 이하의 성과를 보이고 있습니다. 이는 단순한 시장 변동성을 넘어선 구조적 요인일 수 있으므로, 투자자들은 해당 펀드에 대한 면밀한 분석과 함께 신중한 포트폴리오 조정 전략을 고려할 것을 권고합니다.",
+        "title": "에어비앤비 실적과 애플 주가 전망, 시장의 복합적 신호",
+        "summary": "에어비앤비의 견조한 실적은 여행 수요의 지속적인 강세를 시사하며, 이는 관련 섹터에 긍정적인 영향을 미칠 수 있습니다. 그러나 애플 Inc.의 향후 실적 및 주가 예측은 기술 섹터 전반의 투자 심리에 중요한 변수로 작용할 것입니다. 현재 시장 심리가 중립적인 만큼, 투자자께서는 개별 기업의 펀더멘털과 거시 경제 지표를 종합적으로 고려하여 신중한 접근을 권해드립니다.",
         "keywords": [
-            "DPG CEF",
-            "Underperformance",
-            "Fund Analysis",
-            "Asian stock markets",
-            "Trade tensions"
+            "Airbnb",
+            "Earnings",
+            "Travel Demand",
+            "Apple Inc.",
+            "주가 예측"
         ]
     },
-    "market_sentiment_score": -0.5,
+    "market_sentiment_score": 0.0,
     "nasdaq_data": {
         "labels": [
             "09-05",
