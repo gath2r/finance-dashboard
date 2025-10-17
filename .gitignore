@@ -10,3 +10,4 @@ __pycache__/
 # 데이터베이스 파일 무시
 database.db
 *.pkl
+data/daily_data.json
