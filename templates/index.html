@@ -57,17 +57,17 @@
 
     <div class="charts-grid">
         <div class="chart-container">
-            <h3>나스닥 지수 및 7일 예측</h3>
+            <h3>나스닥 종합지수 (지난 30일)</h3>
             <canvas id="nasdaqChart"></canvas>
             <div class="loader" id="nasdaqLoader"></div>
         </div>
         <div class="chart-container">
-            <h3>코스피 지수 및 7일 예측</h3>
+            <h3>코스피 (지난 30일)</h3>
             <canvas id="kospiChart"></canvas>
             <div class="loader" id="kospiLoader"></div>
         </div>
         <div class="chart-container">
-            <h3>USD/KRW 환율 및 7일 예측</h3>
+            <h3>USD/KRW 환율 (지난 30일)</h3>
             <canvas id="fxChart"></canvas>
             <div class="loader" id="fxLoader"></div>
         </div>
@@ -125,26 +125,16 @@
                 data: {
                     labels: chartData.labels,
                     datasets: [{
-                        label: '과거 데이터',
+                        label: '지수',
                         data: chartData.historical,
-                        borderColor: 'rgba(54, 162, 235, 1)',
-                        borderWidth: 2, pointRadius: 1.5, fill: false, tension: 0.1
-                    }, {
-                        label: 'AI 예측',
-                        data: chartData.forecast,
-                        borderColor: 'rgba(255, 99, 132, 1)',
-                        borderWidth: 2, pointRadius: 2.5, borderDash: [5, 5], fill: false, tension: 0.1
-                    }, {
-                        // ✨ 이동평균선(60일)을 녹색 점선으로 추가
-                        label: '60일 이동평균',
-                        data: chartData.moving_average,
-                        borderColor: 'rgba(40, 167, 69, 0.8)',
-                        borderWidth: 1.5,
-                        pointRadius: 0, // 점은 표시하지 않음
-                        borderDash: [3, 3],
-                        fill: false,
-                        tension: 0.2
-                    }]
+                        // ✨ 이미지와 유사한 붉은색 계열로 변경
+                        borderColor: 'rgba(215, 58, 73, 1)',
+                        backgroundColor: 'rgba(215, 58, 73, 0.1)',
+                        borderWidth: 2,
+                        pointRadius: 1.5,
+                        fill: true, // ✨ 라인 아래 영역을 채워 더 풍부한 느낌을 줌
+                        tension: 0.1
+                    }] // ✨ AI 예측과 이동평균선 데이터셋 삭제
                 },
                 options: {
                     responsive: true,
@@ -153,7 +143,11 @@
                         y: { beginAtZero: false, ticks: { font: { size: 10 } } },
                         x: { ticks: { font: { size: 10 }, maxRotation: 45, minRotation: 45 } }
                     },
-                    plugins: { legend: { position: 'top' } }
+                    plugins: { 
+                        legend: { 
+                            display: false // ✨ 범례를 숨겨서 차트를 더 깔끔하게 만듦
+                        } 
+                    }
                 }
             });
         }
