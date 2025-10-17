@@ -1,85 +1,45 @@
 {
     "articles": [
         {
-            "uuid": "801ee0f3-de63-4712-b2a5-c957987c6fe8",
-            "title": "B&Q terminates 30 year logistics tie-up with PJH Group",
-            "description": "B&Q has appointed GXO Logistics to handle its newly acquired distribution hub, ending a 30-year logistics tie-up with PJH Group.",
+            "uuid": "3ca29610-468d-4787-8283-c77de5f4980d",
+            "title": "Fifth Third Bancorp Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - Fifth Third Bancorp (NASDAQ:FITB), Comerica (NYSE:CMA)",
+            "description": "",
             "keywords": [
-                "B&Q",
-                "GXO Logistics",
-                "Logistics"
+                "Fifth Third Bancorp",
+                "Earnings",
+                "Third Quarter"
             ],
-            "snippet": "B&Q has appointed GXO Logistics to handle its newly acquired distribution hub, ending a 30-year logistics tie-up with PJH Group.\n\nThe DIY chain unveiled the acq...",
-            "url": "https://www.retailgazette.co.uk/blog/2025/10/bq-gxo-distribution-hub/",
-            "image_url": "https://www.retailgazette.co.uk/wp-content/uploads/2025/04/BQ-1.jpg",
+            "snippet": "Fifth Third Bancorp (NASDAQ:FITB) will release earnings results for the third quarter, before the opening bell on Friday, Oct. 17.\n\nAnalysts expect the Cincinna...",
+            "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/25/10/48269053/fifth-third-bancorp-earnings-are-imminent-these-most-accurate-analysts-revise-",
+            "image_url": "https://cdn.benzinga.com/files/images/story/2025/10/17/Fifth-Third-Bancorp.jpeg?width=1200&height=800&fit=crop",
             "language": "en",
-            "published_at": "2025-10-17T06:48:11.000000Z",
-            "source": "retailgazette.co.uk",
+            "published_at": "2025-10-17T07:34:08.000000Z",
+            "source": "benzinga.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "GXO",
-                    "name": "GXO Logistics, Inc.",
+                    "symbol": "FITB",
+                    "name": "Fifth Third Bancorp",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-                    "industry": "N/A",
-                    "match_score": 42.837814,
-                    "sentiment_score": 0.4209,
+                    "industry": "Financial Services",
+                    "match_score": 189.63457,
+                    "sentiment_score": 0.312467,
                     "highlights": [
                         {
-                            "highlight": "B&Q has appointed <em>GXO</em> <em>Logis[+106 characters]",
-                            "sentiment": 0,
+                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancor[+281 characters]",
+                            "sentiment": 0.2023,
                             "highlighted_in": "main_text"
                         },
                         {
-                            "highlight": "<em>GXO</em> won the contract to run the[+265 characters]",
-                            "sentiment": 0.5719,
+                            "highlight": "On Oct. 6, <em>Fifth</em> <em>Third</em>[+303 characters]",
+                            "sentiment": 0.7351,
                             "highlighted_in": "main_text"
                         },
                         {
-                            "highlight": "“Our new distribution site is well loc[+213 characters]",
-                            "sentiment": 0.6908,
-                            "highlighted_in": "main_text"
-                        }
-                    ]
-                }
-            ],
-            "similar": [],
-            "summary": "B&Q는 새로 인수한 유통 허브 운영을 위해 GXO Logistics를 선정했습니다. 이로써 B&Q는 PJH Group과의 30년간 이어져 온 물류 협력 관계를 종료하게 되었습니다. GXO Logistics가 B&Q의 새로운 물류 파트너로서 해당 허브의 물류를 전담할 예정입니다.",
-            "sentiment": 0.2
-        },
-        {
-            "uuid": "79eb398d-e9b7-4319-8482-da70931e60d0",
-            "title": "Veeva Systems Inc. (VEEV) Analyst/Investor Day Transcript",
-            "description": "Veeva Systems Inc. (NYSE:VEEV) Analyst/Investor Day October 16, 2025 4:30 PM EDTCompany ParticipantsGunnar Hansen - Director of Investor RelationsPeter...",
-            "keywords": [
-                "Veeva Systems",
-                "Analyst/Investor Day",
-                "VEEV"
-            ],
-            "snippet": "Presentation\n\nGunnar Hansen\n\nDirector of Investor Relations\n\nThank you for joining us on the webcast today for our 2025 Investor Day. I'm Gunnar Hansen, Head of...",
-            "url": "https://seekingalpha.com/article/4830609-veeva-systems-inc-veev-analyst-investor-day-transcript",
-            "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
-            "language": "en",
-            "published_at": "2025-10-17T06:46:37.000000Z",
-            "source": "seekingalpha.com",
-            "relevance_score": null,
-            "entities": [
-                {
-                    "symbol": "VEEV",
-                    "name": "Veeva Systems Inc.",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Healthcare",
-                    "match_score": 145.9845,
-                    "sentiment_score": 0,
-                    "highlights": [
-                        {
-                            "highlight": "<em>Veeva</em> <em>Systems</em> <em>Inc</em>. (VEEV) Analyst/Investor Day Transcript",
+                            "highlight": "<em>Fifth</em> <em>Third</em> <em>Bancorp</em> Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - <em>Fifth</em> <em>Third</em> <em>Bancorp</em> (<em>NASDAQ:FITB</em>), Comerica (NYSE:CMA)",
                             "sentiment": 0,
                             "highlighted_in": "title"
                         }
@@ -87,22 +47,87 @@
                 }
             ],
             "similar": [],
-            "summary": "Veeva Systems (NYSE:VEEV)가 2025년 10월 16일 동부 표준시 오후 4시 30분에 애널리스트/투자자의 날을 개최할 예정입니다. 이 행사에는 투자자 관계 이사인 Gunnar Hansen이 참석자로 언급되었습니다. 현재까지는 행사 일정과 일부 참석자 정보만 공개되었습니다.",
+            "summary": "Fifth Third Bancorp는 10월 17일 금요일 개장 전 3분기 실적을 발표할 예정입니다. 이 회사의 NASDAQ 티커는 FITB입니다. 애널리스트들은 해당 실적에 대한 기대를 가지고 있습니다.",
             "sentiment": 0.0
+        },
+        {
+            "uuid": "45f6b313-d9a7-4be8-9936-a5c9f41874b7",
+            "title": "Giverny Capital Asset Management Q3 2025 Letter",
+            "description": "We generated good performance in the third quarter, as did the S&P 500 Index. We were ahead of the Index for most of the quarter.",
+            "keywords": [
+                "Third Quarter",
+                "S&P 500 Index",
+                "Good Performance"
+            ],
+            "snippet": "Pawel Kacperek/iStock via Getty Images\n\nTo our clients & friends:\n\nFor the third quarter of the year ended September 30, 2025, the Giverny Capital Asset Managem...",
+            "url": "https://seekingalpha.com/article/4830656-giverny-capital-asset-management-q3-2025-letter",
+            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2067714497/image_2067714497.jpg?io=getty-c-w1536",
+            "language": "en",
+            "published_at": "2025-10-17T06:55:00.000000Z",
+            "source": "seekingalpha.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "GOOGL",
+                    "name": "Alphabet Inc.",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Communication Services",
+                    "match_score": 10.574701,
+                    "sentiment_score": 0.256567,
+                    "highlights": [
+                        {
+                            "highlight": "We own Arista (ANET), <em>Alphabet</em> [+188 characters]",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "For the first nine months of the year, w[+265 characters]",
+                            "sentiment": 0.5106,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "For planning purposes, taxable accounts [+149 characters]",
+                            "sentiment": 0.6486,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Other transactions included trims of <em[+203 characters]",
+                            "sentiment": 0,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Our portfolio has a lot of exposure to A[+147 characters]",
+                            "sentiment": 0.1779,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Top 10 Holdings* - September 30, 2025 Ar[+139 characters]",
+                            "sentiment": 0.2023,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                }
+            ],
+            "similar": [],
+            "summary": "회사는 3분기에 S&P 500 지수와 마찬가지로 좋은 실적을 기록했습니다. 특히, 해당 분기 대부분 동안 지수보다 앞선 성과를 보였습니다. 이는 전반적으로 긍정적인 사업 운영을 나타냅니다.",
+            "sentiment": 0.9
         }
     ],
     "trend_summary": {
-        "title": "물류 효율성 강조와 Veeva 투자자 행사가 시장의 온건한 긍정적 기조를 형성합니다.",
-        "summary": "최근 B&Q와 GXO Logistics의 사례에서 보듯 물류 효율성 제고는 기업 경쟁력의 핵심으로 부상하며 전반적인 공급망 최적화 노력을 가속화하고 있습니다. 한편, Veeva Systems와 같은 주요 기술 기업의 애널리스트/투자자의 날 행사는 해당 산업의 미래 성장 동력과 투자 기회를 가늠하는 중요한 지표가 됩니다. 전반적인 시장 심리가 0.100으로 미약한 긍정적 흐름을 보이는 만큼, 개별 기업의 전략적 발표와 산업별 동향에 대한 신중한 접근이 필요합니다.",
+        "title": "Fifth Third Bancorp, 견고한 3분기 실적으로 S&P 500 대비 선전, 시장에 긍정적 신호",
+        "summary": "최근 3분기 실적 발표에서 Fifth Third Bancorp는 S&P 500 지수 대비 견조한 성과를 기록하며 시장의 주목을 받았습니다. 이는 전반적인 시장 심리 점수 0.450이 시사하듯, 긍정적이지만 신중한 투자 환경 속에서 개별 기업의 실적 차별화가 중요함을 보여줍니다. 따라서 투자자들은 개별 기업의 펀더멘털을 면밀히 분석하며, 균형 잡힌 포트폴리오 전략을 유지하는 것이 현명할 것입니다.",
         "keywords": [
-            "B&Q",
-            "GXO Logistics",
-            "Logistics",
-            "Veeva Systems",
-            "Analyst/Investor Day"
+            "Third Quarter",
+            "Fifth Third Bancorp",
+            "Earnings",
+            "S&P 500 Index",
+            "Good Performance"
         ]
     },
-    "market_sentiment_score": 0.1,
+    "market_sentiment_score": 0.45,
     "nasdaq_data": {
         "labels": [
             "09-05",
