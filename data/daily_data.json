@@ -1,35 +1,265 @@
 {
     "articles": [
         {
-            "uuid": "f9ac0102-6b6f-4593-8f11-6b797a8dbd5c",
-            "title": "Pinterest: Try ChatGPT Or Gemini, Then You'll Understand The Valuation (NYSE:PINS)",
-            "description": "Pinterest has successfully transformed into a personalized shopping and inspiration platform, driving strong user and revenue growth. Read why PINS is a Buy.",
+            "uuid": "dded5a46-f169-4abe-a11d-231bca7c7b6a",
+            "title": "10 Most Profitable Energy Stocks to Buy Right Now",
+            "description": "The energy sector has underperformed since the new bull market began in 2022. The sector has lagged amid heightened focus on technology stocks and the ongoing transition to clean energy.",
             "keywords": [
-                "Pinterest",
-                "PINS",
-                "쇼핑 플랫폼"
+                "에너지 부문",
+                "기술주",
+                "청정에너지 전환"
             ],
-            "snippet": "I aim to invest in companies with perfect qualitative attributes, buy them at an attractive price based on fundamentals, and hold them forever. I hope to publis...",
-            "url": "https://seekingalpha.com/article/4830891-pinterest-try-chatgpt-or-gemini-then-youll-understand-the-valuation",
-            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1048282788/image_1048282788.jpg?io=getty-c-w1536",
+            "snippet": "In this article we discuss 10 Most Profitable Energy Stocks to Buy Right Now.\n\nThe energy sector has underperformed since the new bull market began in 2022. The...",
+            "url": "https://www.insidermonkey.com/blog/10-most-profitable-energy-stocks-to-buy-right-now-1627020/",
+            "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2015/07/cape-ortegal-117601_1280.jpg",
             "language": "en",
-            "published_at": "2025-10-17T22:25:34.000000Z",
-            "source": "seekingalpha.com",
+            "published_at": "2025-10-18T02:51:36.000000Z",
+            "source": "insidermonkey.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "PINS",
-                    "name": "Pinterest, Inc.",
+                    "symbol": "MPLXP",
+                    "name": "MPLX LP",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-                    "industry": "Communication Services",
-                    "match_score": 69.724365,
-                    "sentiment_score": 0,
+                    "industry": "Energy",
+                    "match_score": 44.264133,
+                    "sentiment_score": 0.50015,
                     "highlights": [
                         {
-                            "highlight": "<em>Pinterest</em>: Try ChatGPT Or Gemini, Then You'll Understand The Valuation (<em>NYSE:PINS</em>)",
+                            "highlight": "<em>MPLX</em> <em>LP</em> (NYSE:MPLX)\n\nT[+279 characters]",
+                            "sentiment": 0.7043,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>MPLX</em> <em>LP</em> (NYSE:MPLX) is[+264 characters]",
+                            "sentiment": 0.296,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                }
+            ],
+            "similar": [
+                {
+                    "uuid": "36559977-53ec-4549-82e0-95e4813bce80",
+                    "title": "U.S. Stocks Move Back To The Upside As Bank Credit Concerns Quickly Fade",
+                    "description": "After showing a lack of direction early in the session, stocks moved mostly higher over the course of the trading day on Friday. The major averages all moved to the upside, regaining ground following the downturn seen in the previous session.",
+                    "keywords": "stocks, Commentary, Dow, Nasdaq, wall street, Stock Market, S&P 500, stock markets, Stock market today, stock markets today",
+                    "snippet": "After showing a lack of direction early in the session, stocks moved mostly higher over the course of the trading day on Friday. The major averages all moved to...",
+                    "url": "https://www.rttnews.com/3583305/u-s-stocks-move-back-to-the-upside-as-bank-credit-concerns-quickly-fade.aspx?type=ts",
+                    "image_url": "https://cdn.rttnews.com/articleimages/ustopstories/2025/september/candle-18092025-lt.jpg",
+                    "language": "en",
+                    "published_at": "2025-10-17T20:14:14.000000Z",
+                    "source": "rttnews.com",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "TSLA",
+                            "name": "Tesla, Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Consumer Cyclical",
+                            "match_score": 11.230464,
+                            "sentiment_score": 0,
+                            "highlights": [
+                                {
+                                    "highlight": "(IBM), <em>Tesla</em> (TSLA), and Intel [+169 characters]",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "NFLX",
+                            "name": "Netflix, Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Communication Services",
+                            "match_score": 10.933105,
+                            "sentiment_score": 0,
+                            "highlights": [
+                                {
+                                    "highlight": "Coca-Cola (KO), General Motors (GM), <em[+242 characters]",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "T",
+                            "name": "AT&T Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Communication Services",
+                            "match_score": 10.228634,
+                            "sentiment_score": 0,
+                            "highlights": [
+                                {
+                                    "highlight": "Coca-Cola (KO), General Motors (GM), Net[+251 characters]",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "GM",
+                            "name": "General Motors Company",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Consumer Cyclical",
+                            "match_score": 13.69972,
+                            "sentiment_score": 0,
+                            "highlights": [
+                                {
+                                    "highlight": "Coca-Cola (KO), <em>General</em> <em>Mot[+251 characters]",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "TFC",
+                            "name": "Truist Financial Corporation",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 14.770287,
+                            "sentiment_score": 0.8934,
+                            "highlights": [
+                                {
+                                    "highlight": "Jefferies and Zion benefitted from posit[+207 characters]",
+                                    "sentiment": 0.8934,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "^N225",
+                            "name": "Nikkei 225",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "jp",
+                            "type": "index",
+                            "industry": "N/A",
+                            "match_score": 24.085873,
+                            "sentiment_score": -0.25,
+                            "highlights": [
+                                {
+                                    "highlight": "Japan's <em>Nikkei</em> <em>225</em> Ind[+287 characters]",
+                                    "sentiment": -0.25,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "^FCHI",
+                            "name": "CAC 40",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "fr",
+                            "type": "index",
+                            "industry": "N/A",
+                            "match_score": 18.364674,
+                            "sentiment_score": 0.5859,
+                            "highlights": [
+                                {
+                                    "highlight": "s FTSE 100 Index slid by 0.9 percent and[+297 characters]",
+                                    "sentiment": 0.5859,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uuid": "bfab8bcc-427b-4afa-a03f-21488a898a93",
+                    "title": "Roundup: Data Center Energy Demand Drives New Midstream Deals",
+                    "description": "Data center energy demand driven by AI continues to create big opportunities for investors. Recent news and updates add to the case.",
+                    "keywords": "",
+                    "snippet": "AI and AI investing have been the big story this year in the stock market, responsible for a major part of overall market growth. While many investors entered 2...",
+                    "url": "https://www.etftrends.com/energy-infrastructure-channel/data-center-energy-demand-new-midstream-gas-deals/",
+                    "image_url": "https://www.etftrends.com/wp-content/uploads/2025/10/Roundup-Data-Center-Energy-Demand-Drives-New-Midstream-Deals.jpg",
+                    "language": "en",
+                    "published_at": "2025-10-17T19:42:03.000000Z",
+                    "source": "etftrends.com",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "ENFR",
+                            "name": "Alerian Energy Infrastructure ETF",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "etf",
+                            "industry": "N/A",
+                            "match_score": 61.599564,
+                            "sentiment_score": 0.241,
+                            "highlights": [
+                                {
+                                    "highlight": "Many of the key players at the forefront[+323 characters]",
+                                    "sentiment": 0.5574,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "AMEI is the underlying index for the <em[+283 characters]",
+                                    "sentiment": -0.0754,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "summary": "2022년 새로운 강세장이 시작된 이래 에너지 부문은 시장에서 저조한 성과를 기록했습니다. 이는 기술주에 대한 높은 관심과 청정에너지로의 지속적인 전환 때문입니다. 결과적으로 에너지 섹터는 다른 부문에 비해 뒤처지고 있습니다.",
+            "sentiment": -0.7
+        },
+        {
+            "uuid": "044f6c6e-eb06-47bf-b6e9-f831ec65a63d",
+            "title": "Dell Stock: The Hardware Engine Behind Enterprise AI Adoption (NYSE:DELL)",
+            "description": "Dell's AI infrastructure and growth in AI-enabled PCs make it a top investment pick. Learn about DELL stock's strong earnings and long-term upside.",
+            "keywords": [
+                "Dell",
+                "AI 인프라",
+                "강력한 수익"
+            ],
+            "snippet": "In each of my prior articles on Dell Technologies (NYSE: DELL ), I rated the stock a STRONG BUY and both have outperformed the broader market meaningfully over ...",
+            "url": "https://seekingalpha.com/article/4830903-dell-stock-hardware-engine-behind-enterprise-ai-adoption",
+            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/533008105/image_533008105.jpg?io=getty-c-w1536",
+            "language": "en",
+            "published_at": "2025-10-18T02:21:09.000000Z",
+            "source": "seekingalpha.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "DELL",
+                    "name": "Dell Technologies Inc.",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Technology",
+                    "match_score": 69.572395,
+                    "sentiment_score": 0.435,
+                    "highlights": [
+                        {
+                            "highlight": "In each of my prior articles on <em>Dell[+239 characters]",
+                            "sentiment": 0.87,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "Dell Stock: The Hardware Engine Behind Enterprise AI Adoption (<em>NYSE:DELL</em>)",
                             "sentiment": 0,
                             "highlighted_in": "title"
                         }
@@ -37,109 +267,900 @@
                 }
             ],
             "similar": [],
-            "summary": "Pinterest는 개인 맞춤형 쇼핑 및 영감 플랫폼으로 성공적으로 변모했습니다. 이는 강력한 사용자 및 매출 성장을 이끌었습니다. 따라서 PINS는 매수 추천 종목입니다.",
+            "summary": "델은 AI 인프라와 AI 지원 PC 성장에 힘입어 최고의 투자 종목으로 꼽힙니다. 이 기사는 DELL 주식의 강력한 수익을 강조합니다. 또한 장기적인 상승 잠재력을 지적합니다.",
             "sentiment": 0.9
         },
         {
-            "uuid": "af1c312a-4415-4327-9e3c-f210edc7eb1e",
-            "title": "Here's Why Warren Buffett Still Stays Away From Gold Despite Prices Skyrocketing Over the Years",
-            "description": "Berkshire Hathaway chair Warren Buffett has long criticised gold because it does not generate cash flow. However, Berkshire briefly held a $500 million stake in a gold mining company at the height of",
+            "uuid": "e665c111-712b-4fd3-aa0b-f3a4e04eb5b3",
+            "title": "2 tools to value the Westpac Banking Corp (ASX: WBC) share price",
+            "description": "Trying to value the Westpac Banking Corp (ASX:WBC) share price? Here are 4 key metrics you need to consider.",
             "keywords": [
-                "Warren Buffett",
-                "Berkshire Hathaway",
-                "Gold"
+                "Westpac",
+                "주가",
+                "평가"
             ],
-            "snippet": "Gold prices have surged over 65% year-to-date to nearly $4,350 (£3,237) per ounce, as investors and central banks pile into the precious metal amid sticky infl...",
-            "url": "https://www.ibtimes.com/heres-why-warren-buffett-still-stays-away-gold-despite-prices-skyrocketing-over-years-3787469",
-            "image_url": "https://d.ibtimes.com/en/full/4603860/warren-buffett-testifies-before-senate-finance-committee-washington-dc-2007.jpg",
+            "snippet": "The WBC share price is trading near $38.73 today. Like us, you might be asking if ASX: WBC ) shares are in the money.\n\nWestpac is the second-largest Big Four Au...",
+            "url": "https://www.raskmedia.com.au/2025/10/18/2-tools-to-value-the-westpac-banking-corp-asx-wbc-share-price-13/",
+            "image_url": "https://www.raskmedia.com.au/wp-content/uploads/2024/11/asx-news-asx-200-shares-51-jpg.webp",
             "language": "en",
-            "published_at": "2025-10-17T22:20:41.000000Z",
-            "source": "ibtimes.com",
+            "published_at": "2025-10-18T02:07:56.000000Z",
+            "source": "raskmedia.com.au",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "B",
-                    "name": "Barnes Group Inc.",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Industrials",
-                    "match_score": 12.955122,
-                    "sentiment_score": 0,
-                    "highlights": [
-                        {
-                            "highlight": "However, Buffett made a U-turn on his st[+194 characters]",
-                            "sentiment": 0,
-                            "highlighted_in": "main_text"
-                        }
-                    ]
-                }
-            ],
-            "similar": [],
-            "summary": "워렌 버핏은 오랫동안 현금 흐름을 창출하지 않는다는 이유로 금을 비판해왔습니다. 하지만 버크셔 해서웨이는 한때 금광 회사에 5억 달러 규모의 지분을 잠시 보유했습니다. 이는 그의 일반적인 투자 철학과 상반되는 단기적인 움직임이었습니다.",
-            "sentiment": 0.0
-        },
-        {
-            "uuid": "ec34e884-73e4-43c4-bad4-7166a7be2e06",
-            "title": "Northrim BanCorp: Seeing Past Recent Underperformance (NASDAQ:NRIM)",
-            "description": "Northrim BanCorp, Inc. shares are cheap relative to earnings, asset quality is great, and the business is growing nicely. Click here to read why NRIM is a Buy.",
-            "keywords": [
-                "Northrim BanCorp",
-                "매수",
-                "주식 분석"
-            ],
-            "snippet": "One of my absolute best calls in recent years has been Northrim BanCorp, Inc. (NASDAQ: NRIM ). Since I first rated it a Buy in August of 2023, the stock has sky...",
-            "url": "https://seekingalpha.com/article/4830888-northrim-bancorp-seeing-past-recent-underperformance",
-            "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1972348165/image_1972348165.jpg?io=getty-c-w1536",
-            "language": "en",
-            "published_at": "2025-10-17T22:08:46.000000Z",
-            "source": "seekingalpha.com",
-            "relevance_score": null,
-            "entities": [
-                {
-                    "symbol": "NRIM",
-                    "name": "Northrim BanCorp, Inc.",
+                    "symbol": "BKQNY",
+                    "name": "Bank of Queensland Limited",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
                     "industry": "Financial Services",
-                    "match_score": 183.0946,
-                    "sentiment_score": 0.3243,
+                    "match_score": 20.486942,
+                    "sentiment_score": 0.6124,
                     "highlights": [
                         {
-                            "highlight": "One of my absolute best calls in recent [+344 characters]",
-                            "sentiment": 0.6486,
+                            "highlight": "One way Aussie investors can get under t[+265 characters]",
+                            "sentiment": 0.6124,
                             "highlighted_in": "main_text"
-                        },
+                        }
+                    ]
+                },
+                {
+                    "symbol": "BKQNF",
+                    "name": "Bank of Queensland Limited",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "N/A",
+                    "match_score": 20.487156,
+                    "sentiment_score": 0.6124,
+                    "highlights": [
                         {
-                            "highlight": "<em>Northrim</em> <em>BanCorp</em>: Seeing Past Recent Underperformance (<em>NASDAQ:NRIM</em>)",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
+                            "highlight": "One way Aussie investors can get under t[+265 characters]",
+                            "sentiment": 0.6124,
+                            "highlighted_in": "main_text"
                         }
                     ]
                 }
             ],
-            "similar": [],
-            "summary": "이 기사는 Northrim BanCorp, Inc. (NRIM)의 주식이 수익 대비 저평가되어 있고, 자산 건전성이 우수하며, 사업이 순조롭게 성장하고 있다고 강조합니다. 이러한 긍정적인 요인들을 바탕으로 NRIM 주식에 대한 강력한 매수 추천을 하고 있습니다.",
-            "sentiment": 0.9
+            "similar": [
+                {
+                    "uuid": "9d320460-764d-4973-a83a-0ce703979d9e",
+                    "title": "An easy way to value RIO and REH shares",
+                    "description": "The Rio Tinto Ltd (ASX:RIO) share price and Reece Ltd (ASX:REH) share price are in focus in 2025. Here's how you could put a value on them.",
+                    "keywords": "",
+                    "snippet": "RIO share price in focus\n\nThe ASX:RIO ) share price has risen 10.7% since the start of 2025. The ASX:REH ) share price is about 18.4% above its 52-week low.\n\nFo...",
+                    "url": "https://www.raskmedia.com.au/2025/10/18/an-easy-way-to-value-rio-and-reh-shares-10/",
+                    "image_url": "https://www.raskmedia.com.au/wp-content/uploads/2024/11/asx-news-asx-200-shares-55-jpg.webp",
+                    "language": "en",
+                    "published_at": "2025-10-18T00:57:54.000000Z",
+                    "source": "raskmedia.com.au",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "BHPLF",
+                            "name": "BHP Group",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Basic Materials",
+                            "match_score": 19.910448,
+                            "sentiment_score": 0.6908,
+                            "highlights": [
+                                {
+                                    "highlight": "Founded in 1873, Rio Tinto is today the [+301 characters]",
+                                    "sentiment": 0.6908,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "BHPBF",
+                            "name": "BHP Group",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Basic Materials",
+                            "match_score": 19.91045,
+                            "sentiment_score": 0.6908,
+                            "highlights": [
+                                {
+                                    "highlight": "Founded in 1873, Rio Tinto is today the [+301 characters]",
+                                    "sentiment": 0.6908,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "REECF",
+                            "name": "Reece Limited",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "N/A",
+                            "match_score": 25.20964,
+                            "sentiment_score": 0.44095,
+                            "highlights": [
+                                {
+                                    "highlight": "REH shares\n\n<em>Reece</em> <em>Limited</[+138 characters]",
+                                    "sentiment": 0.296,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>Reece</em> has grown revenue at a st[+282 characters]",
+                                    "sentiment": 0.5859,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "BHPN.MX",
+                            "name": "BHP Group",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "mx",
+                            "type": "equity",
+                            "industry": "Basic Materials",
+                            "match_score": 19.910233,
+                            "sentiment_score": 0.6908,
+                            "highlights": [
+                                {
+                                    "highlight": "Founded in 1873, Rio Tinto is today the [+301 characters]",
+                                    "sentiment": 0.6908,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "BHP.L",
+                            "name": "BHP Group",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "gb",
+                            "type": "equity",
+                            "industry": "Basic Materials",
+                            "match_score": 19.910175,
+                            "sentiment_score": 0.6908,
+                            "highlights": [
+                                {
+                                    "highlight": "Founded in 1873, Rio Tinto is today the [+301 characters]",
+                                    "sentiment": 0.6908,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "0HN3.L",
+                            "name": "BHP Group",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "gb",
+                            "type": "equity",
+                            "industry": "N/A",
+                            "match_score": 19.91021,
+                            "sentiment_score": 0.6908,
+                            "highlights": [
+                                {
+                                    "highlight": "Founded in 1873, Rio Tinto is today the [+301 characters]",
+                                    "sentiment": 0.6908,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "BHP",
+                            "name": "BHP Group",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Basic Materials",
+                            "match_score": 19.910162,
+                            "sentiment_score": 0.6908,
+                            "highlights": [
+                                {
+                                    "highlight": "Founded in 1873, Rio Tinto is today the [+301 characters]",
+                                    "sentiment": 0.6908,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "BBL",
+                            "name": "BHP Group",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Basic Materials",
+                            "match_score": 19.910162,
+                            "sentiment_score": 0.6908,
+                            "highlights": [
+                                {
+                                    "highlight": "Founded in 1873, Rio Tinto is today the [+301 characters]",
+                                    "sentiment": 0.6908,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "BHP.AX",
+                            "name": "BHP Group",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "au",
+                            "type": "equity",
+                            "industry": "Basic Materials",
+                            "match_score": 19.910152,
+                            "sentiment_score": 0.6908,
+                            "highlights": [
+                                {
+                                    "highlight": "Founded in 1873, Rio Tinto is today the [+301 characters]",
+                                    "sentiment": 0.6908,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "RIO.AX",
+                            "name": "Rio Tinto Group",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "au",
+                            "type": "equity",
+                            "industry": "Basic Materials",
+                            "match_score": 31.978268,
+                            "sentiment_score": 0.531433,
+                            "highlights": [
+                                {
+                                    "highlight": "RIO share price in focus\n\nThe <em>ASX:RI[+258 characters]",
+                                    "sentiment": 0.5423,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>Rio</em> <em>Tinto</em> is engaged i[+293 characters]",
+                                    "sentiment": 0.6908,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Currently, <em>Rio</em> <em>Tinto</em> L[+327 characters]",
+                                    "sentiment": 0.3612,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "REH.AX",
+                            "name": "Reece Limited",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "au",
+                            "type": "equity",
+                            "industry": "Industrials",
+                            "match_score": 39.12435,
+                            "sentiment_score": 0.4846,
+                            "highlights": [
+                                {
+                                    "highlight": "The <em>ASX:REH</em> ) share price is ab[+244 characters]",
+                                    "sentiment": 0.5719,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "REH shares\n\n<em>Reece</em> <em>Limited</[+138 characters]",
+                                    "sentiment": 0.296,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>Reece</em> has grown revenue at a st[+282 characters]",
+                                    "sentiment": 0.5859,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "B1BL34.SA",
+                            "name": "BHP Group",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "br",
+                            "type": "equity",
+                            "industry": "Basic Materials",
+                            "match_score": 19.910004,
+                            "sentiment_score": 0.6908,
+                            "highlights": [
+                                {
+                                    "highlight": "Founded in 1873, Rio Tinto is today the [+301 characters]",
+                                    "sentiment": 0.6908,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uuid": "456b2f3e-6926-4909-bc12-7848c5302084",
+                    "title": "Value the WBC share price using its dividend yield",
+                    "description": "Is the Westpac Banking Corp (ASX: WBC) share price good value? Here are 2 ways you can put a number on it.",
+                    "keywords": "",
+                    "snippet": "Since Covid lows, the ASX: WBC ) share price has been a mainstay for some ASX investors. Is now the time to load up on WBC shares? Let’s take a look at one wa...",
+                    "url": "https://www.raskmedia.com.au/2025/10/18/value-the-wbc-share-price-using-its-dividend-yield-21/",
+                    "image_url": "https://www.raskmedia.com.au/wp-content/uploads/2024/11/asx-news-asx-200-shares-11-1-jpg.webp",
+                    "language": "en",
+                    "published_at": "2025-10-18T00:37:50.000000Z",
+                    "source": "raskmedia.com.au",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "BKQNY",
+                            "name": "Bank of Queensland Limited",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 20.486942,
+                            "sentiment_score": 0.9055,
+                            "highlights": [
+                                {
+                                    "highlight": "Bank shares like Westpac Banking Corp, <[+308 characters]",
+                                    "sentiment": 0.9055,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "BKQNF",
+                            "name": "Bank of Queensland Limited",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "N/A",
+                            "match_score": 20.487156,
+                            "sentiment_score": 0.9055,
+                            "highlights": [
+                                {
+                                    "highlight": "Bank shares like Westpac Banking Corp, <[+308 characters]",
+                                    "sentiment": 0.9055,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "NAB.AX",
+                            "name": "National Australia Bank Limited",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "au",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 29.151556,
+                            "sentiment_score": 0.885,
+                            "highlights": [
+                                {
+                                    "highlight": "Bank shares like Westpac Banking Corp, B[+317 characters]",
+                                    "sentiment": 0.885,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "BOQ.AX",
+                            "name": "Bank of Queensland Limited",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "au",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 42.360783,
+                            "sentiment_score": 0.9055,
+                            "highlights": [
+                                {
+                                    "highlight": "Bank shares like Westpac Banking Corp, <[+326 characters]",
+                                    "sentiment": 0.9055,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "NABPB.AX",
+                            "name": "National Australia Bank Limited",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "au",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 19.076424,
+                            "sentiment_score": 0.885,
+                            "highlights": [
+                                {
+                                    "highlight": "Bank shares like Westpac Banking Corp, B[+299 characters]",
+                                    "sentiment": 0.885,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "WBC.AX",
+                            "name": "Westpac Banking Corporation",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "au",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 35.775852,
+                            "sentiment_score": 0.730667,
+                            "highlights": [
+                                {
+                                    "highlight": "Since Covid lows, the <em>ASX</em>: <em>[+161 characters]",
+                                    "sentiment": 0.7351,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Bank shares like <em>Westpac</em> <em>Ba[+290 characters]",
+                                    "sentiment": 0.885,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "The expected dividend valuation compares[+313 characters]",
+                                    "sentiment": 0.5719,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uuid": "7644a2ff-ad9e-4be3-a564-622e5878d79f",
+                    "title": "VALUE LINE, INC. DECLARES A QUARTERLY CASH DIVIDEND OF $0.325 PER COMMON SHARE",
+                    "description": "NEW YORK, Oct. 17, 2025 (GLOBE NEWSWIRE) -- Value Line, Inc. (NASDAQ: VALU) announced today that its Board of Directors declared on October 17, 2025 a quarterly cash dividend of $0.325 per common share, payable on November 10, 2025, to stockholders of record on October 27, 2025. The Company has 9,405,828 shares of common stock outstanding as of October 17, 2025.",
+                    "keywords": "VALUE, LINE, , INC., DECLARES, A, QUARTERLY, CASH, DIVIDEND, OF, $0.325, PER, COMMON, SHARE",
+                    "snippet": "NEW YORK, Oct. 17, 2025 (GLOBE NEWSWIRE) -- Value Line, Inc. (NASDAQ: VALU ) announced today that its Board of Directors declared on October 17, 2025 a quarterl...",
+                    "url": "https://www.manilatimes.net/2025/10/18/tmt-newswire/globenewswire/value-line-inc-declares-a-quarterly-cash-dividend-of-0325-per-common-share/2203312",
+                    "image_url": "https://cdn4.premiumread.com/?url=https://www.manilatimes.net/theme_manilatimes/images/TMT_1920x1008.jpg&w=1920&q=100&f=webp&v=1",
+                    "language": "en",
+                    "published_at": "2025-10-17T20:18:51.000000Z",
+                    "source": "manilatimes.net",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "VALU",
+                            "name": "Value Line, Inc.",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Financial Services",
+                            "match_score": 64.59512,
+                            "sentiment_score": 0.21652,
+                            "highlights": [
+                                {
+                                    "highlight": "NEW YORK, Oct. 17, 2025 (GLOBE NEWSWIRE)[+285 characters]",
+                                    "sentiment": 0.296,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Cautionary Statement Regarding Forward-L[+230 characters]",
+                                    "sentiment": 0.34,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Actual results for <em>Value</em> <em>Li[+22 characters]",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "Brecher\n\n<em>Value</em> <em>Line</em>, <[+130 characters]",
+                                    "sentiment": 0,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "<em>VALUE</em> <em>LINE</em>, <em>INC</em>. DECLARES A QUARTERLY CASH DIVIDEND OF $0.325 PER COMMON SHARE",
+                                    "sentiment": 0.4466,
+                                    "highlighted_in": "title"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "uuid": "f5936855-5302-4008-9a8f-d72aec023ef8",
+                    "title": "Are ZIP shares or SCG shares better value in 2025?",
+                    "description": "The Zip Co Ltd (ASX:ZIP) share price and Scentre Group (ASX:SCG) share price are in focus in 2025. Here's how you could put a value on them.",
+                    "keywords": "",
+                    "snippet": "ZIP share price in focus\n\nThe(ASX:ZIP) share price has risen 48.8% since the start of 2025. Meanwhile, the ASX:SCG ) share price is 2.6% away from its 52-week h...",
+                    "url": "https://www.raskmedia.com.au/2025/10/18/are-zip-shares-or-scg-shares-better-value-in-2025-11/",
+                    "image_url": "https://www.raskmedia.com.au/wp-content/uploads/2024/11/asx-news-asx-200-shares-32-jpg.webp",
+                    "language": "en",
+                    "published_at": "2025-10-17T20:18:00.000000Z",
+                    "source": "raskmedia.com.au",
+                    "relevance_score": null,
+                    "entities": [
+                        {
+                            "symbol": "STGPF",
+                            "name": "Scentre Group",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "us",
+                            "type": "equity",
+                            "industry": "Real Estate",
+                            "match_score": 37.872,
+                            "sentiment_score": 0.19095,
+                            "highlights": [
+                                {
+                                    "highlight": "SCG shares\n\n<em>Scentre</em> <em>Group</[+301 characters]",
+                                    "sentiment": 0.802,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "In CY23, <em>Scentre</em> <em>Group</em>[+221 characters]",
+                                    "sentiment": -0.4201,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        },
+                        {
+                            "symbol": "SCG.AX",
+                            "name": "Scentre Group",
+                            "exchange": null,
+                            "exchange_long": null,
+                            "country": "au",
+                            "type": "equity",
+                            "industry": "Real Estate",
+                            "match_score": 51.438118,
+                            "sentiment_score": 0.392767,
+                            "highlights": [
+                                {
+                                    "highlight": "Meanwhile, the <em>ASX:SCG</em> ) share [+282 characters]",
+                                    "sentiment": 0.7964,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "SCG shares\n\n<em>Scentre</em> <em>Group</[+301 characters]",
+                                    "sentiment": 0.802,
+                                    "highlighted_in": "main_text"
+                                },
+                                {
+                                    "highlight": "In CY23, <em>Scentre</em> <em>Group</em>[+221 characters]",
+                                    "sentiment": -0.4201,
+                                    "highlighted_in": "main_text"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "summary": "이 기사는 웨스트팩 뱅킹 코프(Westpac Banking Corp)의 주가 평가에 대한 서문입니다. 주가 평가 시 고려해야 할 4가지 핵심 지표를 언급하고 있습니다. 하지만 실제 지표나 구체적인 내용은 제공되지 않았습니다.",
+            "sentiment": 0.0
         }
     ],
     "trend_summary": {
-        "title": "Pinterest (PINS), 워렌 버핏 관심 속 쇼핑 플랫폼 변모 기대감 증폭",
-        "summary": "최근 Pinterest (PINS)는 워렌 버핏의 Berkshire Hathaway 지분 매입 루머와 함께 쇼핑 플랫폼으로의 변모 가능성에 대한 시장의 긍정적 기대감이 커지고 있습니다. 이러한 움직임은 PINS가 단순한 이미지 공유를 넘어 전자상거래 영역에서 새로운 성장 동력을 확보할 수 있다는 분석에 힘을 실으며, 중장기적 관점에서 주목할 만합니다. 다만, 루머에 기반한 변동성도 존재하므로, 기업의 실제 사업 확장 계획과 실적 발표를 면밀히 주시하며 신중한 접근이 요구됩니다.",
+        "title": "기술주와 청정에너지 전환이 시장을 견인하며 AI 인프라 투자가 새로운 기회를 창출합니다.",
+        "summary": "기술주가 AI 인프라 투자 확대, 특히 Dell과 같은 기업들의 성장에 힘입어 시장을 견인하고 있습니다. 에너지 부문에서는 청정에너지 전환이 가속화되며 새로운 성장 동력을 제공하는 가운데, 전반적인 시장은 긍정적인 모멘텀을 유지하고 있으니 변화하는 트렌드에 대한 지속적인 관심이 중요합니다.",
         "keywords": [
-            "Pinterest",
-            "PINS",
-            "쇼핑 플랫폼",
-            "Warren Buffett",
-            "Berkshire Hathaway"
+            "에너지 부문",
+            "기술주",
+            "청정에너지 전환",
+            "Dell",
+            "AI 인프라"
         ]
     },
-    "market_sentiment_score": 0.6,
-    "nasdaq_data": null,
-    "kospi_data": null,
-    "fx_data": null,
-    "last_updated": "2025-10-17 23:40:12"
+    "market_sentiment_score": 0.067,
+    "nasdaq_data": {
+        "labels": [
+            "09-08",
+            "09-09",
+            "09-10",
+            "09-11",
+            "09-12",
+            "09-15",
+            "09-16",
+            "09-17",
+            "09-18",
+            "09-19",
+            "09-22",
+            "09-23",
+            "09-24",
+            "09-25",
+            "09-26",
+            "09-29",
+            "09-30",
+            "10-01",
+            "10-02",
+            "10-03",
+            "10-06",
+            "10-07",
+            "10-08",
+            "10-09",
+            "10-10",
+            "10-13",
+            "10-14",
+            "10-15",
+            "10-16",
+            "10-17",
+            "10-19",
+            "10-20",
+            "10-21"
+        ],
+        "historical": [
+            21798.7,
+            21879.49,
+            21886.06,
+            22043.07,
+            22141.1,
+            22348.75,
+            22333.96,
+            22261.33,
+            22470.72,
+            22631.48,
+            22788.98,
+            22573.47,
+            22497.86,
+            22384.7,
+            22484.07,
+            22591.15,
+            22660.01,
+            22755.16,
+            22844.05,
+            22780.51,
+            22941.67,
+            22788.36,
+            23043.38,
+            23024.63,
+            22204.43,
+            22694.61,
+            22521.7,
+            22670.08,
+            22562.54,
+            22679.97
+        ],
+        "forecast": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            22745.3,
+            22705.49,
+            22742.26
+        ]
+    },
+    "kospi_data": {
+        "labels": [
+            "09-01",
+            "09-02",
+            "09-03",
+            "09-04",
+            "09-05",
+            "09-08",
+            "09-09",
+            "09-10",
+            "09-11",
+            "09-12",
+            "09-15",
+            "09-16",
+            "09-17",
+            "09-18",
+            "09-19",
+            "09-22",
+            "09-23",
+            "09-24",
+            "09-25",
+            "09-26",
+            "09-29",
+            "09-30",
+            "10-01",
+            "10-02",
+            "10-10",
+            "10-13",
+            "10-14",
+            "10-15",
+            "10-16",
+            "10-17",
+            "10-19",
+            "10-20",
+            "10-21"
+        ],
+        "historical": [
+            3142.93,
+            3172.35,
+            3184.42,
+            3200.83,
+            3205.12,
+            3219.59,
+            3260.05,
+            3314.53,
+            3344.2,
+            3395.54,
+            3407.31,
+            3449.62,
+            3413.4,
+            3461.3,
+            3445.24,
+            3468.65,
+            3486.19,
+            3472.14,
+            3471.11,
+            3386.05,
+            3431.21,
+            3424.6,
+            3455.83,
+            3549.21,
+            3610.6,
+            3584.55,
+            3561.81,
+            3657.28,
+            3748.37,
+            3748.89
+        ],
+        "forecast": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            3738.01,
+            3753.98,
+            3795.26
+        ]
+    },
+    "fx_data": {
+        "labels": [
+            "09-08",
+            "09-09",
+            "09-10",
+            "09-11",
+            "09-12",
+            "09-15",
+            "09-16",
+            "09-17",
+            "09-18",
+            "09-19",
+            "09-22",
+            "09-23",
+            "09-24",
+            "09-25",
+            "09-26",
+            "09-29",
+            "09-30",
+            "10-01",
+            "10-02",
+            "10-03",
+            "10-06",
+            "10-07",
+            "10-08",
+            "10-09",
+            "10-10",
+            "10-13",
+            "10-14",
+            "10-15",
+            "10-16",
+            "10-17",
+            "10-19",
+            "10-20",
+            "10-21"
+        ],
+        "historical": [
+            1385.08,
+            1389.03,
+            1389.07,
+            1389.44,
+            1392.7,
+            1384.99,
+            1378.66,
+            1380.12,
+            1388.11,
+            1397.09,
+            1390.89,
+            1394.16,
+            1404.76,
+            1409.0,
+            1409.45,
+            1399.88,
+            1403.85,
+            1402.69,
+            1405.86,
+            1407.4,
+            1410.51,
+            1415.87,
+            1421.34,
+            1422.72,
+            1429.04,
+            1426.28,
+            1428.6,
+            1421.05,
+            1416.64,
+            1421.58
+        ],
+        "forecast": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1423.31,
+            1423.12,
+            1420.94
+        ]
+    },
+    "last_updated": "2025-10-18 13:07:21"
 }
