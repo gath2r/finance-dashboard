@@ -5,9 +5,9 @@
             "title": "Bank of America Corporation 5% NCUM PFD LL declares $0.3125 dividend (NYSE:BAC.PR.N)",
             "description": "Bank of America (BAC.PR.N) declares $0.3125 quarterly dividend, yielding 5.84%. See scorecard, yield chart & growth. Learn more before Dec.",
             "keywords": [
-                "dividend",
                 "Bank of America",
-                "yield"
+                "Dividend",
+                "Yield"
             ],
             "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
             "url": "https://seekingalpha.com/news/4505413-bank-of-america-corporation-5-percent-ncum-pfd-ll-declares-0_3125-dividend",
@@ -37,8 +37,8 @@
                 }
             ],
             "similar": [],
-            "summary": "뱅크 오브 아메리카(BAC.PR.N)가 주당 0.3125달러의 분기 배당금을 발표했습니다. 이는 5.84%의 배당수익률에 해당합니다. 투자자들은 12월 이전에 관련 성과표, 배당수익률 차트 및 성장률을 확인할 수 있습니다.",
-            "sentiment": 0.9
+            "summary": "Bank of America (BAC.PR.N)는 주당 0.3125달러의 분기 배당금을 발표했습니다. 이는 5.84%의 배당 수익률을 나타냅니다. 투자자들은 12월 이전에 관련 성과표, 수익률 차트 및 성장률을 확인할 것이 권장됩니다.",
+            "sentiment": 0.85
         },
         {
             "uuid": "72aeecd1-aab6-4767-8bf4-cd296ea88b1e",
@@ -46,8 +46,8 @@
             "description": "Bank of America (BAC.PR.Q) announces $0.2656/share dividend, 5.85% yield. Learn payout dates & growth trends.",
             "keywords": [
                 "Bank of America",
-                "dividend",
-                "yield"
+                "Dividend",
+                "Yield"
             ],
             "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
             "url": "https://seekingalpha.com/news/4505412-bank-of-america-corporation-4_250-percent-dp-pfd-qq-declares-0_2656-dividend",
@@ -77,8 +77,8 @@
                 }
             ],
             "similar": [],
-            "summary": "뱅크 오브 아메리카(BAC.PR.Q)가 주당 0.2656달러의 배당금을 발표했습니다. 이는 5.85%의 배당 수익률에 해당합니다. 기사는 배당 지급일과 성장 추세에 대한 정보를 제공할 예정입니다.",
-            "sentiment": 0.75
+            "summary": "뱅크 오브 아메리카(BAC.PR.Q)가 주당 0.2656달러의 배당금 지급을 발표했습니다. 이는 5.85%의 배당 수익률에 해당합니다. 기사에서는 배당금 지급일과 성장 추세에 대한 자세한 정보를 제공할 예정입니다.",
+            "sentiment": 0.8
         },
         {
             "uuid": "bda0d03d-8699-4066-9cbd-29a83e66cbc4",
@@ -117,17 +117,15 @@
                 }
             ],
             "similar": [],
-            "summary": "Bank of America (BAC.PR.S)가 분기 배당금을 발표했습니다. 주당 0.2968달러의 배당금과 5.82%의 배당수익률을 제공합니다. 지급일 및 배당 관련 추가 정보는 기사에서 확인할 수 있습니다.",
+            "summary": "뱅크 오브 아메리카(BAC.PR.S)가 주당 0.2968달러의 분기 배당금을 선언했습니다. 이 배당금은 5.82%의 배당수익률을 나타냅니다. 지급일 및 배당 관련 추가 정보는 추후 공개될 예정입니다.",
             "sentiment": 0.8
         }
     ],
     "trend_summary": {
-        "title": "뱅크오브아메리카, 매력적인 배당 수익률로 시장의 긍정적 기대감 고조",
-        "summary": "최근 시장 심리 점수 0.817은 뱅크오브아메리카의 배당 및 배당 수익률에 대한 매우 긍정적인 투자 심리를 나타냅니다. 이는 견고한 재무 성과와 꾸준한 주주 환원 가능성에 대한 기대가 반영된 것으로, 특히 배당 수익을 추구하는 투자자들에게 매력적인 요인으로 작용할 수 있습니다. 다만, 긍정적인 기류 속에서도 투자 결정 시에는 넓은 시장 상황과 개별 투자 목표를 고려한 신중한 접근이 필요합니다.",
+        "title": "긍정적 시장 속 뱅크오브아메리카, 배당 수익률 매력 부각",
+        "summary": "현재 시장은 0.817의 높은 긍정적 심리 점수를 기록하며 낙관적인 흐름을 보이고 있습니다. 이러한 분위기 속에서 뱅크오브아메리카는 안정적인 배당과 매력적인 배당 수익률로 투자자들의 주목을 받고 있습니다. 안정적인 수익을 추구하는 투자자들에게 뱅크오브아메리카는 매력적인 포트폴리오 구성 요소가 될 수 있으니, 면밀한 검토를 권해드립니다.",
         "keywords": [
             "Bank of America",
-            "dividend",
-            "yield",
             "Dividend",
             "Yield"
         ]
@@ -445,5 +443,5 @@
             1420.94
         ]
     },
-    "last_updated": "2025-10-18 13:23:21"
+    "last_updated": "2025-10-18 13:25:53"
 }
