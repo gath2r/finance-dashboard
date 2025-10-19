@@ -1,0 +1,72 @@
+# .github/workflows/collect_and_train.yml
+
+name: Daily Collect and Weekly Train
+
+on:
+  schedule:
+    # 1. 매일 KST 오전 10시 (UTC 01:00)에 어제 시장 결과 수집
+    - cron: '0 1 * * *'
+    # 2. 매주 일요일 KST 오전 11시 (UTC 02:00)에 모델 재학습
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+
+jobs:
+  collect-actuals:
+    runs-on: ubuntu-latest
+    # "collect-actuals" 작업은 cron '0 1 * * *' (매일) 실행
+    if: github.event.schedule == '0 1 * * *' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          # collector.py는 yfinance가 필요함
+
+      - name: Run collector script
+        run: python collector.py #
+
+      - name: Commit and push database
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add database.db
+          git diff --staged --quiet || (git commit -m "📊 Update actual market data" && git push)
+
+  train-model:
+    runs-on: ubuntu-latest
+    # "train-model" 작업은 cron '0 2 * * 0' (매주 일요일) 실행
+    if: github.event.schedule == '0 2 * * 0' || github.event_name == 'workflow_dispatch'
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          # trainer.py는 scikit-learn, joblib 등이 필요함
+
+      - name: Run training script
+        run: python trainer.py #
+
+      - name: Commit and push new model
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add market_predictor.pkl
+          git diff --staged --quiet || (git commit -m "🧠 Update AI model" && git push)

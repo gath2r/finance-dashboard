@@ -1,4 +1,4 @@
-# run_predictions.py (yfinance 전용 최종 안정화 버전)
+# run_predictions.py (AI 예측 DB 저장 기능 추가 최종본)
 
 import os
 import json
@@ -12,6 +12,7 @@ from tenacity import retry, stop_after_attempt, wait_fixed
 from dotenv import load_dotenv
 from ai_analyzer import analyze_article_with_ai, generate_trend_summary_with_ai
 import yfinance as yf
+import sqlite3 # ▼▼▼ 1. sqlite3 임포트 ▼▼▼
 
 load_dotenv()
 
@@ -53,6 +54,30 @@ def process_chart_data(hist_data, forecast_days=3):
         import traceback
         print(traceback.format_exc())
         raise e
+
+
+# --- ▼▼▼ 2. AI 예측을 DB에 저장하는 함수 추가 ▼▼▼ ---
+def save_prediction_to_db(prediction_date, sentiment_score, predicted_trend):
+    """AI의 예측 결과를 DB에 저장합니다."""
+    conn = None
+    try:
+        conn = sqlite3.connect('database.db')
+        cursor = conn.cursor()
+        
+        # database_setup.py의 predictions 테이블 구조에 맞게 삽입
+        cursor.execute("""
+        INSERT OR REPLACE INTO predictions (prediction_date, market_sentiment_score, predicted_trend)
+        VALUES (?, ?, ?)
+        """, (prediction_date, sentiment_score, predicted_trend))
+        
+        conn.commit()
+        print(f"✅ DB에 {prediction_date}의 예측 결과 '{predicted_trend}' (점수: {sentiment_score}) 저장 완료")
+    except Exception as e:
+        print(f"❌ DB 예측 저장 실패: {e}")
+    finally:
+        if conn:
+            conn.close()
+# --- ▲▲▲ 함수 추가 완료 ▲▲▲ ---
 
 
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(5))
@@ -174,6 +199,18 @@ if __name__ == "__main__":
     print("💾 데이터 저장 중...")
     print("=" * 60)
     
+    # --- ▼▼▼ 3. DB 저장 로직 추가 (수정된 부분) ▼▼▼ ---
+    today_str = date.today().strftime('%Y-%m-%d')
+    
+    # 시장 심리 점수에 따라 AI의 예측 결정 (0.1 이상 '상승', -0.1 이하 '하락')
+    ai_predicted_trend = '상승'
+    if market_sentiment_score < -0.1:
+        ai_predicted_trend = '하락'
+    
+    # DB에 오늘의 예측 저장
+    save_prediction_to_db(today_str, round(market_sentiment_score, 3), ai_predicted_trend)
+    # --- ▲▲▲ DB 저장 로직 추가 완료 ▲▲▲ ---
+
     final_data = {
         "articles": processed_articles,
         "trend_summary": trend_summary,
