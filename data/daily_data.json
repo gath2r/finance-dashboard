@@ -1,35 +1,108 @@
 {
     "articles": [
         {
-            "uuid": "d73c8f3f-f97c-473d-aa2c-13ed62ea85f1",
-            "title": "Bank of America Corporation 5% NCUM PFD LL declares $0.3125 dividend (NYSE:BAC.PR.N)",
-            "description": "Bank of America (BAC.PR.N) declares $0.3125 quarterly dividend, yielding 5.84%. See scorecard, yield chart & growth. Learn more before Dec.",
+            "uuid": "30392b32-5138-43f8-836a-e6553a94d5e9",
+            "title": "Boeing Gets FAA Green Light To Boost 737 Max Output After Alaska Airlines Door Plug Blowout - Boeing (NYSE:BA)",
+            "description": "The FAA has approved Boeing to raise 737 Max production to 42 jets per month following Alaska Airlines door plug incident.",
             "keywords": [
-                "Bank of America",
-                "Dividend",
-                "Yield"
+                "Boeing",
+                "FAA",
+                "737 Max 생산"
             ],
-            "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
-            "url": "https://seekingalpha.com/news/4505413-bank-of-america-corporation-5-percent-ncum-pfd-ll-declares-0_3125-dividend",
-            "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+            "snippet": "The Federal Aviation Administration (FAA) said on Friday it will let Boeing Co. (NYSE:BA) increase production of its 737 Max jets to 42 per month, up from 38, f...",
+            "url": "https://www.benzinga.com/news/travel/25/10/48292971/boeing-gets-faa-green-light-to-boost-737-max-output-after-alaska-airlines-door-plug-blowout",
+            "image_url": "https://cdn.benzinga.com/files/images/story/2025/10/19/Boeing.jpeg?width=1200&height=800&fit=crop",
             "language": "en",
-            "published_at": "2025-10-18T03:22:23.000000Z",
-            "source": "seekingalpha.com",
+            "published_at": "2025-10-19T04:05:43.000000Z",
+            "source": "benzinga.com",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "BAC",
-                    "name": "Bank of America Corporation",
+                    "symbol": "RYCEF",
+                    "name": "Rolls-Royce Holdings plc",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 118.709015,
-                    "sentiment_score": 0,
+                    "industry": "Industrials",
+                    "match_score": 62.976524,
+                    "sentiment_score": -0.1531,
                     "highlights": [
                         {
-                            "highlight": "<em>Bank</em> <em>of</em> <em>America</em> <em>Corporation</em> 5% NCUM PFD LL declares $0.3125 dividend (NYSE:BAC.PR.N)",
+                            "highlight": "Ortberg met with officials from <em>Roll[+319 characters]",
+                            "sentiment": -0.1531,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                },
+                {
+                    "symbol": "RYCEY",
+                    "name": "Rolls-Royce Holdings plc",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Industrials",
+                    "match_score": 45.599808,
+                    "sentiment_score": -0.1531,
+                    "highlights": [
+                        {
+                            "highlight": "Ortberg met with officials from <em>Roll[+310 characters]",
+                            "sentiment": -0.1531,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                }
+            ],
+            "similar": [],
+            "summary": "FAA가 보잉의 737 맥스 생산량을 월 42대로 늘리는 것을 승인했습니다. 이번 승인은 알래스카 항공의 도어 플러그 사고 이후 이루어진 조치입니다. 이를 통해 보잉은 항공기 생산 능력을 회복하게 되었습니다.",
+            "sentiment": 0.7
+        },
+        {
+            "uuid": "a50cfcf5-316d-4102-8e6b-4ba18c809eb5",
+            "title": "5G launch marks ‘new chapter of growth’, telco to launch new services: Vodafone Idea’s Abhijit Kishore",
+            "description": "Vodafone Idea announces the launch of commercial 5G services, marking a new chapter of growth and transformation in the telecom industry. CEO Abhijit Kishore highlights the company's focus on innovation and improving user experiences through new propositions and partnerships.",
+            "keywords": [
+                "Vodafone Idea",
+                "5G services",
+                "Telecom industry"
+            ],
+            "snippet": "Advt\n\nAdvt\n\nBy ,\n\nETTelecom\n\nJoin the community of 2M+ industry professionals. Subscribe to Newsletter to get latest insights & analysis in your inbox. All abou...",
+            "url": "https://telecom.economictimes.indiatimes.com/news/industry/vodafone-idea-launches-5g-services-for-enhanced-customer-experience/124682012",
+            "image_url": "https://etimg.etb2bimg.com/thumb/msid-124682012,imgsize-29918,width-1200,height=627,overlay-ettelecom,resizemode-75/industry/vodafone-idea-launches-5g-services-for-enhanced-customer-experience.jpg",
+            "language": "en",
+            "published_at": "2025-10-19T03:48:59.000000Z",
+            "source": "telecom.economictimes.indiatimes.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "VODPF",
+                    "name": "Vodafone Group Plc",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Communication Services",
+                    "match_score": 39.398407,
+                    "sentiment_score": 0.468475,
+                    "highlights": [
+                        {
+                            "highlight": "NEW DELHI: <em>Vodafone</em> Idea (Vi) o[+255 characters]",
+                            "sentiment": 0.7717,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "real-time, and are presently offering co[+340 characters]",
+                            "sentiment": 0.1779,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "<em>Group</em> <em>Plc</em> has also bee[+338 characters]",
+                            "sentiment": 0.9243,
+                            "highlighted_in": "main_text"
+                        },
+                        {
+                            "highlight": "5G launch marks ‘new chapter of growth’, telco to launch new services: <em>Vodafone</em> Idea’s Abhijit Kishore",
                             "sentiment": 0,
                             "highlighted_in": "title"
                         }
@@ -37,100 +110,62 @@
                 }
             ],
             "similar": [],
-            "summary": "Bank of America (BAC.PR.N)는 주당 0.3125달러의 분기 배당금을 발표했습니다. 이는 5.84%의 배당 수익률을 나타냅니다. 투자자들은 12월 이전에 관련 성과표, 수익률 차트 및 성장률을 확인할 것이 권장됩니다.",
-            "sentiment": 0.85
+            "summary": "보다폰 아이디어는 상업용 5G 서비스를 출시하며 통신 산업의 성장과 변화의 새로운 장을 열었습니다. 아비지트 키쇼어 CEO는 혁신과 새로운 제안 및 파트너십을 통해 사용자 경험 개선에 중점을 둔다고 강조했습니다. 이는 회사의 미래 성장에 대한 긍정적인 신호로 해석됩니다.",
+            "sentiment": 0.9
         },
         {
-            "uuid": "72aeecd1-aab6-4767-8bf4-cd296ea88b1e",
-            "title": "Bank of America Corporation 4.250% DP PFD QQ declares $0.2656 dividend (NYSE:BAC.PR.Q)",
-            "description": "Bank of America (BAC.PR.Q) announces $0.2656/share dividend, 5.85% yield. Learn payout dates & growth trends.",
+            "uuid": "7cbf8e86-5505-4dfe-be66-49853d616638",
+            "title": "Investing During Inflation: How to Protect and Grow Your Money",
+            "description": "Inflation eats into our money, but by understanding it better and investing wisely, we can fight it to grow our wealth.",
             "keywords": [
-                "Bank of America",
-                "Dividend",
-                "Yield"
+                "Inflation",
+                "Investing",
+                "Wealth"
             ],
-            "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
-            "url": "https://seekingalpha.com/news/4505412-bank-of-america-corporation-4_250-percent-dp-pfd-qq-declares-0_2656-dividend",
-            "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+            "snippet": "When you were younger, did your parents ever tell you to save your money instead of spending it all?\n\nThey mean well, of course.\n\nBut also leaves you at the mer...",
+            "url": "https://thesmartinvestor.com.sg/investing-during-inflation-how-to-protect-and-grow-your-money/",
+            "image_url": "https://thesmartinvestor.com.sg/wp-content/uploads/2025/02/33.png",
             "language": "en",
-            "published_at": "2025-10-18T03:22:05.000000Z",
-            "source": "seekingalpha.com",
+            "published_at": "2025-10-19T03:30:00.000000Z",
+            "source": "thesmartinvestor.com.sg",
             "relevance_score": null,
             "entities": [
                 {
-                    "symbol": "BAC",
-                    "name": "Bank of America Corporation",
+                    "symbol": "CPAMF",
+                    "name": "CapitaLand Integrated Commercial Trust",
                     "exchange": null,
                     "exchange_long": null,
                     "country": "us",
                     "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 118.709015,
-                    "sentiment_score": -0.6037,
+                    "industry": "Real Estate",
+                    "match_score": 35.26468,
+                    "sentiment_score": 0.8591,
                     "highlights": [
                         {
-                            "highlight": "<em>Bank</em> <em>of</em> <em>America</em> <em>Corporation</em> 4.250% DP PFD QQ declares $0.2656 dividend (NYSE:BAC.PR.Q)",
-                            "sentiment": -0.6037,
-                            "highlighted_in": "title"
+                            "highlight": "A great example of dividend stocks are r[+281 characters]",
+                            "sentiment": 0.8591,
+                            "highlighted_in": "main_text"
                         }
                     ]
                 }
             ],
             "similar": [],
-            "summary": "뱅크 오브 아메리카(BAC.PR.Q)가 주당 0.2656달러의 배당금 지급을 발표했습니다. 이는 5.85%의 배당 수익률에 해당합니다. 기사에서는 배당금 지급일과 성장 추세에 대한 자세한 정보를 제공할 예정입니다.",
-            "sentiment": 0.8
-        },
-        {
-            "uuid": "bda0d03d-8699-4066-9cbd-29a83e66cbc4",
-            "title": "Bank of America Corporation 4.750% DP PFD SS declares $0.2968 dividend (NYSE:BAC.PR.S)",
-            "description": "Bank of America (BAC.PR.S) declares $0.2968 quarterly dividend, 5.82% yield. Learn payment dates and explore dividend insights.",
-            "keywords": [
-                "Bank of America",
-                "Dividend",
-                "Yield"
-            ],
-            "snippet": "To ensure this doesn’t happen in the future, please enable Javascript and cookies in your browser.\n\nIf you have an ad-blocker enabled you may be blocked from ...",
-            "url": "https://seekingalpha.com/news/4505411-bank-of-america-corporation-4_750-percent-dp-pfd-ss-declares-0_2968-dividend",
-            "image_url": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
-            "language": "en",
-            "published_at": "2025-10-18T03:21:48.000000Z",
-            "source": "seekingalpha.com",
-            "relevance_score": null,
-            "entities": [
-                {
-                    "symbol": "BAC",
-                    "name": "Bank of America Corporation",
-                    "exchange": null,
-                    "exchange_long": null,
-                    "country": "us",
-                    "type": "equity",
-                    "industry": "Financial Services",
-                    "match_score": 118.709015,
-                    "sentiment_score": 0,
-                    "highlights": [
-                        {
-                            "highlight": "<em>Bank</em> <em>of</em> <em>America</em> <em>Corporation</em> 4.750% DP PFD SS declares $0.2968 dividend (NYSE:BAC.PR.S)",
-                            "sentiment": 0,
-                            "highlighted_in": "title"
-                        }
-                    ]
-                }
-            ],
-            "similar": [],
-            "summary": "뱅크 오브 아메리카(BAC.PR.S)가 주당 0.2968달러의 분기 배당금을 선언했습니다. 이 배당금은 5.82%의 배당수익률을 나타냅니다. 지급일 및 배당 관련 추가 정보는 추후 공개될 예정입니다.",
+            "summary": "인플레이션은 우리의 돈 가치를 잠식하지만, 이를 더 잘 이해하는 것이 중요합니다. 현명한 투자를 통해 우리는 인플레이션에 효과적으로 맞설 수 있습니다. 결과적으로, 이러한 전략으로 우리의 부를 성장시킬 수 있습니다.",
             "sentiment": 0.8
         }
     ],
     "trend_summary": {
-        "title": "긍정적 시장 속 뱅크오브아메리카, 배당 수익률 매력 부각",
-        "summary": "현재 시장은 0.817의 높은 긍정적 심리 점수를 기록하며 낙관적인 흐름을 보이고 있습니다. 이러한 분위기 속에서 뱅크오브아메리카는 안정적인 배당과 매력적인 배당 수익률로 투자자들의 주목을 받고 있습니다. 안정적인 수익을 추구하는 투자자들에게 뱅크오브아메리카는 매력적인 포트폴리오 구성 요소가 될 수 있으니, 면밀한 검토를 권해드립니다.",
+        "title": "주요 기업 규제 해소 및 5G 확장 기대감 속 시장 낙관론 확산",
+        "summary": "최근 보잉(Boeing)의 737 Max 생산 관련 FAA의 규제 강화 움직임은 단기적 변동성을 야기할 수 있으나, 이는 장기적인 안전성 확보와 생산 안정화의 기반이 될 것으로 보입니다. 동시에 보다폰 아이디어(Vodafone Idea)의 5G 서비스 확장은 인도 통신 시장의 성장을 견인하며 새로운 투자 기회를 창출할 잠재력을 가지고 있습니다. 전반적인 시장 심리는 긍정적이나, 개별 기업의 규제 준수 및 기술 전환 속도를 면밀히 주시하며 신중한 접근이 필요합니다.",
         "keywords": [
-            "Bank of America",
-            "Dividend",
-            "Yield"
+            "Boeing",
+            "FAA",
+            "737 Max 생산",
+            "Vodafone Idea",
+            "5G services"
         ]
     },
-    "market_sentiment_score": 0.817,
+    "market_sentiment_score": 0.8,
     "nasdaq_data": {
         "labels": [
             "09-08",
@@ -163,9 +198,9 @@
             "10-15",
             "10-16",
             "10-17",
-            "10-19",
             "10-20",
-            "10-21"
+            "10-21",
+            "10-22"
         ],
         "historical": [
             21798.7,
@@ -267,9 +302,9 @@
             "10-15",
             "10-16",
             "10-17",
-            "10-19",
             "10-20",
-            "10-21"
+            "10-21",
+            "10-22"
         ],
         "historical": [
             3142.93,
@@ -371,9 +406,9 @@
             "10-15",
             "10-16",
             "10-17",
-            "10-19",
             "10-20",
-            "10-21"
+            "10-21",
+            "10-22"
         ],
         "historical": [
             1385.08,
@@ -443,5 +478,5 @@
             1420.94
         ]
     },
-    "last_updated": "2025-10-18 13:25:53"
+    "last_updated": "2025-10-19 14:07:04"
 }
