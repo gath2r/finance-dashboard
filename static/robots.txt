@@ -1,6 +1,5 @@
-# 모든 검색 엔진 로봇(User-agent: *)을 환영합니다.
+# static/robots.txt
 User-agent: *
-# 모든 페이지(Allow: /)의 수집을 허용합니다.
 Allow: /
 
 # 이 사이트맵을 참고하여 페이지를 수집해주세요.

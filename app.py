@@ -2,11 +2,28 @@
 
 import os
 import json
-from flask import Flask, render_template
+# ▼▼▼ sitemap.xml을 서빙하기 위해 send_from_directory를 import 합니다. ▼▼▼
+from flask import Flask, render_template, send_from_directory
 from dotenv import load_dotenv
 
 load_dotenv()
 app = Flask(__name__)
+
+load_dotenv()
+app = Flask(__name__)
+
+# ▼▼▼ robots.txt와 sitemap.xml을 위한 라우트 추가 ▼▼▼
+# 1. /robots.txt 경로 요청이 오면
+@app.route('/robots.txt')
+def robots_txt():
+    # 'static' 폴더에 있는 robots.txt 파일을 반환합니다.
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'robots.txt')
+
+# 2. /sitemap.xml 경로 요청이 오면
+@app.route('/sitemap.xml')
+def sitemap_xml():
+    # 'static' 폴더에 있는 sitemap.xml 파일을 반환합니다.
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
 
 def read_json_data(file_path):
     """JSON 파일을 안전하게 읽어오는 함수"""
